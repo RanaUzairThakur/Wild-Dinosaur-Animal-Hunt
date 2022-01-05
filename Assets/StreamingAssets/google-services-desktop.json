@@ -1,0 +1,359 @@
+{
+  "project_info": {
+    "project_number": "35340226965",
+    "firebase_url": "https://hi-gamez.firebaseio.com",
+    "project_id": "hi-gamez",
+    "storage_bucket": "hi-gamez.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35340226965:android:a085c8e78ebf641d94669c",
+        "android_client_info": {
+          "package_name": "com.animal.hunter.free.hunting.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35340226965-oqvmudifp0f19h40vvf5qkvqki7fhgk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXyMqHx56dSu5KtSlbFYPBjNOjxYJ0KVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35340226965-oqvmudifp0f19h40vvf5qkvqki7fhgk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35340226965:android:af74810d6f9e59be94669c",
+        "android_client_info": {
+          "package_name": "com.anti.shooting.secret.mission.free.games"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35340226965-oqvmudifp0f19h40vvf5qkvqki7fhgk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXyMqHx56dSu5KtSlbFYPBjNOjxYJ0KVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35340226965-oqvmudifp0f19h40vvf5qkvqki7fhgk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35340226965:android:7ea05f8f5d488bdf94669c",
+        "android_client_info": {
+          "package_name": "com.bike.racing.stunt.games.free.bike.games"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35340226965-oqvmudifp0f19h40vvf5qkvqki7fhgk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXyMqHx56dSu5KtSlbFYPBjNOjxYJ0KVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35340226965-oqvmudifp0f19h40vvf5qkvqki7fhgk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35340226965:android:66b1fcfd5bd6ce2a94669c",
+        "android_client_info": {
+          "package_name": "com.counter.terrorist.killer.strike.games"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35340226965-oqvmudifp0f19h40vvf5qkvqki7fhgk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXyMqHx56dSu5KtSlbFYPBjNOjxYJ0KVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35340226965-oqvmudifp0f19h40vvf5qkvqki7fhgk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35340226965:android:a274d12474b6886f94669c",
+        "android_client_info": {
+          "package_name": "com.crazy.car.mega.ramp.stunts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35340226965-oqvmudifp0f19h40vvf5qkvqki7fhgk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXyMqHx56dSu5KtSlbFYPBjNOjxYJ0KVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35340226965-oqvmudifp0f19h40vvf5qkvqki7fhgk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35340226965:android:961cd8e020aa1d7594669c",
+        "android_client_info": {
+          "package_name": "com.firefhter.superhero.robot.rescue.mission.games"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35340226965-oqvmudifp0f19h40vvf5qkvqki7fhgk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXyMqHx56dSu5KtSlbFYPBjNOjxYJ0KVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35340226965-oqvmudifp0f19h40vvf5qkvqki7fhgk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35340226965:android:b8229cc9309b898f94669c",
+        "android_client_info": {
+          "package_name": "com.formula.car.mega.ramp.racing.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35340226965-oqvmudifp0f19h40vvf5qkvqki7fhgk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXyMqHx56dSu5KtSlbFYPBjNOjxYJ0KVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35340226965-oqvmudifp0f19h40vvf5qkvqki7fhgk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35340226965:android:44556ec87cdc5e5294669c",
+        "android_client_info": {
+          "package_name": "com.grand.police.jail.prison.escapemission.games"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35340226965-oqvmudifp0f19h40vvf5qkvqki7fhgk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXyMqHx56dSu5KtSlbFYPBjNOjxYJ0KVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35340226965-oqvmudifp0f19h40vvf5qkvqki7fhgk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35340226965:android:1221df2188a961e194669c",
+        "android_client_info": {
+          "package_name": "com.grand.police.prison.transport.truck.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35340226965-oqvmudifp0f19h40vvf5qkvqki7fhgk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXyMqHx56dSu5KtSlbFYPBjNOjxYJ0KVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35340226965-oqvmudifp0f19h40vvf5qkvqki7fhgk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35340226965:android:e64696ffa38f762e94669c",
+        "android_client_info": {
+          "package_name": "com.grand.shark.robot.transformation.simulator.games"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35340226965-oqvmudifp0f19h40vvf5qkvqki7fhgk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXyMqHx56dSu5KtSlbFYPBjNOjxYJ0KVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35340226965-oqvmudifp0f19h40vvf5qkvqki7fhgk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35340226965:android:d673d3b803da783294669c",
+        "android_client_info": {
+          "package_name": "com.lion.robot.transformation.war.bike.games"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35340226965-oqvmudifp0f19h40vvf5qkvqki7fhgk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXyMqHx56dSu5KtSlbFYPBjNOjxYJ0KVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35340226965-oqvmudifp0f19h40vvf5qkvqki7fhgk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35340226965:android:1087986785a272c394669c",
+        "android_client_info": {
+          "package_name": "com.offroad.Hi.jeep.car.driving.game.offroad.suvgames"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35340226965-oqvmudifp0f19h40vvf5qkvqki7fhgk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXyMqHx56dSu5KtSlbFYPBjNOjxYJ0KVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35340226965-oqvmudifp0f19h40vvf5qkvqki7fhgk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
