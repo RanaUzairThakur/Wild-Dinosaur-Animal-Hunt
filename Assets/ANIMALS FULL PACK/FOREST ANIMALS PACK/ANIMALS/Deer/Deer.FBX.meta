@@ -1,144 +1,400 @@
 fileFormatVersion: 2
 guid: d77feb2833734eb4ba757a27911fdcea
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Bone002
-    100002: Bone003
-    100004: Bone004
-    100006: Bone005
-    100008: Bone006
-    100010: Bone009
-    100012: Bone010
-    100014: Bone011
-    100016: Bone012
-    100018: Bone013
-    100020: Bone016
-    100022: Bone017
-    100024: Bone021
-    100026: Bone022
-    100028: Bone033
-    100030: Bone034
-    100032: Bone035
-    100034: Bone036
-    100036: Bone037
-    100038: Bone038
-    100040: Bone039
-    100042: Bone040
-    100044: Bone041
-    100046: Bone042
-    100048: Bone045
-    100050: Bone046
-    100052: Bone047
-    100054: Bone048
-    100056: Bone049
-    100058: Bone050
-    100060: Bone052
-    100062: Bone053
-    100064: Bone054
-    100066: Bone055
-    100068: Bone056
-    100070: Bone057
-    100072: Bone058
-    100074: Bone059
-    100076: Bone060
-    100078: Bone061
-    100080: Bone062
-    100082: Bone063
-    100084: Bone064
-    100086: Bone065
-    100088: //RootNode
-    100090: deer
-    100092: Head
-    100094: Neck
-    100096: Pelvis_L
-    100098: Pelvis_R
-    100100: Point001
-    100102: RibCage
-    100104: Root
-    100106: Scapula_L
-    100108: Scapula_R
-    100110: Spine
-    100112: Tale
-    400000: Bone002
-    400002: Bone003
-    400004: Bone004
-    400006: Bone005
-    400008: Bone006
-    400010: Bone009
-    400012: Bone010
-    400014: Bone011
-    400016: Bone012
-    400018: Bone013
-    400020: Bone016
-    400022: Bone017
-    400024: Bone021
-    400026: Bone022
-    400028: Bone033
-    400030: Bone034
-    400032: Bone035
-    400034: Bone036
-    400036: Bone037
-    400038: Bone038
-    400040: Bone039
-    400042: Bone040
-    400044: Bone041
-    400046: Bone042
-    400048: Bone045
-    400050: Bone046
-    400052: Bone047
-    400054: Bone048
-    400056: Bone049
-    400058: Bone050
-    400060: Bone052
-    400062: Bone053
-    400064: Bone054
-    400066: Bone055
-    400068: Bone056
-    400070: Bone057
-    400072: Bone058
-    400074: Bone059
-    400076: Bone060
-    400078: Bone061
-    400080: Bone062
-    400082: Bone063
-    400084: Bone064
-    400086: Bone065
-    400088: //RootNode
-    400090: deer
-    400092: Head
-    400094: Neck
-    400096: Pelvis_L
-    400098: Pelvis_R
-    400100: Point001
-    400102: RibCage
-    400104: Root
-    400106: Scapula_L
-    400108: Scapula_R
-    400110: Spine
-    400112: Tale
-    4300000: deer
-    7400000: deer_trotting
-    7400002: deer_galloping
-    7400004: deer_walking
-    7400006: deer_backward
-    7400008: deer_died
-    7400010: deer_eating
-    7400012: deer_attack
-    7400014: deer_lay
-    7400016: deer_up
-    7400018: deer_jumping
-    9500000: //RootNode
-    11100000: //RootNode
-    13700000: deer
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bone002
+  - first:
+      1: 100002
+    second: Bone003
+  - first:
+      1: 100004
+    second: Bone004
+  - first:
+      1: 100006
+    second: Bone005
+  - first:
+      1: 100008
+    second: Bone006
+  - first:
+      1: 100010
+    second: Bone009
+  - first:
+      1: 100012
+    second: Bone010
+  - first:
+      1: 100014
+    second: Bone011
+  - first:
+      1: 100016
+    second: Bone012
+  - first:
+      1: 100018
+    second: Bone013
+  - first:
+      1: 100020
+    second: Bone016
+  - first:
+      1: 100022
+    second: Bone017
+  - first:
+      1: 100024
+    second: Bone021
+  - first:
+      1: 100026
+    second: Bone022
+  - first:
+      1: 100028
+    second: Bone033
+  - first:
+      1: 100030
+    second: Bone034
+  - first:
+      1: 100032
+    second: Bone035
+  - first:
+      1: 100034
+    second: Bone036
+  - first:
+      1: 100036
+    second: Bone037
+  - first:
+      1: 100038
+    second: Bone038
+  - first:
+      1: 100040
+    second: Bone039
+  - first:
+      1: 100042
+    second: Bone040
+  - first:
+      1: 100044
+    second: Bone041
+  - first:
+      1: 100046
+    second: Bone042
+  - first:
+      1: 100048
+    second: Bone045
+  - first:
+      1: 100050
+    second: Bone046
+  - first:
+      1: 100052
+    second: Bone047
+  - first:
+      1: 100054
+    second: Bone048
+  - first:
+      1: 100056
+    second: Bone049
+  - first:
+      1: 100058
+    second: Bone050
+  - first:
+      1: 100060
+    second: Bone052
+  - first:
+      1: 100062
+    second: Bone053
+  - first:
+      1: 100064
+    second: Bone054
+  - first:
+      1: 100066
+    second: Bone055
+  - first:
+      1: 100068
+    second: Bone056
+  - first:
+      1: 100070
+    second: Bone057
+  - first:
+      1: 100072
+    second: Bone058
+  - first:
+      1: 100074
+    second: Bone059
+  - first:
+      1: 100076
+    second: Bone060
+  - first:
+      1: 100078
+    second: Bone061
+  - first:
+      1: 100080
+    second: Bone062
+  - first:
+      1: 100082
+    second: Bone063
+  - first:
+      1: 100084
+    second: Bone064
+  - first:
+      1: 100086
+    second: Bone065
+  - first:
+      1: 100088
+    second: //RootNode
+  - first:
+      1: 100090
+    second: deer
+  - first:
+      1: 100092
+    second: Head
+  - first:
+      1: 100094
+    second: Neck
+  - first:
+      1: 100096
+    second: Pelvis_L
+  - first:
+      1: 100098
+    second: Pelvis_R
+  - first:
+      1: 100100
+    second: Point001
+  - first:
+      1: 100102
+    second: RibCage
+  - first:
+      1: 100104
+    second: Root
+  - first:
+      1: 100106
+    second: Scapula_L
+  - first:
+      1: 100108
+    second: Scapula_R
+  - first:
+      1: 100110
+    second: Spine
+  - first:
+      1: 100112
+    second: Tale
+  - first:
+      4: 400000
+    second: Bone002
+  - first:
+      4: 400002
+    second: Bone003
+  - first:
+      4: 400004
+    second: Bone004
+  - first:
+      4: 400006
+    second: Bone005
+  - first:
+      4: 400008
+    second: Bone006
+  - first:
+      4: 400010
+    second: Bone009
+  - first:
+      4: 400012
+    second: Bone010
+  - first:
+      4: 400014
+    second: Bone011
+  - first:
+      4: 400016
+    second: Bone012
+  - first:
+      4: 400018
+    second: Bone013
+  - first:
+      4: 400020
+    second: Bone016
+  - first:
+      4: 400022
+    second: Bone017
+  - first:
+      4: 400024
+    second: Bone021
+  - first:
+      4: 400026
+    second: Bone022
+  - first:
+      4: 400028
+    second: Bone033
+  - first:
+      4: 400030
+    second: Bone034
+  - first:
+      4: 400032
+    second: Bone035
+  - first:
+      4: 400034
+    second: Bone036
+  - first:
+      4: 400036
+    second: Bone037
+  - first:
+      4: 400038
+    second: Bone038
+  - first:
+      4: 400040
+    second: Bone039
+  - first:
+      4: 400042
+    second: Bone040
+  - first:
+      4: 400044
+    second: Bone041
+  - first:
+      4: 400046
+    second: Bone042
+  - first:
+      4: 400048
+    second: Bone045
+  - first:
+      4: 400050
+    second: Bone046
+  - first:
+      4: 400052
+    second: Bone047
+  - first:
+      4: 400054
+    second: Bone048
+  - first:
+      4: 400056
+    second: Bone049
+  - first:
+      4: 400058
+    second: Bone050
+  - first:
+      4: 400060
+    second: Bone052
+  - first:
+      4: 400062
+    second: Bone053
+  - first:
+      4: 400064
+    second: Bone054
+  - first:
+      4: 400066
+    second: Bone055
+  - first:
+      4: 400068
+    second: Bone056
+  - first:
+      4: 400070
+    second: Bone057
+  - first:
+      4: 400072
+    second: Bone058
+  - first:
+      4: 400074
+    second: Bone059
+  - first:
+      4: 400076
+    second: Bone060
+  - first:
+      4: 400078
+    second: Bone061
+  - first:
+      4: 400080
+    second: Bone062
+  - first:
+      4: 400082
+    second: Bone063
+  - first:
+      4: 400084
+    second: Bone064
+  - first:
+      4: 400086
+    second: Bone065
+  - first:
+      4: 400088
+    second: //RootNode
+  - first:
+      4: 400090
+    second: deer
+  - first:
+      4: 400092
+    second: Head
+  - first:
+      4: 400094
+    second: Neck
+  - first:
+      4: 400096
+    second: Pelvis_L
+  - first:
+      4: 400098
+    second: Pelvis_R
+  - first:
+      4: 400100
+    second: Point001
+  - first:
+      4: 400102
+    second: RibCage
+  - first:
+      4: 400104
+    second: Root
+  - first:
+      4: 400106
+    second: Scapula_L
+  - first:
+      4: 400108
+    second: Scapula_R
+  - first:
+      4: 400110
+    second: Spine
+  - first:
+      4: 400112
+    second: Tale
+  - first:
+      43: 4300000
+    second: deer
+  - first:
+      74: 7400000
+    second: deer_trotting
+  - first:
+      74: 7400002
+    second: deer_galloping
+  - first:
+      74: 7400004
+    second: deer_walking
+  - first:
+      74: 7400006
+    second: deer_backward
+  - first:
+      74: 7400008
+    second: deer_died
+  - first:
+      74: 7400010
+    second: deer_eating
+  - first:
+      74: 7400012
+    second: deer_attack
+  - first:
+      74: 7400014
+    second: deer_lay
+  - first:
+      74: 7400016
+    second: deer_up
+  - first:
+      74: 7400018
+    second: deer_jumping
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: deer
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 'Material #32'
+      name: Material #32
     second: {fileID: 2100000, guid: 23613ede974024d448cba41c2120e3ea, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -167,6 +423,7 @@ ModelImporter:
     - serializedVersion: 16
       name: deer_trotting
       takeName: Take 001
+      internalID: 0
       firstFrame: 0
       lastFrame: 17
       wrapMode: 0
@@ -195,6 +452,7 @@ ModelImporter:
     - serializedVersion: 16
       name: deer_galloping
       takeName: Take 001
+      internalID: 0
       firstFrame: 21
       lastFrame: 31
       wrapMode: 0
@@ -223,6 +481,7 @@ ModelImporter:
     - serializedVersion: 16
       name: deer_walking
       takeName: Take 001
+      internalID: 0
       firstFrame: 47
       lastFrame: 94
       wrapMode: 0
@@ -251,6 +510,7 @@ ModelImporter:
     - serializedVersion: 16
       name: deer_backward
       takeName: Take 001
+      internalID: 0
       firstFrame: 100
       lastFrame: 148
       wrapMode: 0
@@ -279,6 +539,7 @@ ModelImporter:
     - serializedVersion: 16
       name: deer_died
       takeName: Take 001
+      internalID: 0
       firstFrame: 154
       lastFrame: 168
       wrapMode: 0
@@ -307,6 +568,7 @@ ModelImporter:
     - serializedVersion: 16
       name: deer_eating
       takeName: Take 001
+      internalID: 0
       firstFrame: 174
       lastFrame: 280
       wrapMode: 2
@@ -335,6 +597,7 @@ ModelImporter:
     - serializedVersion: 16
       name: deer_attack
       takeName: Take 001
+      internalID: 0
       firstFrame: 287
       lastFrame: 305
       wrapMode: 0
@@ -363,6 +626,7 @@ ModelImporter:
     - serializedVersion: 16
       name: deer_lay
       takeName: Take 001
+      internalID: 0
       firstFrame: 308
       lastFrame: 344
       wrapMode: 0
@@ -391,6 +655,7 @@ ModelImporter:
     - serializedVersion: 16
       name: deer_up
       takeName: Take 001
+      internalID: 0
       firstFrame: 349
       lastFrame: 385
       wrapMode: 0
@@ -419,6 +684,7 @@ ModelImporter:
     - serializedVersion: 16
       name: deer_jumping
       takeName: Take 001
+      internalID: 0
       firstFrame: 390
       lastFrame: 408
       wrapMode: 0
@@ -448,28 +714,35 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 0.03
-    meshCompression: 2
+    meshCompression: 3
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 0
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -478,10 +751,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -491,13 +764,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.03
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 1
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 1
   userData: 
   assetBundleName: 

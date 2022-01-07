@@ -1,2149 +1,6431 @@
 fileFormatVersion: 2
 guid: c5ccf28ceefcf6d4395a52469c0435bc
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: BASE_boeing
-    100002: Box001
-    100004: Box001 1
-    100006: Brick_garage
-    100008: BULDING1_0_0
-    100010: CABIN_boeing
-    100012: Crashed_Boeing
-    100014: EP_Leafs_02_b
-    100016: EP_Leafs_02_b 1
-    100018: EP_Leafs_02_b 2
-    100020: EP_Leafs_02_b 3
-    100022: EP_Leafs_02_b 4
-    100024: EP_Leafs_02_b 5
-    100026: EP_Leafs_02_b 6
-    100028: EP_Leafs_02_b 7
-    100030: EP_Leafs_02_f
-    100032: EP_Leafs_02_f 1
-    100034: EP_Leafs_02_f 10
-    100036: EP_Leafs_02_f 11
-    100038: EP_Leafs_02_f 12
-    100040: EP_Leafs_02_f 13
-    100042: EP_Leafs_02_f 14
-    100044: EP_Leafs_02_f 2
-    100046: EP_Leafs_02_f 3
-    100048: EP_Leafs_02_f 4
-    100050: EP_Leafs_02_f 5
-    100052: EP_Leafs_02_f 6
-    100054: EP_Leafs_02_f 7
-    100056: EP_Leafs_02_f 8
-    100058: EP_Leafs_02_f 9
-    100060: GameObject
-    100062: Hut
-    100064: Hutor
-    100066: kalitka
-    100068: lavka
-    100070: MEP_Birch_01_Part_02_Tris144_N(Clone)
-    100072: MEP_Birches
-    100074: MEP_Bushes
-    100076: MEP_Cliff_05_Tris1047_N(Clone)
-    100078: MEP_Cliff_18_Tris489_N(Clone)
-    100080: MEP_Cliff_20_Tris812_N(Clone)
-    100082: MEP_Cliff_S_10_Tris170_N(Clone)
-    100084: MEP_Cliff_S_10_Tris200_N(Clone)
-    100086: MEP_Cliff_S_10_Tris220_N(Clone)
-    100088: MEP_Cliff_S_10_Tris320_N(Clone)
-    100090: MEP_Cliff_S_10_Tris330_N(Clone)
-    100092: MEP_Cliff_S_10_Tris370_N(Clone)
-    100094: MEP_Cliff_S_10_Tris390_N(Clone)
-    100096: MEP_Cliff_S_10_Tris430_N(Clone)
-    100098: MEP_Cliff_S_10_Tris440_N(Clone)
-    100100: MEP_Cliff_S_10_Tris470_N(Clone)
-    100102: MEP_Cliff_S_10_Tris630_N(Clone)
-    100104: MEP_Cliff_S_10_Tris680_N(Clone)
-    100106: MEP_Cliff_S_11
-    100108: MEP_DesertCliff_03_Tris1987_N(Clone)
-    100110: MEP_DirtBoulder_01_Tris621_N(Clone)
-    100112: MEP_Dirtedge_03_Tris607_N(Clone)
-    100114: MEP_Grass
-    100116: MEP_Grass_02_a 1
-    100118: MEP_Grass_02_a 1 1
-    100120: MEP_Grass_02_a 1 2
-    100122: MEP_Grass_02_a 1 3
-    100124: MEP_Grass_02_a_S_Tris284_N(Clone)
-    100126: MEP_Grass_02_a_S_Tris316_N(Clone)
-    100128: MEP_Grass_02_a_S_Tris412_N(Clone)
-    100130: MEP_Grass_02_a_S_Tris456_N(Clone)
-    100132: MEP_Grass_02_a_S_Tris464_N(Clone)
-    100134: MEP_Grass_02_a_S_Tris504_N(Clone)
-    100136: MEP_Grass_02_a_S_Tris540_N(Clone)
-    100138: MEP_Grass_02_a_S_Tris572_N(Clone)
-    100140: MEP_Grass_02_a_S_Tris688_N(Clone)
-    100142: MEP_Grass_02_a_S_Tris860_N(Clone)
-    100144: MEP_Grass_02_a_S_Tris988_N(Clone)
-    100146: MEP_GroundBrush
-    100148: MEP_GroundBrush_a_Tris182_N(Clone)
-    100150: MEP_GroundBrush_a_Tris308_N(Clone)
-    100152: MEP_GroundBrush_a_Tris420_N(Clone)
-    100154: MEP_GroundBrush_a_Tris476_N(Clone)
-    100156: MEP_GroundBrush_a_Tris504_N(Clone)
-    100158: MEP_GroundBrush_a_Tris518_N(Clone)
-    100160: MEP_GroundBrush_a_Tris616_N(Clone)
-    100162: MEP_GroundBrush_a_Tris630_N(Clone)
-    100164: MEP_GroundBrush_a_Tris630_N_1(Clone)
-    100166: MEP_Leafs_02_a
-    100168: MEP_Leafs_02_a 1
-    100170: MEP_Leafs_02_a 2
-    100172: MEP_Leafs_02_a 3
-    100174: MEP_Leafs_02_b
-    100176: MEP_Leafs_02_b 1
-    100178: MEP_Leafs_02_b 10
-    100180: MEP_Leafs_02_b 11
-    100182: MEP_Leafs_02_b 12
-    100184: MEP_Leafs_02_b 13
-    100186: MEP_Leafs_02_b 14
-    100188: MEP_Leafs_02_b 15
-    100190: MEP_Leafs_02_b 16
-    100192: MEP_Leafs_02_b 17
-    100194: MEP_Leafs_02_b 18
-    100196: MEP_Leafs_02_b 19
-    100198: MEP_Leafs_02_b 2
-    100200: MEP_Leafs_02_b 20
-    100202: MEP_Leafs_02_b 21
-    100204: MEP_Leafs_02_b 22
-    100206: MEP_Leafs_02_b 23
-    100208: MEP_Leafs_02_b 24
-    100210: MEP_Leafs_02_b 25
-    100212: MEP_Leafs_02_b 3
-    100214: MEP_Leafs_02_b 4
-    100216: MEP_Leafs_02_b 5
-    100218: MEP_Leafs_02_b 6
-    100220: MEP_Leafs_02_b 7
-    100222: MEP_Leafs_02_b 8
-    100224: MEP_Leafs_02_b 9
-    100226: MEP_Leafs_02_d
-    100228: MEP_Leafs_02_d 1
-    100230: MEP_Leafs_02_d 2
-    100232: MEP_Leafs_02_d 3
-    100234: MEP_Leafs_02_d 4
-    100236: MEP_Leafs_02_e
-    100238: MEP_Leafs_02_e 1
-    100240: MEP_Leafs_02_e 10
-    100242: MEP_Leafs_02_e 11
-    100244: MEP_Leafs_02_e 12
-    100246: MEP_Leafs_02_e 13
-    100248: MEP_Leafs_02_e 14
-    100250: MEP_Leafs_02_e 15
-    100252: MEP_Leafs_02_e 16
-    100254: MEP_Leafs_02_e 17
-    100256: MEP_Leafs_02_e 2
-    100258: MEP_Leafs_02_e 3
-    100260: MEP_Leafs_02_e 4
-    100262: MEP_Leafs_02_e 5
-    100264: MEP_Leafs_02_e 6
-    100266: MEP_Leafs_02_e 7
-    100268: MEP_Leafs_02_e 8
-    100270: MEP_Leafs_02_e 9
-    100272: MEP_Leafs_02_i
-    100274: MEP_Leafs_02_i 1
-    100276: MEP_Leafs_02_i 10
-    100278: MEP_Leafs_02_i 11
-    100280: MEP_Leafs_02_i 12
-    100282: MEP_Leafs_02_i 13
-    100284: MEP_Leafs_02_i 14
-    100286: MEP_Leafs_02_i 15
-    100288: MEP_Leafs_02_i 16
-    100290: MEP_Leafs_02_i 17
-    100292: MEP_Leafs_02_i 18
-    100294: MEP_Leafs_02_i 19
-    100296: MEP_Leafs_02_i 2
-    100298: MEP_Leafs_02_i 20
-    100300: MEP_Leafs_02_i 21
-    100302: MEP_Leafs_02_i 22
-    100304: MEP_Leafs_02_i 23
-    100306: MEP_Leafs_02_i 24
-    100308: MEP_Leafs_02_i 3
-    100310: MEP_Leafs_02_i 4
-    100312: MEP_Leafs_02_i 5
-    100314: MEP_Leafs_02_i 6
-    100316: MEP_Leafs_02_i 7
-    100318: MEP_Leafs_02_i 8
-    100320: MEP_Leafs_02_i 9
-    100322: MEP_Leafs_02_j
-    100324: MEP_Leafs_02_j 1
-    100326: MEP_Leafs_02_j 10
-    100328: MEP_Leafs_02_j 11
-    100330: MEP_Leafs_02_j 12
-    100332: MEP_Leafs_02_j 13
-    100334: MEP_Leafs_02_j 14
-    100336: MEP_Leafs_02_j 15
-    100338: MEP_Leafs_02_j 16
-    100340: MEP_Leafs_02_j 17
-    100342: MEP_Leafs_02_j 18
-    100344: MEP_Leafs_02_j 19
-    100346: MEP_Leafs_02_j 2
-    100348: MEP_Leafs_02_j 20
-    100350: MEP_Leafs_02_j 3
-    100352: MEP_Leafs_02_j 4
-    100354: MEP_Leafs_02_j 5
-    100356: MEP_Leafs_02_j 6
-    100358: MEP_Leafs_02_j 7
-    100360: MEP_Leafs_02_j 8
-    100362: MEP_Leafs_02_j 9
-    100364: MEP_Rock_02_a_Tris173_N(Clone)
-    100366: MEP_Rocks
-    100368: MEP_Shack_05
-    100370: MEP_Tree_02_a
-    100372: MEP_Tree_02_a 1
-    100374: MEP_Tree_02_a 2
-    100376: MEP_Tree_02_a 3
-    100378: MEP_Tree_02_b
-    100380: MEP_Tree_02_b (1)
-    100382: MEP_Tree_02_b (10)
-    100384: MEP_Tree_02_b (2)
-    100386: MEP_Tree_02_b (3)
-    100388: MEP_Tree_02_b (4)
-    100390: MEP_Tree_02_b (5)
-    100392: MEP_Tree_02_b (6)
-    100394: MEP_Tree_02_b (7)
-    100396: MEP_Tree_02_b (8)
-    100398: MEP_Tree_02_b (9)
-    100400: MEP_Tree_02_b 1
-    100402: MEP_Tree_02_b 10
-    100404: MEP_Tree_02_b 11
-    100406: MEP_Tree_02_b 12
-    100408: MEP_Tree_02_b 13
-    100410: MEP_Tree_02_b 14
-    100412: MEP_Tree_02_b 15
-    100414: MEP_Tree_02_b 2
-    100416: MEP_Tree_02_b 3
-    100418: MEP_Tree_02_b 4
-    100420: MEP_Tree_02_b 5
-    100422: MEP_Tree_02_b 6
-    100424: MEP_Tree_02_b 7
-    100426: MEP_Tree_02_b 8
-    100428: MEP_Tree_02_b 9
-    100430: 'MEP_Tree_02_c '
-    100432: MEP_Tree_02_c  1
-    100434: MEP_Tree_02_c  2
-    100436: MEP_Tree_02_c  3
-    100438: MEP_Tree_02_c  4
-    100440: MEP_Tree_02_c  5
-    100442: MEP_Tree_02_c  6
-    100444: MEP_Tree_02_c  7
-    100446: MEP_Tree_02_d
-    100448: MEP_Tree_02_d 1
-    100450: MEP_Tree_02_d 2
-    100452: MEP_Tree_02_d 3
-    100454: MEP_Tree_02_d 4
-    100456: MEP_Tree_02_d 5
-    100458: 'MEP_Tree_02_e '
-    100460: MEP_Tree_02_e  1
-    100462: MEP_Tree_02_e  10
-    100464: MEP_Tree_02_e  11
-    100466: MEP_Tree_02_e  12
-    100468: MEP_Tree_02_e  13
-    100470: MEP_Tree_02_e  14
-    100472: MEP_Tree_02_e  2
-    100474: MEP_Tree_02_e  3
-    100476: MEP_Tree_02_e  4
-    100478: MEP_Tree_02_e  5
-    100480: MEP_Tree_02_e  6
-    100482: MEP_Tree_02_e  7
-    100484: MEP_Tree_02_e  8
-    100486: MEP_Tree_02_e  9
-    100488: MEP_Tree_02_e (1)
-    100490: MEP_Tree_02_e (2)
-    100492: MEP_Tree_02_e (3)
-    100494: 'MEP_Tree_02_f '
-    100496: MEP_Tree_02_f  1
-    100498: MEP_Tree_02_f  10
-    100500: MEP_Tree_02_f  11
-    100502: MEP_Tree_02_f  12
-    100504: MEP_Tree_02_f  2
-    100506: MEP_Tree_02_f  3
-    100508: MEP_Tree_02_f  4
-    100510: MEP_Tree_02_f  5
-    100512: MEP_Tree_02_f  6
-    100514: MEP_Tree_02_f  7
-    100516: MEP_Tree_02_f  8
-    100518: MEP_Tree_02_f  9
-    100520: MEP_Tree_02_f (1)
-    100522: MEP_Tree_02_f (2)
-    100524: 'MEP_Tree_02_i '
-    100526: MEP_Tree_02_i  1
-    100528: MEP_Tree_02_i  10
-    100530: MEP_Tree_02_i  11
-    100532: MEP_Tree_02_i  12
-    100534: MEP_Tree_02_i  13
-    100536: MEP_Tree_02_i  14
-    100538: MEP_Tree_02_i  15
-    100540: MEP_Tree_02_i  16
-    100542: MEP_Tree_02_i  17
-    100544: MEP_Tree_02_i  18
-    100546: MEP_Tree_02_i  19
-    100548: MEP_Tree_02_i  2
-    100550: MEP_Tree_02_i  20
-    100552: MEP_Tree_02_i  21
-    100554: MEP_Tree_02_i  22
-    100556: MEP_Tree_02_i  23
-    100558: MEP_Tree_02_i  24
-    100560: MEP_Tree_02_i  3
-    100562: MEP_Tree_02_i  4
-    100564: MEP_Tree_02_i  5
-    100566: MEP_Tree_02_i  6
-    100568: MEP_Tree_02_i  7
-    100570: MEP_Tree_02_i  8
-    100572: MEP_Tree_02_i  9
-    100574: 'MEP_Tree_02_j '
-    100576: MEP_Tree_02_j  1
-    100578: MEP_Tree_02_j  10
-    100580: MEP_Tree_02_j  11
-    100582: MEP_Tree_02_j  12
-    100584: MEP_Tree_02_j  13
-    100586: MEP_Tree_02_j  14
-    100588: MEP_Tree_02_j  15
-    100590: MEP_Tree_02_j  16
-    100592: MEP_Tree_02_j  17
-    100594: MEP_Tree_02_j  18
-    100596: MEP_Tree_02_j  19
-    100598: MEP_Tree_02_j  2
-    100600: MEP_Tree_02_j  20
-    100602: MEP_Tree_02_j  3
-    100604: MEP_Tree_02_j  4
-    100606: MEP_Tree_02_j  5
-    100608: MEP_Tree_02_j  6
-    100610: MEP_Tree_02_j  7
-    100612: MEP_Tree_02_j  8
-    100614: MEP_Tree_02_j  9
-    100616: MEP_TreeBark_01_a
-    100618: MEP_TreeBark_01_a 1
-    100620: MEP_TreeBark_01_a 2
-    100622: MEP_TreeBark_01_a 3
-    100624: MEP_TreeBark_01_b
-    100626: MEP_TreeBark_01_b 1
-    100628: MEP_TreeBark_01_b 10
-    100630: MEP_TreeBark_01_b 11
-    100632: MEP_TreeBark_01_b 12
-    100634: MEP_TreeBark_01_b 13
-    100636: MEP_TreeBark_01_b 14
-    100638: MEP_TreeBark_01_b 15
-    100640: MEP_TreeBark_01_b 16
-    100642: MEP_TreeBark_01_b 17
-    100644: MEP_TreeBark_01_b 18
-    100646: MEP_TreeBark_01_b 19
-    100648: MEP_TreeBark_01_b 2
-    100650: MEP_TreeBark_01_b 20
-    100652: MEP_TreeBark_01_b 21
-    100654: MEP_TreeBark_01_b 22
-    100656: MEP_TreeBark_01_b 23
-    100658: MEP_TreeBark_01_b 24
-    100660: MEP_TreeBark_01_b 25
-    100662: MEP_TreeBark_01_b 3
-    100664: MEP_TreeBark_01_b 4
-    100666: MEP_TreeBark_01_b 5
-    100668: MEP_TreeBark_01_b 6
-    100670: MEP_TreeBark_01_b 7
-    100672: MEP_TreeBark_01_b 8
-    100674: MEP_TreeBark_01_b 9
-    100676: MEP_TreeBark_01_c
-    100678: MEP_TreeBark_01_c 1
-    100680: MEP_TreeBark_01_c 2
-    100682: MEP_TreeBark_01_c 3
-    100684: MEP_TreeBark_01_c 4
-    100686: MEP_TreeBark_01_c 5
-    100688: MEP_TreeBark_01_c 6
-    100690: MEP_TreeBark_01_c 7
-    100692: MEP_TreeBark_01_d
-    100694: MEP_TreeBark_01_d 1
-    100696: MEP_TreeBark_01_d 2
-    100698: MEP_TreeBark_01_d 3
-    100700: MEP_TreeBark_01_d 4
-    100702: MEP_TreeBark_01_d 5
-    100704: MEP_TreeBark_01_e
-    100706: MEP_TreeBark_01_e 1
-    100708: MEP_TreeBark_01_e 10
-    100710: MEP_TreeBark_01_e 11
-    100712: MEP_TreeBark_01_e 12
-    100714: MEP_TreeBark_01_e 13
-    100716: MEP_TreeBark_01_e 14
-    100718: MEP_TreeBark_01_e 15
-    100720: MEP_TreeBark_01_e 16
-    100722: MEP_TreeBark_01_e 17
-    100724: MEP_TreeBark_01_e 2
-    100726: MEP_TreeBark_01_e 3
-    100728: MEP_TreeBark_01_e 4
-    100730: MEP_TreeBark_01_e 5
-    100732: MEP_TreeBark_01_e 6
-    100734: MEP_TreeBark_01_e 7
-    100736: MEP_TreeBark_01_e 8
-    100738: MEP_TreeBark_01_e 9
-    100740: MEP_TreeBark_01_f
-    100742: MEP_TreeBark_01_f 1
-    100744: MEP_TreeBark_01_f 10
-    100746: MEP_TreeBark_01_f 11
-    100748: MEP_TreeBark_01_f 12
-    100750: MEP_TreeBark_01_f 13
-    100752: MEP_TreeBark_01_f 14
-    100754: MEP_TreeBark_01_f 2
-    100756: MEP_TreeBark_01_f 3
-    100758: MEP_TreeBark_01_f 4
-    100760: MEP_TreeBark_01_f 5
-    100762: MEP_TreeBark_01_f 6
-    100764: MEP_TreeBark_01_f 7
-    100766: MEP_TreeBark_01_f 8
-    100768: MEP_TreeBark_01_f 9
-    100770: MEP_TreeBark_01_i
-    100772: MEP_TreeBark_01_i 1
-    100774: MEP_TreeBark_01_i 10
-    100776: MEP_TreeBark_01_i 11
-    100778: MEP_TreeBark_01_i 12
-    100780: MEP_TreeBark_01_i 13
-    100782: MEP_TreeBark_01_i 14
-    100784: MEP_TreeBark_01_i 15
-    100786: MEP_TreeBark_01_i 16
-    100788: MEP_TreeBark_01_i 17
-    100790: MEP_TreeBark_01_i 18
-    100792: MEP_TreeBark_01_i 19
-    100794: MEP_TreeBark_01_i 2
-    100796: MEP_TreeBark_01_i 20
-    100798: MEP_TreeBark_01_i 21
-    100800: MEP_TreeBark_01_i 22
-    100802: MEP_TreeBark_01_i 23
-    100804: MEP_TreeBark_01_i 24
-    100806: MEP_TreeBark_01_i 3
-    100808: MEP_TreeBark_01_i 4
-    100810: MEP_TreeBark_01_i 5
-    100812: MEP_TreeBark_01_i 6
-    100814: MEP_TreeBark_01_i 7
-    100816: MEP_TreeBark_01_i 8
-    100818: MEP_TreeBark_01_i 9
-    100820: MEP_TreeBark_01_j
-    100822: MEP_TreeBark_01_j 1
-    100824: MEP_TreeBark_01_j 10
-    100826: MEP_TreeBark_01_j 11
-    100828: MEP_TreeBark_01_j 12
-    100830: MEP_TreeBark_01_j 13
-    100832: MEP_TreeBark_01_j 14
-    100834: MEP_TreeBark_01_j 15
-    100836: MEP_TreeBark_01_j 16
-    100838: MEP_TreeBark_01_j 17
-    100840: MEP_TreeBark_01_j 18
-    100842: MEP_TreeBark_01_j 19
-    100844: MEP_TreeBark_01_j 2
-    100846: MEP_TreeBark_01_j 20
-    100848: MEP_TreeBark_01_j 3
-    100850: MEP_TreeBark_01_j 4
-    100852: MEP_TreeBark_01_j 5
-    100854: MEP_TreeBark_01_j 6
-    100856: MEP_TreeBark_01_j 7
-    100858: MEP_TreeBark_01_j 8
-    100860: MEP_TreeBark_01_j 9
-    100862: MEP_Trees
-    100864: MEP_Village
-    100866: MEP_Weed
-    100868: MEP_Weed_02_a_2_S_Tris260_N(Clone)
-    100870: MEP_Weed_02_a_2_S_Tris320_N(Clone)
-    100872: MEP_Weed_02_a_2_S_Tris352_N(Clone)
-    100874: MEP_Weed_02_a_2_S_Tris408_N(Clone)
-    100876: MEP_Weed_02_a_2_S_Tris444_N(Clone)
-    100878: MEP_Weed_02_a_2_S_Tris560_N(Clone)
-    100880: MEP_Weed_02_a_2_S_Tris636_N(Clone)
-    100882: MEP_Weed_02_a_2_S_Tris668_N(Clone)
-    100884: MOTOR_boeing
-    100886: NewMesh_tris_1047
-    100888: NewMesh_tris_120
-    100890: NewMesh_tris_120(Clone)
-    100892: NewMesh_tris_144
-    100894: NewMesh_tris_170
-    100896: NewMesh_tris_173
-    100898: NewMesh_tris_1987
-    100900: NewMesh_tris_200
-    100902: NewMesh_tris_220
-    100904: NewMesh_tris_260
-    100906: NewMesh_tris_308
-    100908: NewMesh_tris_316
-    100910: NewMesh_tris_320
-    100912: NewMesh_tris_330
-    100914: NewMesh_tris_370
-    100916: NewMesh_tris_390
-    100918: NewMesh_tris_412
-    100920: NewMesh_tris_420
-    100922: NewMesh_tris_430
-    100924: NewMesh_tris_440
-    100926: NewMesh_tris_444
-    100928: NewMesh_tris_464
-    100930: NewMesh_tris_470_Tris637_N(Clone)
-    100932: NewMesh_tris_476
-    100934: NewMesh_tris_489
-    100936: NewMesh_tris_489 (1)
-    100938: NewMesh_tris_489 (2)
-    100940: NewMesh_tris_489 (3)
-    100942: NewMesh_tris_504
-    100944: NewMesh_tris_518
-    100946: NewMesh_tris_560
-    100948: NewMesh_tris_572
-    100950: NewMesh_tris_607
-    100952: NewMesh_tris_616
-    100954: NewMesh_tris_621
-    100956: NewMesh_tris_630
-    100958: NewMesh_tris_630 1
-    100960: NewMesh_tris_630 2
-    100962: NewMesh_tris_637
-    100964: NewMesh_tris_668
-    100966: NewMesh_tris_680
-    100968: NewMesh_tris_688
-    100970: NewMesh_tris_860
-    100972: Object075
-    100974: Object075 1
-    100976: Old building
-    100978: Old building (1)
-    100980: Pipe
-    100982: Pipe (1)
-    100984: Pipe (10)
-    100986: Pipe (11)
-    100988: Pipe (12)
-    100990: Pipe (13)
-    100992: Pipe (14)
-    100994: Pipe (2)
-    100996: Pipe (3)
-    100998: Pipe (4)
-    101000: Pipe (5)
-    101002: Pipe (6)
-    101004: Pipe (7)
-    101006: Pipe (8)
-    101008: Pipe (9)
-    101010: //RootNode
-    101012: Scene_03_Terrain
-    101014: Shack_04
-    101016: Shack_04 (1)
-    101018: Shtak_01
-    101020: Shtak_02
-    101022: Shtak_03
-    101024: Shtak_04
-    101026: Shtak_05
-    101028: Shtak_06
-    101030: Shtak_07
-    101032: Shtak_08
-    101034: Shtak_09
-    101036: Shtak_10
-    101038: Shtak_11
-    101040: Shtak_12
-    101042: Shtak_13
-    101044: Shtak_14
-    101046: Shtak_15
-    101048: Shtak_16
-    101050: Shtak_18
-    101052: Shtak_19
-    101054: Shtak_20
-    101056: Shtak_21
-    101058: Shtak_22
-    101060: Shtak_break
-    101062: Shtak_break01
-    101064: Shtak_break02
-    101066: Shtak_break03
-    101068: Shtak_kalitka
-    101070: Shtak_kalitka 1
-    101072: TAIL_boeing
-    101074: Tualet
-    101076: WING_boeing
-    400000: BASE_boeing
-    400002: Box001
-    400004: Box001 1
-    400006: Brick_garage
-    400008: BULDING1_0_0
-    400010: CABIN_boeing
-    400012: Crashed_Boeing
-    400014: EP_Leafs_02_b
-    400016: EP_Leafs_02_b 1
-    400018: EP_Leafs_02_b 2
-    400020: EP_Leafs_02_b 3
-    400022: EP_Leafs_02_b 4
-    400024: EP_Leafs_02_b 5
-    400026: EP_Leafs_02_b 6
-    400028: EP_Leafs_02_b 7
-    400030: EP_Leafs_02_f
-    400032: EP_Leafs_02_f 1
-    400034: EP_Leafs_02_f 10
-    400036: EP_Leafs_02_f 11
-    400038: EP_Leafs_02_f 12
-    400040: EP_Leafs_02_f 13
-    400042: EP_Leafs_02_f 14
-    400044: EP_Leafs_02_f 2
-    400046: EP_Leafs_02_f 3
-    400048: EP_Leafs_02_f 4
-    400050: EP_Leafs_02_f 5
-    400052: EP_Leafs_02_f 6
-    400054: EP_Leafs_02_f 7
-    400056: EP_Leafs_02_f 8
-    400058: EP_Leafs_02_f 9
-    400060: GameObject
-    400062: Hut
-    400064: Hutor
-    400066: kalitka
-    400068: lavka
-    400070: MEP_Birch_01_Part_02_Tris144_N(Clone)
-    400072: MEP_Birches
-    400074: MEP_Bushes
-    400076: MEP_Cliff_05_Tris1047_N(Clone)
-    400078: MEP_Cliff_18_Tris489_N(Clone)
-    400080: MEP_Cliff_20_Tris812_N(Clone)
-    400082: MEP_Cliff_S_10_Tris170_N(Clone)
-    400084: MEP_Cliff_S_10_Tris200_N(Clone)
-    400086: MEP_Cliff_S_10_Tris220_N(Clone)
-    400088: MEP_Cliff_S_10_Tris320_N(Clone)
-    400090: MEP_Cliff_S_10_Tris330_N(Clone)
-    400092: MEP_Cliff_S_10_Tris370_N(Clone)
-    400094: MEP_Cliff_S_10_Tris390_N(Clone)
-    400096: MEP_Cliff_S_10_Tris430_N(Clone)
-    400098: MEP_Cliff_S_10_Tris440_N(Clone)
-    400100: MEP_Cliff_S_10_Tris470_N(Clone)
-    400102: MEP_Cliff_S_10_Tris630_N(Clone)
-    400104: MEP_Cliff_S_10_Tris680_N(Clone)
-    400106: MEP_Cliff_S_11
-    400108: MEP_DesertCliff_03_Tris1987_N(Clone)
-    400110: MEP_DirtBoulder_01_Tris621_N(Clone)
-    400112: MEP_Dirtedge_03_Tris607_N(Clone)
-    400114: MEP_Grass
-    400116: MEP_Grass_02_a 1
-    400118: MEP_Grass_02_a 1 1
-    400120: MEP_Grass_02_a 1 2
-    400122: MEP_Grass_02_a 1 3
-    400124: MEP_Grass_02_a_S_Tris284_N(Clone)
-    400126: MEP_Grass_02_a_S_Tris316_N(Clone)
-    400128: MEP_Grass_02_a_S_Tris412_N(Clone)
-    400130: MEP_Grass_02_a_S_Tris456_N(Clone)
-    400132: MEP_Grass_02_a_S_Tris464_N(Clone)
-    400134: MEP_Grass_02_a_S_Tris504_N(Clone)
-    400136: MEP_Grass_02_a_S_Tris540_N(Clone)
-    400138: MEP_Grass_02_a_S_Tris572_N(Clone)
-    400140: MEP_Grass_02_a_S_Tris688_N(Clone)
-    400142: MEP_Grass_02_a_S_Tris860_N(Clone)
-    400144: MEP_Grass_02_a_S_Tris988_N(Clone)
-    400146: MEP_GroundBrush
-    400148: MEP_GroundBrush_a_Tris182_N(Clone)
-    400150: MEP_GroundBrush_a_Tris308_N(Clone)
-    400152: MEP_GroundBrush_a_Tris420_N(Clone)
-    400154: MEP_GroundBrush_a_Tris476_N(Clone)
-    400156: MEP_GroundBrush_a_Tris504_N(Clone)
-    400158: MEP_GroundBrush_a_Tris518_N(Clone)
-    400160: MEP_GroundBrush_a_Tris616_N(Clone)
-    400162: MEP_GroundBrush_a_Tris630_N(Clone)
-    400164: MEP_GroundBrush_a_Tris630_N_1(Clone)
-    400166: MEP_Leafs_02_a
-    400168: MEP_Leafs_02_a 1
-    400170: MEP_Leafs_02_a 2
-    400172: MEP_Leafs_02_a 3
-    400174: MEP_Leafs_02_b
-    400176: MEP_Leafs_02_b 1
-    400178: MEP_Leafs_02_b 10
-    400180: MEP_Leafs_02_b 11
-    400182: MEP_Leafs_02_b 12
-    400184: MEP_Leafs_02_b 13
-    400186: MEP_Leafs_02_b 14
-    400188: MEP_Leafs_02_b 15
-    400190: MEP_Leafs_02_b 16
-    400192: MEP_Leafs_02_b 17
-    400194: MEP_Leafs_02_b 18
-    400196: MEP_Leafs_02_b 19
-    400198: MEP_Leafs_02_b 2
-    400200: MEP_Leafs_02_b 20
-    400202: MEP_Leafs_02_b 21
-    400204: MEP_Leafs_02_b 22
-    400206: MEP_Leafs_02_b 23
-    400208: MEP_Leafs_02_b 24
-    400210: MEP_Leafs_02_b 25
-    400212: MEP_Leafs_02_b 3
-    400214: MEP_Leafs_02_b 4
-    400216: MEP_Leafs_02_b 5
-    400218: MEP_Leafs_02_b 6
-    400220: MEP_Leafs_02_b 7
-    400222: MEP_Leafs_02_b 8
-    400224: MEP_Leafs_02_b 9
-    400226: MEP_Leafs_02_d
-    400228: MEP_Leafs_02_d 1
-    400230: MEP_Leafs_02_d 2
-    400232: MEP_Leafs_02_d 3
-    400234: MEP_Leafs_02_d 4
-    400236: MEP_Leafs_02_e
-    400238: MEP_Leafs_02_e 1
-    400240: MEP_Leafs_02_e 10
-    400242: MEP_Leafs_02_e 11
-    400244: MEP_Leafs_02_e 12
-    400246: MEP_Leafs_02_e 13
-    400248: MEP_Leafs_02_e 14
-    400250: MEP_Leafs_02_e 15
-    400252: MEP_Leafs_02_e 16
-    400254: MEP_Leafs_02_e 17
-    400256: MEP_Leafs_02_e 2
-    400258: MEP_Leafs_02_e 3
-    400260: MEP_Leafs_02_e 4
-    400262: MEP_Leafs_02_e 5
-    400264: MEP_Leafs_02_e 6
-    400266: MEP_Leafs_02_e 7
-    400268: MEP_Leafs_02_e 8
-    400270: MEP_Leafs_02_e 9
-    400272: MEP_Leafs_02_i
-    400274: MEP_Leafs_02_i 1
-    400276: MEP_Leafs_02_i 10
-    400278: MEP_Leafs_02_i 11
-    400280: MEP_Leafs_02_i 12
-    400282: MEP_Leafs_02_i 13
-    400284: MEP_Leafs_02_i 14
-    400286: MEP_Leafs_02_i 15
-    400288: MEP_Leafs_02_i 16
-    400290: MEP_Leafs_02_i 17
-    400292: MEP_Leafs_02_i 18
-    400294: MEP_Leafs_02_i 19
-    400296: MEP_Leafs_02_i 2
-    400298: MEP_Leafs_02_i 20
-    400300: MEP_Leafs_02_i 21
-    400302: MEP_Leafs_02_i 22
-    400304: MEP_Leafs_02_i 23
-    400306: MEP_Leafs_02_i 24
-    400308: MEP_Leafs_02_i 3
-    400310: MEP_Leafs_02_i 4
-    400312: MEP_Leafs_02_i 5
-    400314: MEP_Leafs_02_i 6
-    400316: MEP_Leafs_02_i 7
-    400318: MEP_Leafs_02_i 8
-    400320: MEP_Leafs_02_i 9
-    400322: MEP_Leafs_02_j
-    400324: MEP_Leafs_02_j 1
-    400326: MEP_Leafs_02_j 10
-    400328: MEP_Leafs_02_j 11
-    400330: MEP_Leafs_02_j 12
-    400332: MEP_Leafs_02_j 13
-    400334: MEP_Leafs_02_j 14
-    400336: MEP_Leafs_02_j 15
-    400338: MEP_Leafs_02_j 16
-    400340: MEP_Leafs_02_j 17
-    400342: MEP_Leafs_02_j 18
-    400344: MEP_Leafs_02_j 19
-    400346: MEP_Leafs_02_j 2
-    400348: MEP_Leafs_02_j 20
-    400350: MEP_Leafs_02_j 3
-    400352: MEP_Leafs_02_j 4
-    400354: MEP_Leafs_02_j 5
-    400356: MEP_Leafs_02_j 6
-    400358: MEP_Leafs_02_j 7
-    400360: MEP_Leafs_02_j 8
-    400362: MEP_Leafs_02_j 9
-    400364: MEP_Rock_02_a_Tris173_N(Clone)
-    400366: MEP_Rocks
-    400368: MEP_Shack_05
-    400370: MEP_Tree_02_a
-    400372: MEP_Tree_02_a 1
-    400374: MEP_Tree_02_a 2
-    400376: MEP_Tree_02_a 3
-    400378: MEP_Tree_02_b
-    400380: MEP_Tree_02_b (1)
-    400382: MEP_Tree_02_b (10)
-    400384: MEP_Tree_02_b (2)
-    400386: MEP_Tree_02_b (3)
-    400388: MEP_Tree_02_b (4)
-    400390: MEP_Tree_02_b (5)
-    400392: MEP_Tree_02_b (6)
-    400394: MEP_Tree_02_b (7)
-    400396: MEP_Tree_02_b (8)
-    400398: MEP_Tree_02_b (9)
-    400400: MEP_Tree_02_b 1
-    400402: MEP_Tree_02_b 10
-    400404: MEP_Tree_02_b 11
-    400406: MEP_Tree_02_b 12
-    400408: MEP_Tree_02_b 13
-    400410: MEP_Tree_02_b 14
-    400412: MEP_Tree_02_b 15
-    400414: MEP_Tree_02_b 2
-    400416: MEP_Tree_02_b 3
-    400418: MEP_Tree_02_b 4
-    400420: MEP_Tree_02_b 5
-    400422: MEP_Tree_02_b 6
-    400424: MEP_Tree_02_b 7
-    400426: MEP_Tree_02_b 8
-    400428: MEP_Tree_02_b 9
-    400430: 'MEP_Tree_02_c '
-    400432: MEP_Tree_02_c  1
-    400434: MEP_Tree_02_c  2
-    400436: MEP_Tree_02_c  3
-    400438: MEP_Tree_02_c  4
-    400440: MEP_Tree_02_c  5
-    400442: MEP_Tree_02_c  6
-    400444: MEP_Tree_02_c  7
-    400446: MEP_Tree_02_d
-    400448: MEP_Tree_02_d 1
-    400450: MEP_Tree_02_d 2
-    400452: MEP_Tree_02_d 3
-    400454: MEP_Tree_02_d 4
-    400456: MEP_Tree_02_d 5
-    400458: 'MEP_Tree_02_e '
-    400460: MEP_Tree_02_e  1
-    400462: MEP_Tree_02_e  10
-    400464: MEP_Tree_02_e  11
-    400466: MEP_Tree_02_e  12
-    400468: MEP_Tree_02_e  13
-    400470: MEP_Tree_02_e  14
-    400472: MEP_Tree_02_e  2
-    400474: MEP_Tree_02_e  3
-    400476: MEP_Tree_02_e  4
-    400478: MEP_Tree_02_e  5
-    400480: MEP_Tree_02_e  6
-    400482: MEP_Tree_02_e  7
-    400484: MEP_Tree_02_e  8
-    400486: MEP_Tree_02_e  9
-    400488: MEP_Tree_02_e (1)
-    400490: MEP_Tree_02_e (2)
-    400492: MEP_Tree_02_e (3)
-    400494: 'MEP_Tree_02_f '
-    400496: MEP_Tree_02_f  1
-    400498: MEP_Tree_02_f  10
-    400500: MEP_Tree_02_f  11
-    400502: MEP_Tree_02_f  12
-    400504: MEP_Tree_02_f  2
-    400506: MEP_Tree_02_f  3
-    400508: MEP_Tree_02_f  4
-    400510: MEP_Tree_02_f  5
-    400512: MEP_Tree_02_f  6
-    400514: MEP_Tree_02_f  7
-    400516: MEP_Tree_02_f  8
-    400518: MEP_Tree_02_f  9
-    400520: MEP_Tree_02_f (1)
-    400522: MEP_Tree_02_f (2)
-    400524: 'MEP_Tree_02_i '
-    400526: MEP_Tree_02_i  1
-    400528: MEP_Tree_02_i  10
-    400530: MEP_Tree_02_i  11
-    400532: MEP_Tree_02_i  12
-    400534: MEP_Tree_02_i  13
-    400536: MEP_Tree_02_i  14
-    400538: MEP_Tree_02_i  15
-    400540: MEP_Tree_02_i  16
-    400542: MEP_Tree_02_i  17
-    400544: MEP_Tree_02_i  18
-    400546: MEP_Tree_02_i  19
-    400548: MEP_Tree_02_i  2
-    400550: MEP_Tree_02_i  20
-    400552: MEP_Tree_02_i  21
-    400554: MEP_Tree_02_i  22
-    400556: MEP_Tree_02_i  23
-    400558: MEP_Tree_02_i  24
-    400560: MEP_Tree_02_i  3
-    400562: MEP_Tree_02_i  4
-    400564: MEP_Tree_02_i  5
-    400566: MEP_Tree_02_i  6
-    400568: MEP_Tree_02_i  7
-    400570: MEP_Tree_02_i  8
-    400572: MEP_Tree_02_i  9
-    400574: 'MEP_Tree_02_j '
-    400576: MEP_Tree_02_j  1
-    400578: MEP_Tree_02_j  10
-    400580: MEP_Tree_02_j  11
-    400582: MEP_Tree_02_j  12
-    400584: MEP_Tree_02_j  13
-    400586: MEP_Tree_02_j  14
-    400588: MEP_Tree_02_j  15
-    400590: MEP_Tree_02_j  16
-    400592: MEP_Tree_02_j  17
-    400594: MEP_Tree_02_j  18
-    400596: MEP_Tree_02_j  19
-    400598: MEP_Tree_02_j  2
-    400600: MEP_Tree_02_j  20
-    400602: MEP_Tree_02_j  3
-    400604: MEP_Tree_02_j  4
-    400606: MEP_Tree_02_j  5
-    400608: MEP_Tree_02_j  6
-    400610: MEP_Tree_02_j  7
-    400612: MEP_Tree_02_j  8
-    400614: MEP_Tree_02_j  9
-    400616: MEP_TreeBark_01_a
-    400618: MEP_TreeBark_01_a 1
-    400620: MEP_TreeBark_01_a 2
-    400622: MEP_TreeBark_01_a 3
-    400624: MEP_TreeBark_01_b
-    400626: MEP_TreeBark_01_b 1
-    400628: MEP_TreeBark_01_b 10
-    400630: MEP_TreeBark_01_b 11
-    400632: MEP_TreeBark_01_b 12
-    400634: MEP_TreeBark_01_b 13
-    400636: MEP_TreeBark_01_b 14
-    400638: MEP_TreeBark_01_b 15
-    400640: MEP_TreeBark_01_b 16
-    400642: MEP_TreeBark_01_b 17
-    400644: MEP_TreeBark_01_b 18
-    400646: MEP_TreeBark_01_b 19
-    400648: MEP_TreeBark_01_b 2
-    400650: MEP_TreeBark_01_b 20
-    400652: MEP_TreeBark_01_b 21
-    400654: MEP_TreeBark_01_b 22
-    400656: MEP_TreeBark_01_b 23
-    400658: MEP_TreeBark_01_b 24
-    400660: MEP_TreeBark_01_b 25
-    400662: MEP_TreeBark_01_b 3
-    400664: MEP_TreeBark_01_b 4
-    400666: MEP_TreeBark_01_b 5
-    400668: MEP_TreeBark_01_b 6
-    400670: MEP_TreeBark_01_b 7
-    400672: MEP_TreeBark_01_b 8
-    400674: MEP_TreeBark_01_b 9
-    400676: MEP_TreeBark_01_c
-    400678: MEP_TreeBark_01_c 1
-    400680: MEP_TreeBark_01_c 2
-    400682: MEP_TreeBark_01_c 3
-    400684: MEP_TreeBark_01_c 4
-    400686: MEP_TreeBark_01_c 5
-    400688: MEP_TreeBark_01_c 6
-    400690: MEP_TreeBark_01_c 7
-    400692: MEP_TreeBark_01_d
-    400694: MEP_TreeBark_01_d 1
-    400696: MEP_TreeBark_01_d 2
-    400698: MEP_TreeBark_01_d 3
-    400700: MEP_TreeBark_01_d 4
-    400702: MEP_TreeBark_01_d 5
-    400704: MEP_TreeBark_01_e
-    400706: MEP_TreeBark_01_e 1
-    400708: MEP_TreeBark_01_e 10
-    400710: MEP_TreeBark_01_e 11
-    400712: MEP_TreeBark_01_e 12
-    400714: MEP_TreeBark_01_e 13
-    400716: MEP_TreeBark_01_e 14
-    400718: MEP_TreeBark_01_e 15
-    400720: MEP_TreeBark_01_e 16
-    400722: MEP_TreeBark_01_e 17
-    400724: MEP_TreeBark_01_e 2
-    400726: MEP_TreeBark_01_e 3
-    400728: MEP_TreeBark_01_e 4
-    400730: MEP_TreeBark_01_e 5
-    400732: MEP_TreeBark_01_e 6
-    400734: MEP_TreeBark_01_e 7
-    400736: MEP_TreeBark_01_e 8
-    400738: MEP_TreeBark_01_e 9
-    400740: MEP_TreeBark_01_f
-    400742: MEP_TreeBark_01_f 1
-    400744: MEP_TreeBark_01_f 10
-    400746: MEP_TreeBark_01_f 11
-    400748: MEP_TreeBark_01_f 12
-    400750: MEP_TreeBark_01_f 13
-    400752: MEP_TreeBark_01_f 14
-    400754: MEP_TreeBark_01_f 2
-    400756: MEP_TreeBark_01_f 3
-    400758: MEP_TreeBark_01_f 4
-    400760: MEP_TreeBark_01_f 5
-    400762: MEP_TreeBark_01_f 6
-    400764: MEP_TreeBark_01_f 7
-    400766: MEP_TreeBark_01_f 8
-    400768: MEP_TreeBark_01_f 9
-    400770: MEP_TreeBark_01_i
-    400772: MEP_TreeBark_01_i 1
-    400774: MEP_TreeBark_01_i 10
-    400776: MEP_TreeBark_01_i 11
-    400778: MEP_TreeBark_01_i 12
-    400780: MEP_TreeBark_01_i 13
-    400782: MEP_TreeBark_01_i 14
-    400784: MEP_TreeBark_01_i 15
-    400786: MEP_TreeBark_01_i 16
-    400788: MEP_TreeBark_01_i 17
-    400790: MEP_TreeBark_01_i 18
-    400792: MEP_TreeBark_01_i 19
-    400794: MEP_TreeBark_01_i 2
-    400796: MEP_TreeBark_01_i 20
-    400798: MEP_TreeBark_01_i 21
-    400800: MEP_TreeBark_01_i 22
-    400802: MEP_TreeBark_01_i 23
-    400804: MEP_TreeBark_01_i 24
-    400806: MEP_TreeBark_01_i 3
-    400808: MEP_TreeBark_01_i 4
-    400810: MEP_TreeBark_01_i 5
-    400812: MEP_TreeBark_01_i 6
-    400814: MEP_TreeBark_01_i 7
-    400816: MEP_TreeBark_01_i 8
-    400818: MEP_TreeBark_01_i 9
-    400820: MEP_TreeBark_01_j
-    400822: MEP_TreeBark_01_j 1
-    400824: MEP_TreeBark_01_j 10
-    400826: MEP_TreeBark_01_j 11
-    400828: MEP_TreeBark_01_j 12
-    400830: MEP_TreeBark_01_j 13
-    400832: MEP_TreeBark_01_j 14
-    400834: MEP_TreeBark_01_j 15
-    400836: MEP_TreeBark_01_j 16
-    400838: MEP_TreeBark_01_j 17
-    400840: MEP_TreeBark_01_j 18
-    400842: MEP_TreeBark_01_j 19
-    400844: MEP_TreeBark_01_j 2
-    400846: MEP_TreeBark_01_j 20
-    400848: MEP_TreeBark_01_j 3
-    400850: MEP_TreeBark_01_j 4
-    400852: MEP_TreeBark_01_j 5
-    400854: MEP_TreeBark_01_j 6
-    400856: MEP_TreeBark_01_j 7
-    400858: MEP_TreeBark_01_j 8
-    400860: MEP_TreeBark_01_j 9
-    400862: MEP_Trees
-    400864: MEP_Village
-    400866: MEP_Weed
-    400868: MEP_Weed_02_a_2_S_Tris260_N(Clone)
-    400870: MEP_Weed_02_a_2_S_Tris320_N(Clone)
-    400872: MEP_Weed_02_a_2_S_Tris352_N(Clone)
-    400874: MEP_Weed_02_a_2_S_Tris408_N(Clone)
-    400876: MEP_Weed_02_a_2_S_Tris444_N(Clone)
-    400878: MEP_Weed_02_a_2_S_Tris560_N(Clone)
-    400880: MEP_Weed_02_a_2_S_Tris636_N(Clone)
-    400882: MEP_Weed_02_a_2_S_Tris668_N(Clone)
-    400884: MOTOR_boeing
-    400886: NewMesh_tris_1047
-    400888: NewMesh_tris_120
-    400890: NewMesh_tris_120(Clone)
-    400892: NewMesh_tris_144
-    400894: NewMesh_tris_170
-    400896: NewMesh_tris_173
-    400898: NewMesh_tris_1987
-    400900: NewMesh_tris_200
-    400902: NewMesh_tris_220
-    400904: NewMesh_tris_260
-    400906: NewMesh_tris_308
-    400908: NewMesh_tris_316
-    400910: NewMesh_tris_320
-    400912: NewMesh_tris_330
-    400914: NewMesh_tris_370
-    400916: NewMesh_tris_390
-    400918: NewMesh_tris_412
-    400920: NewMesh_tris_420
-    400922: NewMesh_tris_430
-    400924: NewMesh_tris_440
-    400926: NewMesh_tris_444
-    400928: NewMesh_tris_464
-    400930: NewMesh_tris_470_Tris637_N(Clone)
-    400932: NewMesh_tris_476
-    400934: NewMesh_tris_489
-    400936: NewMesh_tris_489 (1)
-    400938: NewMesh_tris_489 (2)
-    400940: NewMesh_tris_489 (3)
-    400942: NewMesh_tris_504
-    400944: NewMesh_tris_518
-    400946: NewMesh_tris_560
-    400948: NewMesh_tris_572
-    400950: NewMesh_tris_607
-    400952: NewMesh_tris_616
-    400954: NewMesh_tris_621
-    400956: NewMesh_tris_630
-    400958: NewMesh_tris_630 1
-    400960: NewMesh_tris_630 2
-    400962: NewMesh_tris_637
-    400964: NewMesh_tris_668
-    400966: NewMesh_tris_680
-    400968: NewMesh_tris_688
-    400970: NewMesh_tris_860
-    400972: Object075
-    400974: Object075 1
-    400976: Old building
-    400978: Old building (1)
-    400980: Pipe
-    400982: Pipe (1)
-    400984: Pipe (10)
-    400986: Pipe (11)
-    400988: Pipe (12)
-    400990: Pipe (13)
-    400992: Pipe (14)
-    400994: Pipe (2)
-    400996: Pipe (3)
-    400998: Pipe (4)
-    401000: Pipe (5)
-    401002: Pipe (6)
-    401004: Pipe (7)
-    401006: Pipe (8)
-    401008: Pipe (9)
-    401010: //RootNode
-    401012: Scene_03_Terrain
-    401014: Shack_04
-    401016: Shack_04 (1)
-    401018: Shtak_01
-    401020: Shtak_02
-    401022: Shtak_03
-    401024: Shtak_04
-    401026: Shtak_05
-    401028: Shtak_06
-    401030: Shtak_07
-    401032: Shtak_08
-    401034: Shtak_09
-    401036: Shtak_10
-    401038: Shtak_11
-    401040: Shtak_12
-    401042: Shtak_13
-    401044: Shtak_14
-    401046: Shtak_15
-    401048: Shtak_16
-    401050: Shtak_18
-    401052: Shtak_19
-    401054: Shtak_20
-    401056: Shtak_21
-    401058: Shtak_22
-    401060: Shtak_break
-    401062: Shtak_break01
-    401064: Shtak_break02
-    401066: Shtak_break03
-    401068: Shtak_kalitka
-    401070: Shtak_kalitka 1
-    401072: TAIL_boeing
-    401074: Tualet
-    401076: WING_boeing
-    2100000: MEP_Grass_02_a 1
-    2100002: MEP_GroundBrush_Dif
-    2100004: Box001_diffuse
-    2100006: TexFasad_diff
-    2100008: MEP_Cliff_Dif
-    2100010: MEP_DirtEdge_01
-    2100012: MEP_Rock_02-03_Dif
-    2100014: MEP_Birch
-    2100016: MEP_Tree_02_Dif
-    2100018: Bark_02
-    2100020: MEP_Wall_Roof_Dif
-    2100022: Weed_02_2_S
-    2100024: Scene_03_Terrain_Mat
-    2100026: Pipers_diffuse
-    2100028: m_Boeng
-    2300000: BASE_boeing
-    2300002: Box001
-    2300004: Box001 1
-    2300006: CABIN_boeing
-    2300008: EP_Leafs_02_b
-    2300010: EP_Leafs_02_b 1
-    2300012: EP_Leafs_02_b 2
-    2300014: EP_Leafs_02_b 3
-    2300016: EP_Leafs_02_b 4
-    2300018: EP_Leafs_02_b 5
-    2300020: EP_Leafs_02_b 6
-    2300022: EP_Leafs_02_b 7
-    2300024: EP_Leafs_02_f
-    2300026: EP_Leafs_02_f 1
-    2300028: EP_Leafs_02_f 10
-    2300030: EP_Leafs_02_f 11
-    2300032: EP_Leafs_02_f 12
-    2300034: EP_Leafs_02_f 13
-    2300036: EP_Leafs_02_f 14
-    2300038: EP_Leafs_02_f 2
-    2300040: EP_Leafs_02_f 3
-    2300042: EP_Leafs_02_f 4
-    2300044: EP_Leafs_02_f 5
-    2300046: EP_Leafs_02_f 6
-    2300048: EP_Leafs_02_f 7
-    2300050: EP_Leafs_02_f 8
-    2300052: EP_Leafs_02_f 9
-    2300054: Hut
-    2300056: kalitka
-    2300058: lavka
-    2300060: MEP_Cliff_S_11
-    2300062: MEP_Grass_02_a 1
-    2300064: MEP_Grass_02_a 1 1
-    2300066: MEP_Grass_02_a 1 2
-    2300068: MEP_Grass_02_a 1 3
-    2300070: MEP_Leafs_02_a
-    2300072: MEP_Leafs_02_a 1
-    2300074: MEP_Leafs_02_a 2
-    2300076: MEP_Leafs_02_a 3
-    2300078: MEP_Leafs_02_b
-    2300080: MEP_Leafs_02_b 1
-    2300082: MEP_Leafs_02_b 10
-    2300084: MEP_Leafs_02_b 11
-    2300086: MEP_Leafs_02_b 12
-    2300088: MEP_Leafs_02_b 13
-    2300090: MEP_Leafs_02_b 14
-    2300092: MEP_Leafs_02_b 15
-    2300094: MEP_Leafs_02_b 16
-    2300096: MEP_Leafs_02_b 17
-    2300098: MEP_Leafs_02_b 18
-    2300100: MEP_Leafs_02_b 19
-    2300102: MEP_Leafs_02_b 2
-    2300104: MEP_Leafs_02_b 20
-    2300106: MEP_Leafs_02_b 21
-    2300108: MEP_Leafs_02_b 22
-    2300110: MEP_Leafs_02_b 23
-    2300112: MEP_Leafs_02_b 24
-    2300114: MEP_Leafs_02_b 25
-    2300116: MEP_Leafs_02_b 3
-    2300118: MEP_Leafs_02_b 4
-    2300120: MEP_Leafs_02_b 5
-    2300122: MEP_Leafs_02_b 6
-    2300124: MEP_Leafs_02_b 7
-    2300126: MEP_Leafs_02_b 8
-    2300128: MEP_Leafs_02_b 9
-    2300130: MEP_Leafs_02_d
-    2300132: MEP_Leafs_02_d 1
-    2300134: MEP_Leafs_02_d 2
-    2300136: MEP_Leafs_02_d 3
-    2300138: MEP_Leafs_02_d 4
-    2300140: MEP_Leafs_02_e
-    2300142: MEP_Leafs_02_e 1
-    2300144: MEP_Leafs_02_e 10
-    2300146: MEP_Leafs_02_e 11
-    2300148: MEP_Leafs_02_e 12
-    2300150: MEP_Leafs_02_e 13
-    2300152: MEP_Leafs_02_e 14
-    2300154: MEP_Leafs_02_e 15
-    2300156: MEP_Leafs_02_e 16
-    2300158: MEP_Leafs_02_e 17
-    2300160: MEP_Leafs_02_e 2
-    2300162: MEP_Leafs_02_e 3
-    2300164: MEP_Leafs_02_e 4
-    2300166: MEP_Leafs_02_e 5
-    2300168: MEP_Leafs_02_e 6
-    2300170: MEP_Leafs_02_e 7
-    2300172: MEP_Leafs_02_e 8
-    2300174: MEP_Leafs_02_e 9
-    2300176: MEP_Leafs_02_i
-    2300178: MEP_Leafs_02_i 1
-    2300180: MEP_Leafs_02_i 10
-    2300182: MEP_Leafs_02_i 11
-    2300184: MEP_Leafs_02_i 12
-    2300186: MEP_Leafs_02_i 13
-    2300188: MEP_Leafs_02_i 14
-    2300190: MEP_Leafs_02_i 15
-    2300192: MEP_Leafs_02_i 16
-    2300194: MEP_Leafs_02_i 17
-    2300196: MEP_Leafs_02_i 18
-    2300198: MEP_Leafs_02_i 19
-    2300200: MEP_Leafs_02_i 2
-    2300202: MEP_Leafs_02_i 20
-    2300204: MEP_Leafs_02_i 21
-    2300206: MEP_Leafs_02_i 22
-    2300208: MEP_Leafs_02_i 23
-    2300210: MEP_Leafs_02_i 24
-    2300212: MEP_Leafs_02_i 3
-    2300214: MEP_Leafs_02_i 4
-    2300216: MEP_Leafs_02_i 5
-    2300218: MEP_Leafs_02_i 6
-    2300220: MEP_Leafs_02_i 7
-    2300222: MEP_Leafs_02_i 8
-    2300224: MEP_Leafs_02_i 9
-    2300226: MEP_Leafs_02_j
-    2300228: MEP_Leafs_02_j 1
-    2300230: MEP_Leafs_02_j 10
-    2300232: MEP_Leafs_02_j 11
-    2300234: MEP_Leafs_02_j 12
-    2300236: MEP_Leafs_02_j 13
-    2300238: MEP_Leafs_02_j 14
-    2300240: MEP_Leafs_02_j 15
-    2300242: MEP_Leafs_02_j 16
-    2300244: MEP_Leafs_02_j 17
-    2300246: MEP_Leafs_02_j 18
-    2300248: MEP_Leafs_02_j 19
-    2300250: MEP_Leafs_02_j 2
-    2300252: MEP_Leafs_02_j 20
-    2300254: MEP_Leafs_02_j 3
-    2300256: MEP_Leafs_02_j 4
-    2300258: MEP_Leafs_02_j 5
-    2300260: MEP_Leafs_02_j 6
-    2300262: MEP_Leafs_02_j 7
-    2300264: MEP_Leafs_02_j 8
-    2300266: MEP_Leafs_02_j 9
-    2300268: MEP_Shack_05
-    2300270: MEP_TreeBark_01_a
-    2300272: MEP_TreeBark_01_a 1
-    2300274: MEP_TreeBark_01_a 2
-    2300276: MEP_TreeBark_01_a 3
-    2300278: MEP_TreeBark_01_b
-    2300280: MEP_TreeBark_01_b 1
-    2300282: MEP_TreeBark_01_b 10
-    2300284: MEP_TreeBark_01_b 11
-    2300286: MEP_TreeBark_01_b 12
-    2300288: MEP_TreeBark_01_b 13
-    2300290: MEP_TreeBark_01_b 14
-    2300292: MEP_TreeBark_01_b 15
-    2300294: MEP_TreeBark_01_b 16
-    2300296: MEP_TreeBark_01_b 17
-    2300298: MEP_TreeBark_01_b 18
-    2300300: MEP_TreeBark_01_b 19
-    2300302: MEP_TreeBark_01_b 2
-    2300304: MEP_TreeBark_01_b 20
-    2300306: MEP_TreeBark_01_b 21
-    2300308: MEP_TreeBark_01_b 22
-    2300310: MEP_TreeBark_01_b 23
-    2300312: MEP_TreeBark_01_b 24
-    2300314: MEP_TreeBark_01_b 25
-    2300316: MEP_TreeBark_01_b 3
-    2300318: MEP_TreeBark_01_b 4
-    2300320: MEP_TreeBark_01_b 5
-    2300322: MEP_TreeBark_01_b 6
-    2300324: MEP_TreeBark_01_b 7
-    2300326: MEP_TreeBark_01_b 8
-    2300328: MEP_TreeBark_01_b 9
-    2300330: MEP_TreeBark_01_c
-    2300332: MEP_TreeBark_01_c 1
-    2300334: MEP_TreeBark_01_c 2
-    2300336: MEP_TreeBark_01_c 3
-    2300338: MEP_TreeBark_01_c 4
-    2300340: MEP_TreeBark_01_c 5
-    2300342: MEP_TreeBark_01_c 6
-    2300344: MEP_TreeBark_01_c 7
-    2300346: MEP_TreeBark_01_d
-    2300348: MEP_TreeBark_01_d 1
-    2300350: MEP_TreeBark_01_d 2
-    2300352: MEP_TreeBark_01_d 3
-    2300354: MEP_TreeBark_01_d 4
-    2300356: MEP_TreeBark_01_d 5
-    2300358: MEP_TreeBark_01_e
-    2300360: MEP_TreeBark_01_e 1
-    2300362: MEP_TreeBark_01_e 10
-    2300364: MEP_TreeBark_01_e 11
-    2300366: MEP_TreeBark_01_e 12
-    2300368: MEP_TreeBark_01_e 13
-    2300370: MEP_TreeBark_01_e 14
-    2300372: MEP_TreeBark_01_e 15
-    2300374: MEP_TreeBark_01_e 16
-    2300376: MEP_TreeBark_01_e 17
-    2300378: MEP_TreeBark_01_e 2
-    2300380: MEP_TreeBark_01_e 3
-    2300382: MEP_TreeBark_01_e 4
-    2300384: MEP_TreeBark_01_e 5
-    2300386: MEP_TreeBark_01_e 6
-    2300388: MEP_TreeBark_01_e 7
-    2300390: MEP_TreeBark_01_e 8
-    2300392: MEP_TreeBark_01_e 9
-    2300394: MEP_TreeBark_01_f
-    2300396: MEP_TreeBark_01_f 1
-    2300398: MEP_TreeBark_01_f 10
-    2300400: MEP_TreeBark_01_f 11
-    2300402: MEP_TreeBark_01_f 12
-    2300404: MEP_TreeBark_01_f 13
-    2300406: MEP_TreeBark_01_f 14
-    2300408: MEP_TreeBark_01_f 2
-    2300410: MEP_TreeBark_01_f 3
-    2300412: MEP_TreeBark_01_f 4
-    2300414: MEP_TreeBark_01_f 5
-    2300416: MEP_TreeBark_01_f 6
-    2300418: MEP_TreeBark_01_f 7
-    2300420: MEP_TreeBark_01_f 8
-    2300422: MEP_TreeBark_01_f 9
-    2300424: MEP_TreeBark_01_i
-    2300426: MEP_TreeBark_01_i 1
-    2300428: MEP_TreeBark_01_i 10
-    2300430: MEP_TreeBark_01_i 11
-    2300432: MEP_TreeBark_01_i 12
-    2300434: MEP_TreeBark_01_i 13
-    2300436: MEP_TreeBark_01_i 14
-    2300438: MEP_TreeBark_01_i 15
-    2300440: MEP_TreeBark_01_i 16
-    2300442: MEP_TreeBark_01_i 17
-    2300444: MEP_TreeBark_01_i 18
-    2300446: MEP_TreeBark_01_i 19
-    2300448: MEP_TreeBark_01_i 2
-    2300450: MEP_TreeBark_01_i 20
-    2300452: MEP_TreeBark_01_i 21
-    2300454: MEP_TreeBark_01_i 22
-    2300456: MEP_TreeBark_01_i 23
-    2300458: MEP_TreeBark_01_i 24
-    2300460: MEP_TreeBark_01_i 3
-    2300462: MEP_TreeBark_01_i 4
-    2300464: MEP_TreeBark_01_i 5
-    2300466: MEP_TreeBark_01_i 6
-    2300468: MEP_TreeBark_01_i 7
-    2300470: MEP_TreeBark_01_i 8
-    2300472: MEP_TreeBark_01_i 9
-    2300474: MEP_TreeBark_01_j
-    2300476: MEP_TreeBark_01_j 1
-    2300478: MEP_TreeBark_01_j 10
-    2300480: MEP_TreeBark_01_j 11
-    2300482: MEP_TreeBark_01_j 12
-    2300484: MEP_TreeBark_01_j 13
-    2300486: MEP_TreeBark_01_j 14
-    2300488: MEP_TreeBark_01_j 15
-    2300490: MEP_TreeBark_01_j 16
-    2300492: MEP_TreeBark_01_j 17
-    2300494: MEP_TreeBark_01_j 18
-    2300496: MEP_TreeBark_01_j 19
-    2300498: MEP_TreeBark_01_j 2
-    2300500: MEP_TreeBark_01_j 20
-    2300502: MEP_TreeBark_01_j 3
-    2300504: MEP_TreeBark_01_j 4
-    2300506: MEP_TreeBark_01_j 5
-    2300508: MEP_TreeBark_01_j 6
-    2300510: MEP_TreeBark_01_j 7
-    2300512: MEP_TreeBark_01_j 8
-    2300514: MEP_TreeBark_01_j 9
-    2300516: MOTOR_boeing
-    2300518: NewMesh_tris_1047
-    2300520: NewMesh_tris_120
-    2300522: NewMesh_tris_144
-    2300524: NewMesh_tris_170
-    2300526: NewMesh_tris_173
-    2300528: NewMesh_tris_1987
-    2300530: NewMesh_tris_200
-    2300532: NewMesh_tris_220
-    2300534: NewMesh_tris_260
-    2300536: NewMesh_tris_308
-    2300538: NewMesh_tris_316
-    2300540: NewMesh_tris_320
-    2300542: NewMesh_tris_330
-    2300544: NewMesh_tris_370
-    2300546: NewMesh_tris_390
-    2300548: NewMesh_tris_412
-    2300550: NewMesh_tris_420
-    2300552: NewMesh_tris_430
-    2300554: NewMesh_tris_440
-    2300556: NewMesh_tris_444
-    2300558: NewMesh_tris_464
-    2300560: NewMesh_tris_476
-    2300562: NewMesh_tris_489
-    2300564: NewMesh_tris_489 (1)
-    2300566: NewMesh_tris_489 (2)
-    2300568: NewMesh_tris_489 (3)
-    2300570: NewMesh_tris_504
-    2300572: NewMesh_tris_518
-    2300574: NewMesh_tris_560
-    2300576: NewMesh_tris_572
-    2300578: NewMesh_tris_607
-    2300580: NewMesh_tris_616
-    2300582: NewMesh_tris_621
-    2300584: NewMesh_tris_630
-    2300586: NewMesh_tris_630 1
-    2300588: NewMesh_tris_630 2
-    2300590: NewMesh_tris_637
-    2300592: NewMesh_tris_668
-    2300594: NewMesh_tris_680
-    2300596: NewMesh_tris_688
-    2300598: NewMesh_tris_860
-    2300600: Object075
-    2300602: Object075 1
-    2300604: Pipe
-    2300606: Pipe (1)
-    2300608: Pipe (10)
-    2300610: Pipe (11)
-    2300612: Pipe (12)
-    2300614: Pipe (13)
-    2300616: Pipe (14)
-    2300618: Pipe (2)
-    2300620: Pipe (3)
-    2300622: Pipe (4)
-    2300624: Pipe (5)
-    2300626: Pipe (6)
-    2300628: Pipe (7)
-    2300630: Pipe (8)
-    2300632: Pipe (9)
-    2300634: Scene_03_Terrain
-    2300636: Shack_04
-    2300638: Shack_04 (1)
-    2300640: Shtak_01
-    2300642: Shtak_02
-    2300644: Shtak_03
-    2300646: Shtak_04
-    2300648: Shtak_05
-    2300650: Shtak_06
-    2300652: Shtak_07
-    2300654: Shtak_08
-    2300656: Shtak_09
-    2300658: Shtak_10
-    2300660: Shtak_11
-    2300662: Shtak_12
-    2300664: Shtak_13
-    2300666: Shtak_14
-    2300668: Shtak_15
-    2300670: Shtak_16
-    2300672: Shtak_18
-    2300674: Shtak_19
-    2300676: Shtak_20
-    2300678: Shtak_21
-    2300680: Shtak_22
-    2300682: Shtak_break
-    2300684: Shtak_break01
-    2300686: Shtak_break02
-    2300688: Shtak_break03
-    2300690: Shtak_kalitka 1
-    2300692: TAIL_boeing
-    2300694: Tualet
-    2300696: WING_boeing
-    3300000: BASE_boeing
-    3300002: Box001
-    3300004: Box001 1
-    3300006: CABIN_boeing
-    3300008: EP_Leafs_02_b
-    3300010: EP_Leafs_02_b 1
-    3300012: EP_Leafs_02_b 2
-    3300014: EP_Leafs_02_b 3
-    3300016: EP_Leafs_02_b 4
-    3300018: EP_Leafs_02_b 5
-    3300020: EP_Leafs_02_b 6
-    3300022: EP_Leafs_02_b 7
-    3300024: EP_Leafs_02_f
-    3300026: EP_Leafs_02_f 1
-    3300028: EP_Leafs_02_f 10
-    3300030: EP_Leafs_02_f 11
-    3300032: EP_Leafs_02_f 12
-    3300034: EP_Leafs_02_f 13
-    3300036: EP_Leafs_02_f 14
-    3300038: EP_Leafs_02_f 2
-    3300040: EP_Leafs_02_f 3
-    3300042: EP_Leafs_02_f 4
-    3300044: EP_Leafs_02_f 5
-    3300046: EP_Leafs_02_f 6
-    3300048: EP_Leafs_02_f 7
-    3300050: EP_Leafs_02_f 8
-    3300052: EP_Leafs_02_f 9
-    3300054: Hut
-    3300056: kalitka
-    3300058: lavka
-    3300060: MEP_Cliff_S_11
-    3300062: MEP_Grass_02_a 1
-    3300064: MEP_Grass_02_a 1 1
-    3300066: MEP_Grass_02_a 1 2
-    3300068: MEP_Grass_02_a 1 3
-    3300070: MEP_Leafs_02_a
-    3300072: MEP_Leafs_02_a 1
-    3300074: MEP_Leafs_02_a 2
-    3300076: MEP_Leafs_02_a 3
-    3300078: MEP_Leafs_02_b
-    3300080: MEP_Leafs_02_b 1
-    3300082: MEP_Leafs_02_b 10
-    3300084: MEP_Leafs_02_b 11
-    3300086: MEP_Leafs_02_b 12
-    3300088: MEP_Leafs_02_b 13
-    3300090: MEP_Leafs_02_b 14
-    3300092: MEP_Leafs_02_b 15
-    3300094: MEP_Leafs_02_b 16
-    3300096: MEP_Leafs_02_b 17
-    3300098: MEP_Leafs_02_b 18
-    3300100: MEP_Leafs_02_b 19
-    3300102: MEP_Leafs_02_b 2
-    3300104: MEP_Leafs_02_b 20
-    3300106: MEP_Leafs_02_b 21
-    3300108: MEP_Leafs_02_b 22
-    3300110: MEP_Leafs_02_b 23
-    3300112: MEP_Leafs_02_b 24
-    3300114: MEP_Leafs_02_b 25
-    3300116: MEP_Leafs_02_b 3
-    3300118: MEP_Leafs_02_b 4
-    3300120: MEP_Leafs_02_b 5
-    3300122: MEP_Leafs_02_b 6
-    3300124: MEP_Leafs_02_b 7
-    3300126: MEP_Leafs_02_b 8
-    3300128: MEP_Leafs_02_b 9
-    3300130: MEP_Leafs_02_d
-    3300132: MEP_Leafs_02_d 1
-    3300134: MEP_Leafs_02_d 2
-    3300136: MEP_Leafs_02_d 3
-    3300138: MEP_Leafs_02_d 4
-    3300140: MEP_Leafs_02_e
-    3300142: MEP_Leafs_02_e 1
-    3300144: MEP_Leafs_02_e 10
-    3300146: MEP_Leafs_02_e 11
-    3300148: MEP_Leafs_02_e 12
-    3300150: MEP_Leafs_02_e 13
-    3300152: MEP_Leafs_02_e 14
-    3300154: MEP_Leafs_02_e 15
-    3300156: MEP_Leafs_02_e 16
-    3300158: MEP_Leafs_02_e 17
-    3300160: MEP_Leafs_02_e 2
-    3300162: MEP_Leafs_02_e 3
-    3300164: MEP_Leafs_02_e 4
-    3300166: MEP_Leafs_02_e 5
-    3300168: MEP_Leafs_02_e 6
-    3300170: MEP_Leafs_02_e 7
-    3300172: MEP_Leafs_02_e 8
-    3300174: MEP_Leafs_02_e 9
-    3300176: MEP_Leafs_02_i
-    3300178: MEP_Leafs_02_i 1
-    3300180: MEP_Leafs_02_i 10
-    3300182: MEP_Leafs_02_i 11
-    3300184: MEP_Leafs_02_i 12
-    3300186: MEP_Leafs_02_i 13
-    3300188: MEP_Leafs_02_i 14
-    3300190: MEP_Leafs_02_i 15
-    3300192: MEP_Leafs_02_i 16
-    3300194: MEP_Leafs_02_i 17
-    3300196: MEP_Leafs_02_i 18
-    3300198: MEP_Leafs_02_i 19
-    3300200: MEP_Leafs_02_i 2
-    3300202: MEP_Leafs_02_i 20
-    3300204: MEP_Leafs_02_i 21
-    3300206: MEP_Leafs_02_i 22
-    3300208: MEP_Leafs_02_i 23
-    3300210: MEP_Leafs_02_i 24
-    3300212: MEP_Leafs_02_i 3
-    3300214: MEP_Leafs_02_i 4
-    3300216: MEP_Leafs_02_i 5
-    3300218: MEP_Leafs_02_i 6
-    3300220: MEP_Leafs_02_i 7
-    3300222: MEP_Leafs_02_i 8
-    3300224: MEP_Leafs_02_i 9
-    3300226: MEP_Leafs_02_j
-    3300228: MEP_Leafs_02_j 1
-    3300230: MEP_Leafs_02_j 10
-    3300232: MEP_Leafs_02_j 11
-    3300234: MEP_Leafs_02_j 12
-    3300236: MEP_Leafs_02_j 13
-    3300238: MEP_Leafs_02_j 14
-    3300240: MEP_Leafs_02_j 15
-    3300242: MEP_Leafs_02_j 16
-    3300244: MEP_Leafs_02_j 17
-    3300246: MEP_Leafs_02_j 18
-    3300248: MEP_Leafs_02_j 19
-    3300250: MEP_Leafs_02_j 2
-    3300252: MEP_Leafs_02_j 20
-    3300254: MEP_Leafs_02_j 3
-    3300256: MEP_Leafs_02_j 4
-    3300258: MEP_Leafs_02_j 5
-    3300260: MEP_Leafs_02_j 6
-    3300262: MEP_Leafs_02_j 7
-    3300264: MEP_Leafs_02_j 8
-    3300266: MEP_Leafs_02_j 9
-    3300268: MEP_Shack_05
-    3300270: MEP_TreeBark_01_a
-    3300272: MEP_TreeBark_01_a 1
-    3300274: MEP_TreeBark_01_a 2
-    3300276: MEP_TreeBark_01_a 3
-    3300278: MEP_TreeBark_01_b
-    3300280: MEP_TreeBark_01_b 1
-    3300282: MEP_TreeBark_01_b 10
-    3300284: MEP_TreeBark_01_b 11
-    3300286: MEP_TreeBark_01_b 12
-    3300288: MEP_TreeBark_01_b 13
-    3300290: MEP_TreeBark_01_b 14
-    3300292: MEP_TreeBark_01_b 15
-    3300294: MEP_TreeBark_01_b 16
-    3300296: MEP_TreeBark_01_b 17
-    3300298: MEP_TreeBark_01_b 18
-    3300300: MEP_TreeBark_01_b 19
-    3300302: MEP_TreeBark_01_b 2
-    3300304: MEP_TreeBark_01_b 20
-    3300306: MEP_TreeBark_01_b 21
-    3300308: MEP_TreeBark_01_b 22
-    3300310: MEP_TreeBark_01_b 23
-    3300312: MEP_TreeBark_01_b 24
-    3300314: MEP_TreeBark_01_b 25
-    3300316: MEP_TreeBark_01_b 3
-    3300318: MEP_TreeBark_01_b 4
-    3300320: MEP_TreeBark_01_b 5
-    3300322: MEP_TreeBark_01_b 6
-    3300324: MEP_TreeBark_01_b 7
-    3300326: MEP_TreeBark_01_b 8
-    3300328: MEP_TreeBark_01_b 9
-    3300330: MEP_TreeBark_01_c
-    3300332: MEP_TreeBark_01_c 1
-    3300334: MEP_TreeBark_01_c 2
-    3300336: MEP_TreeBark_01_c 3
-    3300338: MEP_TreeBark_01_c 4
-    3300340: MEP_TreeBark_01_c 5
-    3300342: MEP_TreeBark_01_c 6
-    3300344: MEP_TreeBark_01_c 7
-    3300346: MEP_TreeBark_01_d
-    3300348: MEP_TreeBark_01_d 1
-    3300350: MEP_TreeBark_01_d 2
-    3300352: MEP_TreeBark_01_d 3
-    3300354: MEP_TreeBark_01_d 4
-    3300356: MEP_TreeBark_01_d 5
-    3300358: MEP_TreeBark_01_e
-    3300360: MEP_TreeBark_01_e 1
-    3300362: MEP_TreeBark_01_e 10
-    3300364: MEP_TreeBark_01_e 11
-    3300366: MEP_TreeBark_01_e 12
-    3300368: MEP_TreeBark_01_e 13
-    3300370: MEP_TreeBark_01_e 14
-    3300372: MEP_TreeBark_01_e 15
-    3300374: MEP_TreeBark_01_e 16
-    3300376: MEP_TreeBark_01_e 17
-    3300378: MEP_TreeBark_01_e 2
-    3300380: MEP_TreeBark_01_e 3
-    3300382: MEP_TreeBark_01_e 4
-    3300384: MEP_TreeBark_01_e 5
-    3300386: MEP_TreeBark_01_e 6
-    3300388: MEP_TreeBark_01_e 7
-    3300390: MEP_TreeBark_01_e 8
-    3300392: MEP_TreeBark_01_e 9
-    3300394: MEP_TreeBark_01_f
-    3300396: MEP_TreeBark_01_f 1
-    3300398: MEP_TreeBark_01_f 10
-    3300400: MEP_TreeBark_01_f 11
-    3300402: MEP_TreeBark_01_f 12
-    3300404: MEP_TreeBark_01_f 13
-    3300406: MEP_TreeBark_01_f 14
-    3300408: MEP_TreeBark_01_f 2
-    3300410: MEP_TreeBark_01_f 3
-    3300412: MEP_TreeBark_01_f 4
-    3300414: MEP_TreeBark_01_f 5
-    3300416: MEP_TreeBark_01_f 6
-    3300418: MEP_TreeBark_01_f 7
-    3300420: MEP_TreeBark_01_f 8
-    3300422: MEP_TreeBark_01_f 9
-    3300424: MEP_TreeBark_01_i
-    3300426: MEP_TreeBark_01_i 1
-    3300428: MEP_TreeBark_01_i 10
-    3300430: MEP_TreeBark_01_i 11
-    3300432: MEP_TreeBark_01_i 12
-    3300434: MEP_TreeBark_01_i 13
-    3300436: MEP_TreeBark_01_i 14
-    3300438: MEP_TreeBark_01_i 15
-    3300440: MEP_TreeBark_01_i 16
-    3300442: MEP_TreeBark_01_i 17
-    3300444: MEP_TreeBark_01_i 18
-    3300446: MEP_TreeBark_01_i 19
-    3300448: MEP_TreeBark_01_i 2
-    3300450: MEP_TreeBark_01_i 20
-    3300452: MEP_TreeBark_01_i 21
-    3300454: MEP_TreeBark_01_i 22
-    3300456: MEP_TreeBark_01_i 23
-    3300458: MEP_TreeBark_01_i 24
-    3300460: MEP_TreeBark_01_i 3
-    3300462: MEP_TreeBark_01_i 4
-    3300464: MEP_TreeBark_01_i 5
-    3300466: MEP_TreeBark_01_i 6
-    3300468: MEP_TreeBark_01_i 7
-    3300470: MEP_TreeBark_01_i 8
-    3300472: MEP_TreeBark_01_i 9
-    3300474: MEP_TreeBark_01_j
-    3300476: MEP_TreeBark_01_j 1
-    3300478: MEP_TreeBark_01_j 10
-    3300480: MEP_TreeBark_01_j 11
-    3300482: MEP_TreeBark_01_j 12
-    3300484: MEP_TreeBark_01_j 13
-    3300486: MEP_TreeBark_01_j 14
-    3300488: MEP_TreeBark_01_j 15
-    3300490: MEP_TreeBark_01_j 16
-    3300492: MEP_TreeBark_01_j 17
-    3300494: MEP_TreeBark_01_j 18
-    3300496: MEP_TreeBark_01_j 19
-    3300498: MEP_TreeBark_01_j 2
-    3300500: MEP_TreeBark_01_j 20
-    3300502: MEP_TreeBark_01_j 3
-    3300504: MEP_TreeBark_01_j 4
-    3300506: MEP_TreeBark_01_j 5
-    3300508: MEP_TreeBark_01_j 6
-    3300510: MEP_TreeBark_01_j 7
-    3300512: MEP_TreeBark_01_j 8
-    3300514: MEP_TreeBark_01_j 9
-    3300516: MOTOR_boeing
-    3300518: NewMesh_tris_1047
-    3300520: NewMesh_tris_120
-    3300522: NewMesh_tris_144
-    3300524: NewMesh_tris_170
-    3300526: NewMesh_tris_173
-    3300528: NewMesh_tris_1987
-    3300530: NewMesh_tris_200
-    3300532: NewMesh_tris_220
-    3300534: NewMesh_tris_260
-    3300536: NewMesh_tris_308
-    3300538: NewMesh_tris_316
-    3300540: NewMesh_tris_320
-    3300542: NewMesh_tris_330
-    3300544: NewMesh_tris_370
-    3300546: NewMesh_tris_390
-    3300548: NewMesh_tris_412
-    3300550: NewMesh_tris_420
-    3300552: NewMesh_tris_430
-    3300554: NewMesh_tris_440
-    3300556: NewMesh_tris_444
-    3300558: NewMesh_tris_464
-    3300560: NewMesh_tris_476
-    3300562: NewMesh_tris_489
-    3300564: NewMesh_tris_489 (1)
-    3300566: NewMesh_tris_489 (2)
-    3300568: NewMesh_tris_489 (3)
-    3300570: NewMesh_tris_504
-    3300572: NewMesh_tris_518
-    3300574: NewMesh_tris_560
-    3300576: NewMesh_tris_572
-    3300578: NewMesh_tris_607
-    3300580: NewMesh_tris_616
-    3300582: NewMesh_tris_621
-    3300584: NewMesh_tris_630
-    3300586: NewMesh_tris_630 1
-    3300588: NewMesh_tris_630 2
-    3300590: NewMesh_tris_637
-    3300592: NewMesh_tris_668
-    3300594: NewMesh_tris_680
-    3300596: NewMesh_tris_688
-    3300598: NewMesh_tris_860
-    3300600: Object075
-    3300602: Object075 1
-    3300604: Pipe
-    3300606: Pipe (1)
-    3300608: Pipe (10)
-    3300610: Pipe (11)
-    3300612: Pipe (12)
-    3300614: Pipe (13)
-    3300616: Pipe (14)
-    3300618: Pipe (2)
-    3300620: Pipe (3)
-    3300622: Pipe (4)
-    3300624: Pipe (5)
-    3300626: Pipe (6)
-    3300628: Pipe (7)
-    3300630: Pipe (8)
-    3300632: Pipe (9)
-    3300634: Scene_03_Terrain
-    3300636: Shack_04
-    3300638: Shack_04 (1)
-    3300640: Shtak_01
-    3300642: Shtak_02
-    3300644: Shtak_03
-    3300646: Shtak_04
-    3300648: Shtak_05
-    3300650: Shtak_06
-    3300652: Shtak_07
-    3300654: Shtak_08
-    3300656: Shtak_09
-    3300658: Shtak_10
-    3300660: Shtak_11
-    3300662: Shtak_12
-    3300664: Shtak_13
-    3300666: Shtak_14
-    3300668: Shtak_15
-    3300670: Shtak_16
-    3300672: Shtak_18
-    3300674: Shtak_19
-    3300676: Shtak_20
-    3300678: Shtak_21
-    3300680: Shtak_22
-    3300682: Shtak_break
-    3300684: Shtak_break01
-    3300686: Shtak_break02
-    3300688: Shtak_break03
-    3300690: Shtak_kalitka 1
-    3300692: TAIL_boeing
-    3300694: Tualet
-    3300696: WING_boeing
-    4300000: MEP_Grass_02_a 1
-    4300002: NewMesh_tris_316
-    4300004: NewMesh_tris_412
-    4300006: MEP_Grass_02_a 1
-    4300008: NewMesh_tris_464
-    4300010: MEP_Grass_02_a 1
-    4300012: NewMesh_tris_572
-    4300014: NewMesh_tris_688
-    4300016: NewMesh_tris_860
-    4300018: MEP_Grass_02_a 1
-    4300020: NewMesh_tris_308
-    4300022: NewMesh_tris_420
-    4300024: NewMesh_tris_476
-    4300026: NewMesh_tris_504
-    4300028: NewMesh_tris_518
-    4300030: NewMesh_tris_616
-    4300032: NewMesh_tris_630
-    4300034: NewMesh_tris_630
-    4300036: Box001
-    4300038: Object075
-    4300040: Hut
-    4300042: lavka
-    4300044: Shtak_01
-    4300046: Shtak_02
-    4300048: Shtak_03
-    4300050: Shtak_04
-    4300052: Shtak_05
-    4300054: Shtak_06
-    4300056: Shtak_07
-    4300058: Shtak_08
-    4300060: Shtak_09
-    4300062: Shtak_10
-    4300064: Shtak_11
-    4300066: Shtak_12
-    4300068: Shtak_13
-    4300070: Shtak_14
-    4300072: Shtak_15
-    4300074: Shtak_16
-    4300076: Shtak_18
-    4300078: Shtak_19
-    4300080: Shtak_20
-    4300082: Shtak_21
-    4300084: Shtak_22
-    4300086: Shtak_break
-    4300088: Shtak_break01
-    4300090: Shtak_break02
-    4300092: Shtak_break03
-    4300094: kalitka
-    4300096: Shtak_kalitka 1
-    4300098: Tualet
-    4300100: NewMesh_tris_1047
-    4300102: NewMesh_tris_170
-    4300104: NewMesh_tris_200
-    4300106: NewMesh_tris_220
-    4300108: NewMesh_tris_320
-    4300110: NewMesh_tris_330
-    4300112: NewMesh_tris_370
-    4300114: NewMesh_tris_390
-    4300116: NewMesh_tris_430
-    4300118: NewMesh_tris_440
-    4300120: NewMesh_tris_630
-    4300122: NewMesh_tris_621
-    4300124: NewMesh_tris_607
-    4300126: NewMesh_tris_173
-    4300128: NewMesh_tris_120
-    4300130: NewMesh_tris_637
-    4300132: NewMesh_tris_489
-    4300134: NewMesh_tris_680
-    4300136: NewMesh_tris_1987
-    4300138: NewMesh_tris_489 (1)
-    4300140: NewMesh_tris_489 (2)
-    4300142: NewMesh_tris_489 (3)
-    4300144: NewMesh_tris_144
-    4300146: MEP_Leafs_02_a
-    4300148: MEP_TreeBark_01_a
-    4300150: MEP_Leafs_02_a
-    4300152: MEP_TreeBark_01_a
-    4300154: MEP_Leafs_02_a
-    4300156: MEP_TreeBark_01_a
-    4300158: MEP_Leafs_02_a
-    4300160: MEP_TreeBark_01_a
-    4300162: MEP_Leafs_02_b
-    4300164: MEP_TreeBark_01_b
-    4300166: MEP_Leafs_02_b
-    4300168: MEP_TreeBark_01_b
-    4300170: MEP_Leafs_02_b
-    4300172: MEP_TreeBark_01_b
-    4300174: MEP_Leafs_02_b
-    4300176: MEP_TreeBark_01_b
-    4300178: MEP_Leafs_02_b
-    4300180: MEP_TreeBark_01_b
-    4300182: MEP_Leafs_02_b
-    4300184: MEP_TreeBark_01_b
-    4300186: MEP_Leafs_02_b
-    4300188: MEP_TreeBark_01_b
-    4300190: MEP_Leafs_02_b
-    4300192: MEP_TreeBark_01_b
-    4300194: MEP_Leafs_02_b
-    4300196: MEP_TreeBark_01_b
-    4300198: MEP_Leafs_02_b
-    4300200: MEP_TreeBark_01_b
-    4300202: MEP_Leafs_02_b
-    4300204: MEP_TreeBark_01_b
-    4300206: MEP_Leafs_02_b
-    4300208: MEP_TreeBark_01_b
-    4300210: MEP_Leafs_02_b
-    4300212: MEP_TreeBark_01_b
-    4300214: MEP_Leafs_02_b
-    4300216: MEP_TreeBark_01_b
-    4300218: MEP_Leafs_02_b
-    4300220: MEP_TreeBark_01_b
-    4300222: MEP_Leafs_02_b
-    4300224: MEP_TreeBark_01_b
-    4300226: EP_Leafs_02_b
-    4300228: MEP_TreeBark_01_c
-    4300230: EP_Leafs_02_b
-    4300232: MEP_TreeBark_01_c
-    4300234: EP_Leafs_02_b
-    4300236: MEP_TreeBark_01_c
-    4300238: EP_Leafs_02_b
-    4300240: MEP_TreeBark_01_c
-    4300242: EP_Leafs_02_b
-    4300244: MEP_TreeBark_01_c
-    4300246: EP_Leafs_02_b
-    4300248: MEP_TreeBark_01_c
-    4300250: EP_Leafs_02_b
-    4300252: MEP_TreeBark_01_c
-    4300254: EP_Leafs_02_b
-    4300256: MEP_TreeBark_01_c
-    4300258: MEP_Leafs_02_d
-    4300260: MEP_TreeBark_01_d
-    4300262: MEP_TreeBark_01_d
-    4300264: MEP_Leafs_02_d
-    4300266: MEP_TreeBark_01_d
-    4300268: MEP_Leafs_02_d
-    4300270: MEP_TreeBark_01_d
-    4300272: MEP_Leafs_02_d
-    4300274: MEP_TreeBark_01_d
-    4300276: MEP_Leafs_02_d
-    4300278: MEP_TreeBark_01_d
-    4300280: MEP_Leafs_02_e
-    4300282: MEP_TreeBark_01_e
-    4300284: MEP_Leafs_02_e
-    4300286: MEP_TreeBark_01_e
-    4300288: MEP_Leafs_02_e
-    4300290: MEP_TreeBark_01_e
-    4300292: MEP_Leafs_02_e
-    4300294: MEP_TreeBark_01_e
-    4300296: MEP_Leafs_02_e
-    4300298: MEP_TreeBark_01_e
-    4300300: MEP_Leafs_02_e
-    4300302: MEP_TreeBark_01_e
-    4300304: MEP_Leafs_02_e
-    4300306: MEP_TreeBark_01_e
-    4300308: MEP_Leafs_02_e
-    4300310: MEP_TreeBark_01_e
-    4300312: MEP_Leafs_02_e
-    4300314: MEP_TreeBark_01_e
-    4300316: MEP_Leafs_02_e
-    4300318: MEP_TreeBark_01_e
-    4300320: MEP_Leafs_02_e
-    4300322: MEP_TreeBark_01_e
-    4300324: MEP_Leafs_02_e
-    4300326: MEP_TreeBark_01_e
-    4300328: MEP_Leafs_02_e
-    4300330: MEP_TreeBark_01_e
-    4300332: MEP_Leafs_02_e
-    4300334: MEP_TreeBark_01_e
-    4300336: EP_Leafs_02_f
-    4300338: MEP_TreeBark_01_f
-    4300340: EP_Leafs_02_f
-    4300342: MEP_TreeBark_01_f
-    4300344: EP_Leafs_02_f
-    4300346: MEP_TreeBark_01_f
-    4300348: EP_Leafs_02_f
-    4300350: MEP_TreeBark_01_f
-    4300352: EP_Leafs_02_f
-    4300354: MEP_TreeBark_01_f
-    4300356: EP_Leafs_02_f
-    4300358: MEP_TreeBark_01_f
-    4300360: EP_Leafs_02_f
-    4300362: MEP_TreeBark_01_f
-    4300364: EP_Leafs_02_f
-    4300366: MEP_TreeBark_01_f
-    4300368: EP_Leafs_02_f
-    4300370: MEP_TreeBark_01_f
-    4300372: EP_Leafs_02_f
-    4300374: MEP_TreeBark_01_f
-    4300376: EP_Leafs_02_f
-    4300378: MEP_TreeBark_01_f
-    4300380: EP_Leafs_02_f
-    4300382: MEP_TreeBark_01_f
-    4300384: MEP_Leafs_02_i
-    4300386: MEP_TreeBark_01_i
-    4300388: MEP_Leafs_02_i
-    4300390: MEP_TreeBark_01_i
-    4300392: MEP_Leafs_02_i
-    4300394: MEP_TreeBark_01_i
-    4300396: MEP_Leafs_02_i
-    4300398: MEP_TreeBark_01_i
-    4300400: MEP_Leafs_02_i
-    4300402: MEP_TreeBark_01_i
-    4300404: MEP_Leafs_02_i
-    4300406: MEP_TreeBark_01_i
-    4300408: MEP_Leafs_02_i
-    4300410: MEP_TreeBark_01_i
-    4300412: MEP_Leafs_02_i
-    4300414: MEP_TreeBark_01_i
-    4300416: MEP_Leafs_02_i
-    4300418: MEP_TreeBark_01_i
-    4300420: MEP_Leafs_02_i
-    4300422: MEP_TreeBark_01_i
-    4300424: MEP_Leafs_02_i
-    4300426: MEP_TreeBark_01_i
-    4300428: MEP_Leafs_02_i
-    4300430: MEP_TreeBark_01_i
-    4300432: MEP_Leafs_02_i
-    4300434: MEP_TreeBark_01_i
-    4300436: MEP_Leafs_02_i
-    4300438: MEP_TreeBark_01_i
-    4300440: MEP_Leafs_02_i
-    4300442: MEP_TreeBark_01_i
-    4300444: MEP_Leafs_02_i
-    4300446: MEP_TreeBark_01_i
-    4300448: MEP_Leafs_02_i
-    4300450: MEP_TreeBark_01_i
-    4300452: MEP_Leafs_02_i
-    4300454: MEP_TreeBark_01_i
-    4300456: MEP_Leafs_02_i
-    4300458: MEP_TreeBark_01_i
-    4300460: MEP_Leafs_02_i
-    4300462: MEP_TreeBark_01_i
-    4300464: MEP_Leafs_02_i
-    4300466: MEP_TreeBark_01_i
-    4300468: MEP_Leafs_02_i
-    4300470: MEP_TreeBark_01_i
-    4300472: MEP_Leafs_02_i
-    4300474: MEP_TreeBark_01_i
-    4300476: MEP_Leafs_02_i
-    4300478: MEP_TreeBark_01_i
-    4300480: MEP_Leafs_02_i
-    4300482: MEP_TreeBark_01_i
-    4300484: MEP_Leafs_02_j
-    4300486: MEP_TreeBark_01_j
-    4300488: MEP_Leafs_02_j
-    4300490: MEP_TreeBark_01_j
-    4300492: MEP_Leafs_02_j
-    4300494: MEP_TreeBark_01_j
-    4300496: MEP_Leafs_02_j
-    4300498: MEP_TreeBark_01_j
-    4300500: MEP_Leafs_02_j
-    4300502: MEP_TreeBark_01_j
-    4300504: MEP_Leafs_02_j
-    4300506: MEP_TreeBark_01_j
-    4300508: MEP_Leafs_02_j
-    4300510: MEP_TreeBark_01_j
-    4300512: MEP_Leafs_02_j
-    4300514: MEP_TreeBark_01_j
-    4300516: MEP_Leafs_02_j
-    4300518: MEP_TreeBark_01_j
-    4300520: MEP_Leafs_02_j
-    4300522: MEP_TreeBark_01_j
-    4300524: MEP_Leafs_02_j
-    4300526: MEP_TreeBark_01_j
-    4300528: MEP_Leafs_02_j
-    4300530: MEP_TreeBark_01_j
-    4300532: MEP_Leafs_02_j
-    4300534: MEP_TreeBark_01_j
-    4300536: MEP_Leafs_02_j
-    4300538: MEP_TreeBark_01_j
-    4300540: MEP_Leafs_02_j
-    4300542: MEP_TreeBark_01_j
-    4300544: MEP_Leafs_02_j
-    4300546: MEP_TreeBark_01_j
-    4300548: MEP_Leafs_02_j
-    4300550: MEP_TreeBark_01_j
-    4300552: MEP_Leafs_02_j
-    4300554: MEP_TreeBark_01_j
-    4300556: MEP_Leafs_02_j
-    4300558: MEP_TreeBark_01_j
-    4300560: MEP_Leafs_02_j
-    4300562: MEP_TreeBark_01_j
-    4300564: MEP_Leafs_02_j
-    4300566: MEP_TreeBark_01_j
-    4300568: MEP_Leafs_02_e
-    4300570: MEP_TreeBark_01_e
-    4300572: EP_Leafs_02_f
-    4300574: MEP_TreeBark_01_f
-    4300576: EP_Leafs_02_f
-    4300578: MEP_TreeBark_01_f
-    4300580: EP_Leafs_02_f
-    4300582: MEP_TreeBark_01_f
-    4300584: MEP_Leafs_02_e
-    4300586: MEP_TreeBark_01_e
-    4300588: MEP_Leafs_02_e
-    4300590: MEP_TreeBark_01_e
-    4300592: MEP_Leafs_02_e
-    4300594: MEP_TreeBark_01_e
-    4300596: MEP_Leafs_02_b
-    4300598: MEP_TreeBark_01_b
-    4300600: MEP_Leafs_02_b
-    4300602: MEP_TreeBark_01_b
-    4300604: MEP_Leafs_02_b
-    4300606: MEP_TreeBark_01_b
-    4300608: MEP_Leafs_02_b
-    4300610: MEP_TreeBark_01_b
-    4300612: MEP_Leafs_02_b
-    4300614: MEP_TreeBark_01_b
-    4300616: MEP_Leafs_02_b
-    4300618: MEP_TreeBark_01_b
-    4300620: MEP_Leafs_02_b
-    4300622: MEP_TreeBark_01_b
-    4300624: MEP_Leafs_02_b
-    4300626: MEP_TreeBark_01_b
-    4300628: MEP_Leafs_02_b
-    4300630: MEP_TreeBark_01_b
-    4300632: MEP_Leafs_02_b
-    4300634: MEP_TreeBark_01_b
-    4300636: MEP_Shack_05
-    4300638: Shack_04
-    4300640: Shack_04 (1)
-    4300642: NewMesh_tris_260
-    4300644: NewMesh_tris_444
-    4300646: NewMesh_tris_560
-    4300648: NewMesh_tris_668
-    4300650: Scene_03_Terrain
-    4300652: Pipe
-    4300654: MEP_Cliff_S_11
-    4300656: BASE_boeing
-    4300658: CABIN_boeing
-    4300660: MOTOR_boeing
-    4300662: TAIL_boeing
-    4300664: WING_boeing
-    4300666: Pipe (1)
-    4300668: Pipe (2)
-    4300670: Pipe (3)
-    4300672: Pipe (4)
-    4300674: Pipe (5)
-    4300676: Pipe (6)
-    4300678: Pipe (7)
-    4300680: Pipe (8)
-    4300682: Pipe (9)
-    4300684: Pipe (10)
-    4300686: Pipe (11)
-    4300688: Pipe (12)
-    4300690: Pipe (13)
-    4300692: Pipe (14)
-    4300694: Box001
-    4300696: Object075
-    2186277476908879412: ImportLogs
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: BASE_boeing
+  - first:
+      1: 100002
+    second: Box001
+  - first:
+      1: 100004
+    second: Box001 1
+  - first:
+      1: 100006
+    second: Brick_garage
+  - first:
+      1: 100008
+    second: BULDING1_0_0
+  - first:
+      1: 100010
+    second: CABIN_boeing
+  - first:
+      1: 100012
+    second: Crashed_Boeing
+  - first:
+      1: 100014
+    second: EP_Leafs_02_b
+  - first:
+      1: 100016
+    second: EP_Leafs_02_b 1
+  - first:
+      1: 100018
+    second: EP_Leafs_02_b 2
+  - first:
+      1: 100020
+    second: EP_Leafs_02_b 3
+  - first:
+      1: 100022
+    second: EP_Leafs_02_b 4
+  - first:
+      1: 100024
+    second: EP_Leafs_02_b 5
+  - first:
+      1: 100026
+    second: EP_Leafs_02_b 6
+  - first:
+      1: 100028
+    second: EP_Leafs_02_b 7
+  - first:
+      1: 100030
+    second: EP_Leafs_02_f
+  - first:
+      1: 100032
+    second: EP_Leafs_02_f 1
+  - first:
+      1: 100034
+    second: EP_Leafs_02_f 10
+  - first:
+      1: 100036
+    second: EP_Leafs_02_f 11
+  - first:
+      1: 100038
+    second: EP_Leafs_02_f 12
+  - first:
+      1: 100040
+    second: EP_Leafs_02_f 13
+  - first:
+      1: 100042
+    second: EP_Leafs_02_f 14
+  - first:
+      1: 100044
+    second: EP_Leafs_02_f 2
+  - first:
+      1: 100046
+    second: EP_Leafs_02_f 3
+  - first:
+      1: 100048
+    second: EP_Leafs_02_f 4
+  - first:
+      1: 100050
+    second: EP_Leafs_02_f 5
+  - first:
+      1: 100052
+    second: EP_Leafs_02_f 6
+  - first:
+      1: 100054
+    second: EP_Leafs_02_f 7
+  - first:
+      1: 100056
+    second: EP_Leafs_02_f 8
+  - first:
+      1: 100058
+    second: EP_Leafs_02_f 9
+  - first:
+      1: 100060
+    second: GameObject
+  - first:
+      1: 100062
+    second: Hut
+  - first:
+      1: 100064
+    second: Hutor
+  - first:
+      1: 100066
+    second: kalitka
+  - first:
+      1: 100068
+    second: lavka
+  - first:
+      1: 100070
+    second: MEP_Birch_01_Part_02_Tris144_N(Clone)
+  - first:
+      1: 100072
+    second: MEP_Birches
+  - first:
+      1: 100074
+    second: MEP_Bushes
+  - first:
+      1: 100076
+    second: MEP_Cliff_05_Tris1047_N(Clone)
+  - first:
+      1: 100078
+    second: MEP_Cliff_18_Tris489_N(Clone)
+  - first:
+      1: 100080
+    second: MEP_Cliff_20_Tris812_N(Clone)
+  - first:
+      1: 100082
+    second: MEP_Cliff_S_10_Tris170_N(Clone)
+  - first:
+      1: 100084
+    second: MEP_Cliff_S_10_Tris200_N(Clone)
+  - first:
+      1: 100086
+    second: MEP_Cliff_S_10_Tris220_N(Clone)
+  - first:
+      1: 100088
+    second: MEP_Cliff_S_10_Tris320_N(Clone)
+  - first:
+      1: 100090
+    second: MEP_Cliff_S_10_Tris330_N(Clone)
+  - first:
+      1: 100092
+    second: MEP_Cliff_S_10_Tris370_N(Clone)
+  - first:
+      1: 100094
+    second: MEP_Cliff_S_10_Tris390_N(Clone)
+  - first:
+      1: 100096
+    second: MEP_Cliff_S_10_Tris430_N(Clone)
+  - first:
+      1: 100098
+    second: MEP_Cliff_S_10_Tris440_N(Clone)
+  - first:
+      1: 100100
+    second: MEP_Cliff_S_10_Tris470_N(Clone)
+  - first:
+      1: 100102
+    second: MEP_Cliff_S_10_Tris630_N(Clone)
+  - first:
+      1: 100104
+    second: MEP_Cliff_S_10_Tris680_N(Clone)
+  - first:
+      1: 100106
+    second: MEP_Cliff_S_11
+  - first:
+      1: 100108
+    second: MEP_DesertCliff_03_Tris1987_N(Clone)
+  - first:
+      1: 100110
+    second: MEP_DirtBoulder_01_Tris621_N(Clone)
+  - first:
+      1: 100112
+    second: MEP_Dirtedge_03_Tris607_N(Clone)
+  - first:
+      1: 100114
+    second: MEP_Grass
+  - first:
+      1: 100116
+    second: MEP_Grass_02_a 1
+  - first:
+      1: 100118
+    second: MEP_Grass_02_a 1 1
+  - first:
+      1: 100120
+    second: MEP_Grass_02_a 1 2
+  - first:
+      1: 100122
+    second: MEP_Grass_02_a 1 3
+  - first:
+      1: 100124
+    second: MEP_Grass_02_a_S_Tris284_N(Clone)
+  - first:
+      1: 100126
+    second: MEP_Grass_02_a_S_Tris316_N(Clone)
+  - first:
+      1: 100128
+    second: MEP_Grass_02_a_S_Tris412_N(Clone)
+  - first:
+      1: 100130
+    second: MEP_Grass_02_a_S_Tris456_N(Clone)
+  - first:
+      1: 100132
+    second: MEP_Grass_02_a_S_Tris464_N(Clone)
+  - first:
+      1: 100134
+    second: MEP_Grass_02_a_S_Tris504_N(Clone)
+  - first:
+      1: 100136
+    second: MEP_Grass_02_a_S_Tris540_N(Clone)
+  - first:
+      1: 100138
+    second: MEP_Grass_02_a_S_Tris572_N(Clone)
+  - first:
+      1: 100140
+    second: MEP_Grass_02_a_S_Tris688_N(Clone)
+  - first:
+      1: 100142
+    second: MEP_Grass_02_a_S_Tris860_N(Clone)
+  - first:
+      1: 100144
+    second: MEP_Grass_02_a_S_Tris988_N(Clone)
+  - first:
+      1: 100146
+    second: MEP_GroundBrush
+  - first:
+      1: 100148
+    second: MEP_GroundBrush_a_Tris182_N(Clone)
+  - first:
+      1: 100150
+    second: MEP_GroundBrush_a_Tris308_N(Clone)
+  - first:
+      1: 100152
+    second: MEP_GroundBrush_a_Tris420_N(Clone)
+  - first:
+      1: 100154
+    second: MEP_GroundBrush_a_Tris476_N(Clone)
+  - first:
+      1: 100156
+    second: MEP_GroundBrush_a_Tris504_N(Clone)
+  - first:
+      1: 100158
+    second: MEP_GroundBrush_a_Tris518_N(Clone)
+  - first:
+      1: 100160
+    second: MEP_GroundBrush_a_Tris616_N(Clone)
+  - first:
+      1: 100162
+    second: MEP_GroundBrush_a_Tris630_N(Clone)
+  - first:
+      1: 100164
+    second: MEP_GroundBrush_a_Tris630_N_1(Clone)
+  - first:
+      1: 100166
+    second: MEP_Leafs_02_a
+  - first:
+      1: 100168
+    second: MEP_Leafs_02_a 1
+  - first:
+      1: 100170
+    second: MEP_Leafs_02_a 2
+  - first:
+      1: 100172
+    second: MEP_Leafs_02_a 3
+  - first:
+      1: 100174
+    second: MEP_Leafs_02_b
+  - first:
+      1: 100176
+    second: MEP_Leafs_02_b 1
+  - first:
+      1: 100178
+    second: MEP_Leafs_02_b 10
+  - first:
+      1: 100180
+    second: MEP_Leafs_02_b 11
+  - first:
+      1: 100182
+    second: MEP_Leafs_02_b 12
+  - first:
+      1: 100184
+    second: MEP_Leafs_02_b 13
+  - first:
+      1: 100186
+    second: MEP_Leafs_02_b 14
+  - first:
+      1: 100188
+    second: MEP_Leafs_02_b 15
+  - first:
+      1: 100190
+    second: MEP_Leafs_02_b 16
+  - first:
+      1: 100192
+    second: MEP_Leafs_02_b 17
+  - first:
+      1: 100194
+    second: MEP_Leafs_02_b 18
+  - first:
+      1: 100196
+    second: MEP_Leafs_02_b 19
+  - first:
+      1: 100198
+    second: MEP_Leafs_02_b 2
+  - first:
+      1: 100200
+    second: MEP_Leafs_02_b 20
+  - first:
+      1: 100202
+    second: MEP_Leafs_02_b 21
+  - first:
+      1: 100204
+    second: MEP_Leafs_02_b 22
+  - first:
+      1: 100206
+    second: MEP_Leafs_02_b 23
+  - first:
+      1: 100208
+    second: MEP_Leafs_02_b 24
+  - first:
+      1: 100210
+    second: MEP_Leafs_02_b 25
+  - first:
+      1: 100212
+    second: MEP_Leafs_02_b 3
+  - first:
+      1: 100214
+    second: MEP_Leafs_02_b 4
+  - first:
+      1: 100216
+    second: MEP_Leafs_02_b 5
+  - first:
+      1: 100218
+    second: MEP_Leafs_02_b 6
+  - first:
+      1: 100220
+    second: MEP_Leafs_02_b 7
+  - first:
+      1: 100222
+    second: MEP_Leafs_02_b 8
+  - first:
+      1: 100224
+    second: MEP_Leafs_02_b 9
+  - first:
+      1: 100226
+    second: MEP_Leafs_02_d
+  - first:
+      1: 100228
+    second: MEP_Leafs_02_d 1
+  - first:
+      1: 100230
+    second: MEP_Leafs_02_d 2
+  - first:
+      1: 100232
+    second: MEP_Leafs_02_d 3
+  - first:
+      1: 100234
+    second: MEP_Leafs_02_d 4
+  - first:
+      1: 100236
+    second: MEP_Leafs_02_e
+  - first:
+      1: 100238
+    second: MEP_Leafs_02_e 1
+  - first:
+      1: 100240
+    second: MEP_Leafs_02_e 10
+  - first:
+      1: 100242
+    second: MEP_Leafs_02_e 11
+  - first:
+      1: 100244
+    second: MEP_Leafs_02_e 12
+  - first:
+      1: 100246
+    second: MEP_Leafs_02_e 13
+  - first:
+      1: 100248
+    second: MEP_Leafs_02_e 14
+  - first:
+      1: 100250
+    second: MEP_Leafs_02_e 15
+  - first:
+      1: 100252
+    second: MEP_Leafs_02_e 16
+  - first:
+      1: 100254
+    second: MEP_Leafs_02_e 17
+  - first:
+      1: 100256
+    second: MEP_Leafs_02_e 2
+  - first:
+      1: 100258
+    second: MEP_Leafs_02_e 3
+  - first:
+      1: 100260
+    second: MEP_Leafs_02_e 4
+  - first:
+      1: 100262
+    second: MEP_Leafs_02_e 5
+  - first:
+      1: 100264
+    second: MEP_Leafs_02_e 6
+  - first:
+      1: 100266
+    second: MEP_Leafs_02_e 7
+  - first:
+      1: 100268
+    second: MEP_Leafs_02_e 8
+  - first:
+      1: 100270
+    second: MEP_Leafs_02_e 9
+  - first:
+      1: 100272
+    second: MEP_Leafs_02_i
+  - first:
+      1: 100274
+    second: MEP_Leafs_02_i 1
+  - first:
+      1: 100276
+    second: MEP_Leafs_02_i 10
+  - first:
+      1: 100278
+    second: MEP_Leafs_02_i 11
+  - first:
+      1: 100280
+    second: MEP_Leafs_02_i 12
+  - first:
+      1: 100282
+    second: MEP_Leafs_02_i 13
+  - first:
+      1: 100284
+    second: MEP_Leafs_02_i 14
+  - first:
+      1: 100286
+    second: MEP_Leafs_02_i 15
+  - first:
+      1: 100288
+    second: MEP_Leafs_02_i 16
+  - first:
+      1: 100290
+    second: MEP_Leafs_02_i 17
+  - first:
+      1: 100292
+    second: MEP_Leafs_02_i 18
+  - first:
+      1: 100294
+    second: MEP_Leafs_02_i 19
+  - first:
+      1: 100296
+    second: MEP_Leafs_02_i 2
+  - first:
+      1: 100298
+    second: MEP_Leafs_02_i 20
+  - first:
+      1: 100300
+    second: MEP_Leafs_02_i 21
+  - first:
+      1: 100302
+    second: MEP_Leafs_02_i 22
+  - first:
+      1: 100304
+    second: MEP_Leafs_02_i 23
+  - first:
+      1: 100306
+    second: MEP_Leafs_02_i 24
+  - first:
+      1: 100308
+    second: MEP_Leafs_02_i 3
+  - first:
+      1: 100310
+    second: MEP_Leafs_02_i 4
+  - first:
+      1: 100312
+    second: MEP_Leafs_02_i 5
+  - first:
+      1: 100314
+    second: MEP_Leafs_02_i 6
+  - first:
+      1: 100316
+    second: MEP_Leafs_02_i 7
+  - first:
+      1: 100318
+    second: MEP_Leafs_02_i 8
+  - first:
+      1: 100320
+    second: MEP_Leafs_02_i 9
+  - first:
+      1: 100322
+    second: MEP_Leafs_02_j
+  - first:
+      1: 100324
+    second: MEP_Leafs_02_j 1
+  - first:
+      1: 100326
+    second: MEP_Leafs_02_j 10
+  - first:
+      1: 100328
+    second: MEP_Leafs_02_j 11
+  - first:
+      1: 100330
+    second: MEP_Leafs_02_j 12
+  - first:
+      1: 100332
+    second: MEP_Leafs_02_j 13
+  - first:
+      1: 100334
+    second: MEP_Leafs_02_j 14
+  - first:
+      1: 100336
+    second: MEP_Leafs_02_j 15
+  - first:
+      1: 100338
+    second: MEP_Leafs_02_j 16
+  - first:
+      1: 100340
+    second: MEP_Leafs_02_j 17
+  - first:
+      1: 100342
+    second: MEP_Leafs_02_j 18
+  - first:
+      1: 100344
+    second: MEP_Leafs_02_j 19
+  - first:
+      1: 100346
+    second: MEP_Leafs_02_j 2
+  - first:
+      1: 100348
+    second: MEP_Leafs_02_j 20
+  - first:
+      1: 100350
+    second: MEP_Leafs_02_j 3
+  - first:
+      1: 100352
+    second: MEP_Leafs_02_j 4
+  - first:
+      1: 100354
+    second: MEP_Leafs_02_j 5
+  - first:
+      1: 100356
+    second: MEP_Leafs_02_j 6
+  - first:
+      1: 100358
+    second: MEP_Leafs_02_j 7
+  - first:
+      1: 100360
+    second: MEP_Leafs_02_j 8
+  - first:
+      1: 100362
+    second: MEP_Leafs_02_j 9
+  - first:
+      1: 100364
+    second: MEP_Rock_02_a_Tris173_N(Clone)
+  - first:
+      1: 100366
+    second: MEP_Rocks
+  - first:
+      1: 100368
+    second: MEP_Shack_05
+  - first:
+      1: 100370
+    second: MEP_Tree_02_a
+  - first:
+      1: 100372
+    second: MEP_Tree_02_a 1
+  - first:
+      1: 100374
+    second: MEP_Tree_02_a 2
+  - first:
+      1: 100376
+    second: MEP_Tree_02_a 3
+  - first:
+      1: 100378
+    second: MEP_Tree_02_b
+  - first:
+      1: 100380
+    second: MEP_Tree_02_b (1)
+  - first:
+      1: 100382
+    second: MEP_Tree_02_b (10)
+  - first:
+      1: 100384
+    second: MEP_Tree_02_b (2)
+  - first:
+      1: 100386
+    second: MEP_Tree_02_b (3)
+  - first:
+      1: 100388
+    second: MEP_Tree_02_b (4)
+  - first:
+      1: 100390
+    second: MEP_Tree_02_b (5)
+  - first:
+      1: 100392
+    second: MEP_Tree_02_b (6)
+  - first:
+      1: 100394
+    second: MEP_Tree_02_b (7)
+  - first:
+      1: 100396
+    second: MEP_Tree_02_b (8)
+  - first:
+      1: 100398
+    second: MEP_Tree_02_b (9)
+  - first:
+      1: 100400
+    second: MEP_Tree_02_b 1
+  - first:
+      1: 100402
+    second: MEP_Tree_02_b 10
+  - first:
+      1: 100404
+    second: MEP_Tree_02_b 11
+  - first:
+      1: 100406
+    second: MEP_Tree_02_b 12
+  - first:
+      1: 100408
+    second: MEP_Tree_02_b 13
+  - first:
+      1: 100410
+    second: MEP_Tree_02_b 14
+  - first:
+      1: 100412
+    second: MEP_Tree_02_b 15
+  - first:
+      1: 100414
+    second: MEP_Tree_02_b 2
+  - first:
+      1: 100416
+    second: MEP_Tree_02_b 3
+  - first:
+      1: 100418
+    second: MEP_Tree_02_b 4
+  - first:
+      1: 100420
+    second: MEP_Tree_02_b 5
+  - first:
+      1: 100422
+    second: MEP_Tree_02_b 6
+  - first:
+      1: 100424
+    second: MEP_Tree_02_b 7
+  - first:
+      1: 100426
+    second: MEP_Tree_02_b 8
+  - first:
+      1: 100428
+    second: MEP_Tree_02_b 9
+  - first:
+      1: 100430
+    second: 'MEP_Tree_02_c '
+  - first:
+      1: 100432
+    second: MEP_Tree_02_c  1
+  - first:
+      1: 100434
+    second: MEP_Tree_02_c  2
+  - first:
+      1: 100436
+    second: MEP_Tree_02_c  3
+  - first:
+      1: 100438
+    second: MEP_Tree_02_c  4
+  - first:
+      1: 100440
+    second: MEP_Tree_02_c  5
+  - first:
+      1: 100442
+    second: MEP_Tree_02_c  6
+  - first:
+      1: 100444
+    second: MEP_Tree_02_c  7
+  - first:
+      1: 100446
+    second: MEP_Tree_02_d
+  - first:
+      1: 100448
+    second: MEP_Tree_02_d 1
+  - first:
+      1: 100450
+    second: MEP_Tree_02_d 2
+  - first:
+      1: 100452
+    second: MEP_Tree_02_d 3
+  - first:
+      1: 100454
+    second: MEP_Tree_02_d 4
+  - first:
+      1: 100456
+    second: MEP_Tree_02_d 5
+  - first:
+      1: 100458
+    second: 'MEP_Tree_02_e '
+  - first:
+      1: 100460
+    second: MEP_Tree_02_e  1
+  - first:
+      1: 100462
+    second: MEP_Tree_02_e  10
+  - first:
+      1: 100464
+    second: MEP_Tree_02_e  11
+  - first:
+      1: 100466
+    second: MEP_Tree_02_e  12
+  - first:
+      1: 100468
+    second: MEP_Tree_02_e  13
+  - first:
+      1: 100470
+    second: MEP_Tree_02_e  14
+  - first:
+      1: 100472
+    second: MEP_Tree_02_e  2
+  - first:
+      1: 100474
+    second: MEP_Tree_02_e  3
+  - first:
+      1: 100476
+    second: MEP_Tree_02_e  4
+  - first:
+      1: 100478
+    second: MEP_Tree_02_e  5
+  - first:
+      1: 100480
+    second: MEP_Tree_02_e  6
+  - first:
+      1: 100482
+    second: MEP_Tree_02_e  7
+  - first:
+      1: 100484
+    second: MEP_Tree_02_e  8
+  - first:
+      1: 100486
+    second: MEP_Tree_02_e  9
+  - first:
+      1: 100488
+    second: MEP_Tree_02_e (1)
+  - first:
+      1: 100490
+    second: MEP_Tree_02_e (2)
+  - first:
+      1: 100492
+    second: MEP_Tree_02_e (3)
+  - first:
+      1: 100494
+    second: 'MEP_Tree_02_f '
+  - first:
+      1: 100496
+    second: MEP_Tree_02_f  1
+  - first:
+      1: 100498
+    second: MEP_Tree_02_f  10
+  - first:
+      1: 100500
+    second: MEP_Tree_02_f  11
+  - first:
+      1: 100502
+    second: MEP_Tree_02_f  12
+  - first:
+      1: 100504
+    second: MEP_Tree_02_f  2
+  - first:
+      1: 100506
+    second: MEP_Tree_02_f  3
+  - first:
+      1: 100508
+    second: MEP_Tree_02_f  4
+  - first:
+      1: 100510
+    second: MEP_Tree_02_f  5
+  - first:
+      1: 100512
+    second: MEP_Tree_02_f  6
+  - first:
+      1: 100514
+    second: MEP_Tree_02_f  7
+  - first:
+      1: 100516
+    second: MEP_Tree_02_f  8
+  - first:
+      1: 100518
+    second: MEP_Tree_02_f  9
+  - first:
+      1: 100520
+    second: MEP_Tree_02_f (1)
+  - first:
+      1: 100522
+    second: MEP_Tree_02_f (2)
+  - first:
+      1: 100524
+    second: 'MEP_Tree_02_i '
+  - first:
+      1: 100526
+    second: MEP_Tree_02_i  1
+  - first:
+      1: 100528
+    second: MEP_Tree_02_i  10
+  - first:
+      1: 100530
+    second: MEP_Tree_02_i  11
+  - first:
+      1: 100532
+    second: MEP_Tree_02_i  12
+  - first:
+      1: 100534
+    second: MEP_Tree_02_i  13
+  - first:
+      1: 100536
+    second: MEP_Tree_02_i  14
+  - first:
+      1: 100538
+    second: MEP_Tree_02_i  15
+  - first:
+      1: 100540
+    second: MEP_Tree_02_i  16
+  - first:
+      1: 100542
+    second: MEP_Tree_02_i  17
+  - first:
+      1: 100544
+    second: MEP_Tree_02_i  18
+  - first:
+      1: 100546
+    second: MEP_Tree_02_i  19
+  - first:
+      1: 100548
+    second: MEP_Tree_02_i  2
+  - first:
+      1: 100550
+    second: MEP_Tree_02_i  20
+  - first:
+      1: 100552
+    second: MEP_Tree_02_i  21
+  - first:
+      1: 100554
+    second: MEP_Tree_02_i  22
+  - first:
+      1: 100556
+    second: MEP_Tree_02_i  23
+  - first:
+      1: 100558
+    second: MEP_Tree_02_i  24
+  - first:
+      1: 100560
+    second: MEP_Tree_02_i  3
+  - first:
+      1: 100562
+    second: MEP_Tree_02_i  4
+  - first:
+      1: 100564
+    second: MEP_Tree_02_i  5
+  - first:
+      1: 100566
+    second: MEP_Tree_02_i  6
+  - first:
+      1: 100568
+    second: MEP_Tree_02_i  7
+  - first:
+      1: 100570
+    second: MEP_Tree_02_i  8
+  - first:
+      1: 100572
+    second: MEP_Tree_02_i  9
+  - first:
+      1: 100574
+    second: 'MEP_Tree_02_j '
+  - first:
+      1: 100576
+    second: MEP_Tree_02_j  1
+  - first:
+      1: 100578
+    second: MEP_Tree_02_j  10
+  - first:
+      1: 100580
+    second: MEP_Tree_02_j  11
+  - first:
+      1: 100582
+    second: MEP_Tree_02_j  12
+  - first:
+      1: 100584
+    second: MEP_Tree_02_j  13
+  - first:
+      1: 100586
+    second: MEP_Tree_02_j  14
+  - first:
+      1: 100588
+    second: MEP_Tree_02_j  15
+  - first:
+      1: 100590
+    second: MEP_Tree_02_j  16
+  - first:
+      1: 100592
+    second: MEP_Tree_02_j  17
+  - first:
+      1: 100594
+    second: MEP_Tree_02_j  18
+  - first:
+      1: 100596
+    second: MEP_Tree_02_j  19
+  - first:
+      1: 100598
+    second: MEP_Tree_02_j  2
+  - first:
+      1: 100600
+    second: MEP_Tree_02_j  20
+  - first:
+      1: 100602
+    second: MEP_Tree_02_j  3
+  - first:
+      1: 100604
+    second: MEP_Tree_02_j  4
+  - first:
+      1: 100606
+    second: MEP_Tree_02_j  5
+  - first:
+      1: 100608
+    second: MEP_Tree_02_j  6
+  - first:
+      1: 100610
+    second: MEP_Tree_02_j  7
+  - first:
+      1: 100612
+    second: MEP_Tree_02_j  8
+  - first:
+      1: 100614
+    second: MEP_Tree_02_j  9
+  - first:
+      1: 100616
+    second: MEP_TreeBark_01_a
+  - first:
+      1: 100618
+    second: MEP_TreeBark_01_a 1
+  - first:
+      1: 100620
+    second: MEP_TreeBark_01_a 2
+  - first:
+      1: 100622
+    second: MEP_TreeBark_01_a 3
+  - first:
+      1: 100624
+    second: MEP_TreeBark_01_b
+  - first:
+      1: 100626
+    second: MEP_TreeBark_01_b 1
+  - first:
+      1: 100628
+    second: MEP_TreeBark_01_b 10
+  - first:
+      1: 100630
+    second: MEP_TreeBark_01_b 11
+  - first:
+      1: 100632
+    second: MEP_TreeBark_01_b 12
+  - first:
+      1: 100634
+    second: MEP_TreeBark_01_b 13
+  - first:
+      1: 100636
+    second: MEP_TreeBark_01_b 14
+  - first:
+      1: 100638
+    second: MEP_TreeBark_01_b 15
+  - first:
+      1: 100640
+    second: MEP_TreeBark_01_b 16
+  - first:
+      1: 100642
+    second: MEP_TreeBark_01_b 17
+  - first:
+      1: 100644
+    second: MEP_TreeBark_01_b 18
+  - first:
+      1: 100646
+    second: MEP_TreeBark_01_b 19
+  - first:
+      1: 100648
+    second: MEP_TreeBark_01_b 2
+  - first:
+      1: 100650
+    second: MEP_TreeBark_01_b 20
+  - first:
+      1: 100652
+    second: MEP_TreeBark_01_b 21
+  - first:
+      1: 100654
+    second: MEP_TreeBark_01_b 22
+  - first:
+      1: 100656
+    second: MEP_TreeBark_01_b 23
+  - first:
+      1: 100658
+    second: MEP_TreeBark_01_b 24
+  - first:
+      1: 100660
+    second: MEP_TreeBark_01_b 25
+  - first:
+      1: 100662
+    second: MEP_TreeBark_01_b 3
+  - first:
+      1: 100664
+    second: MEP_TreeBark_01_b 4
+  - first:
+      1: 100666
+    second: MEP_TreeBark_01_b 5
+  - first:
+      1: 100668
+    second: MEP_TreeBark_01_b 6
+  - first:
+      1: 100670
+    second: MEP_TreeBark_01_b 7
+  - first:
+      1: 100672
+    second: MEP_TreeBark_01_b 8
+  - first:
+      1: 100674
+    second: MEP_TreeBark_01_b 9
+  - first:
+      1: 100676
+    second: MEP_TreeBark_01_c
+  - first:
+      1: 100678
+    second: MEP_TreeBark_01_c 1
+  - first:
+      1: 100680
+    second: MEP_TreeBark_01_c 2
+  - first:
+      1: 100682
+    second: MEP_TreeBark_01_c 3
+  - first:
+      1: 100684
+    second: MEP_TreeBark_01_c 4
+  - first:
+      1: 100686
+    second: MEP_TreeBark_01_c 5
+  - first:
+      1: 100688
+    second: MEP_TreeBark_01_c 6
+  - first:
+      1: 100690
+    second: MEP_TreeBark_01_c 7
+  - first:
+      1: 100692
+    second: MEP_TreeBark_01_d
+  - first:
+      1: 100694
+    second: MEP_TreeBark_01_d 1
+  - first:
+      1: 100696
+    second: MEP_TreeBark_01_d 2
+  - first:
+      1: 100698
+    second: MEP_TreeBark_01_d 3
+  - first:
+      1: 100700
+    second: MEP_TreeBark_01_d 4
+  - first:
+      1: 100702
+    second: MEP_TreeBark_01_d 5
+  - first:
+      1: 100704
+    second: MEP_TreeBark_01_e
+  - first:
+      1: 100706
+    second: MEP_TreeBark_01_e 1
+  - first:
+      1: 100708
+    second: MEP_TreeBark_01_e 10
+  - first:
+      1: 100710
+    second: MEP_TreeBark_01_e 11
+  - first:
+      1: 100712
+    second: MEP_TreeBark_01_e 12
+  - first:
+      1: 100714
+    second: MEP_TreeBark_01_e 13
+  - first:
+      1: 100716
+    second: MEP_TreeBark_01_e 14
+  - first:
+      1: 100718
+    second: MEP_TreeBark_01_e 15
+  - first:
+      1: 100720
+    second: MEP_TreeBark_01_e 16
+  - first:
+      1: 100722
+    second: MEP_TreeBark_01_e 17
+  - first:
+      1: 100724
+    second: MEP_TreeBark_01_e 2
+  - first:
+      1: 100726
+    second: MEP_TreeBark_01_e 3
+  - first:
+      1: 100728
+    second: MEP_TreeBark_01_e 4
+  - first:
+      1: 100730
+    second: MEP_TreeBark_01_e 5
+  - first:
+      1: 100732
+    second: MEP_TreeBark_01_e 6
+  - first:
+      1: 100734
+    second: MEP_TreeBark_01_e 7
+  - first:
+      1: 100736
+    second: MEP_TreeBark_01_e 8
+  - first:
+      1: 100738
+    second: MEP_TreeBark_01_e 9
+  - first:
+      1: 100740
+    second: MEP_TreeBark_01_f
+  - first:
+      1: 100742
+    second: MEP_TreeBark_01_f 1
+  - first:
+      1: 100744
+    second: MEP_TreeBark_01_f 10
+  - first:
+      1: 100746
+    second: MEP_TreeBark_01_f 11
+  - first:
+      1: 100748
+    second: MEP_TreeBark_01_f 12
+  - first:
+      1: 100750
+    second: MEP_TreeBark_01_f 13
+  - first:
+      1: 100752
+    second: MEP_TreeBark_01_f 14
+  - first:
+      1: 100754
+    second: MEP_TreeBark_01_f 2
+  - first:
+      1: 100756
+    second: MEP_TreeBark_01_f 3
+  - first:
+      1: 100758
+    second: MEP_TreeBark_01_f 4
+  - first:
+      1: 100760
+    second: MEP_TreeBark_01_f 5
+  - first:
+      1: 100762
+    second: MEP_TreeBark_01_f 6
+  - first:
+      1: 100764
+    second: MEP_TreeBark_01_f 7
+  - first:
+      1: 100766
+    second: MEP_TreeBark_01_f 8
+  - first:
+      1: 100768
+    second: MEP_TreeBark_01_f 9
+  - first:
+      1: 100770
+    second: MEP_TreeBark_01_i
+  - first:
+      1: 100772
+    second: MEP_TreeBark_01_i 1
+  - first:
+      1: 100774
+    second: MEP_TreeBark_01_i 10
+  - first:
+      1: 100776
+    second: MEP_TreeBark_01_i 11
+  - first:
+      1: 100778
+    second: MEP_TreeBark_01_i 12
+  - first:
+      1: 100780
+    second: MEP_TreeBark_01_i 13
+  - first:
+      1: 100782
+    second: MEP_TreeBark_01_i 14
+  - first:
+      1: 100784
+    second: MEP_TreeBark_01_i 15
+  - first:
+      1: 100786
+    second: MEP_TreeBark_01_i 16
+  - first:
+      1: 100788
+    second: MEP_TreeBark_01_i 17
+  - first:
+      1: 100790
+    second: MEP_TreeBark_01_i 18
+  - first:
+      1: 100792
+    second: MEP_TreeBark_01_i 19
+  - first:
+      1: 100794
+    second: MEP_TreeBark_01_i 2
+  - first:
+      1: 100796
+    second: MEP_TreeBark_01_i 20
+  - first:
+      1: 100798
+    second: MEP_TreeBark_01_i 21
+  - first:
+      1: 100800
+    second: MEP_TreeBark_01_i 22
+  - first:
+      1: 100802
+    second: MEP_TreeBark_01_i 23
+  - first:
+      1: 100804
+    second: MEP_TreeBark_01_i 24
+  - first:
+      1: 100806
+    second: MEP_TreeBark_01_i 3
+  - first:
+      1: 100808
+    second: MEP_TreeBark_01_i 4
+  - first:
+      1: 100810
+    second: MEP_TreeBark_01_i 5
+  - first:
+      1: 100812
+    second: MEP_TreeBark_01_i 6
+  - first:
+      1: 100814
+    second: MEP_TreeBark_01_i 7
+  - first:
+      1: 100816
+    second: MEP_TreeBark_01_i 8
+  - first:
+      1: 100818
+    second: MEP_TreeBark_01_i 9
+  - first:
+      1: 100820
+    second: MEP_TreeBark_01_j
+  - first:
+      1: 100822
+    second: MEP_TreeBark_01_j 1
+  - first:
+      1: 100824
+    second: MEP_TreeBark_01_j 10
+  - first:
+      1: 100826
+    second: MEP_TreeBark_01_j 11
+  - first:
+      1: 100828
+    second: MEP_TreeBark_01_j 12
+  - first:
+      1: 100830
+    second: MEP_TreeBark_01_j 13
+  - first:
+      1: 100832
+    second: MEP_TreeBark_01_j 14
+  - first:
+      1: 100834
+    second: MEP_TreeBark_01_j 15
+  - first:
+      1: 100836
+    second: MEP_TreeBark_01_j 16
+  - first:
+      1: 100838
+    second: MEP_TreeBark_01_j 17
+  - first:
+      1: 100840
+    second: MEP_TreeBark_01_j 18
+  - first:
+      1: 100842
+    second: MEP_TreeBark_01_j 19
+  - first:
+      1: 100844
+    second: MEP_TreeBark_01_j 2
+  - first:
+      1: 100846
+    second: MEP_TreeBark_01_j 20
+  - first:
+      1: 100848
+    second: MEP_TreeBark_01_j 3
+  - first:
+      1: 100850
+    second: MEP_TreeBark_01_j 4
+  - first:
+      1: 100852
+    second: MEP_TreeBark_01_j 5
+  - first:
+      1: 100854
+    second: MEP_TreeBark_01_j 6
+  - first:
+      1: 100856
+    second: MEP_TreeBark_01_j 7
+  - first:
+      1: 100858
+    second: MEP_TreeBark_01_j 8
+  - first:
+      1: 100860
+    second: MEP_TreeBark_01_j 9
+  - first:
+      1: 100862
+    second: MEP_Trees
+  - first:
+      1: 100864
+    second: MEP_Village
+  - first:
+      1: 100866
+    second: MEP_Weed
+  - first:
+      1: 100868
+    second: MEP_Weed_02_a_2_S_Tris260_N(Clone)
+  - first:
+      1: 100870
+    second: MEP_Weed_02_a_2_S_Tris320_N(Clone)
+  - first:
+      1: 100872
+    second: MEP_Weed_02_a_2_S_Tris352_N(Clone)
+  - first:
+      1: 100874
+    second: MEP_Weed_02_a_2_S_Tris408_N(Clone)
+  - first:
+      1: 100876
+    second: MEP_Weed_02_a_2_S_Tris444_N(Clone)
+  - first:
+      1: 100878
+    second: MEP_Weed_02_a_2_S_Tris560_N(Clone)
+  - first:
+      1: 100880
+    second: MEP_Weed_02_a_2_S_Tris636_N(Clone)
+  - first:
+      1: 100882
+    second: MEP_Weed_02_a_2_S_Tris668_N(Clone)
+  - first:
+      1: 100884
+    second: MOTOR_boeing
+  - first:
+      1: 100886
+    second: NewMesh_tris_1047
+  - first:
+      1: 100888
+    second: NewMesh_tris_120
+  - first:
+      1: 100890
+    second: NewMesh_tris_120(Clone)
+  - first:
+      1: 100892
+    second: NewMesh_tris_144
+  - first:
+      1: 100894
+    second: NewMesh_tris_170
+  - first:
+      1: 100896
+    second: NewMesh_tris_173
+  - first:
+      1: 100898
+    second: NewMesh_tris_1987
+  - first:
+      1: 100900
+    second: NewMesh_tris_200
+  - first:
+      1: 100902
+    second: NewMesh_tris_220
+  - first:
+      1: 100904
+    second: NewMesh_tris_260
+  - first:
+      1: 100906
+    second: NewMesh_tris_308
+  - first:
+      1: 100908
+    second: NewMesh_tris_316
+  - first:
+      1: 100910
+    second: NewMesh_tris_320
+  - first:
+      1: 100912
+    second: NewMesh_tris_330
+  - first:
+      1: 100914
+    second: NewMesh_tris_370
+  - first:
+      1: 100916
+    second: NewMesh_tris_390
+  - first:
+      1: 100918
+    second: NewMesh_tris_412
+  - first:
+      1: 100920
+    second: NewMesh_tris_420
+  - first:
+      1: 100922
+    second: NewMesh_tris_430
+  - first:
+      1: 100924
+    second: NewMesh_tris_440
+  - first:
+      1: 100926
+    second: NewMesh_tris_444
+  - first:
+      1: 100928
+    second: NewMesh_tris_464
+  - first:
+      1: 100930
+    second: NewMesh_tris_470_Tris637_N(Clone)
+  - first:
+      1: 100932
+    second: NewMesh_tris_476
+  - first:
+      1: 100934
+    second: NewMesh_tris_489
+  - first:
+      1: 100936
+    second: NewMesh_tris_489 (1)
+  - first:
+      1: 100938
+    second: NewMesh_tris_489 (2)
+  - first:
+      1: 100940
+    second: NewMesh_tris_489 (3)
+  - first:
+      1: 100942
+    second: NewMesh_tris_504
+  - first:
+      1: 100944
+    second: NewMesh_tris_518
+  - first:
+      1: 100946
+    second: NewMesh_tris_560
+  - first:
+      1: 100948
+    second: NewMesh_tris_572
+  - first:
+      1: 100950
+    second: NewMesh_tris_607
+  - first:
+      1: 100952
+    second: NewMesh_tris_616
+  - first:
+      1: 100954
+    second: NewMesh_tris_621
+  - first:
+      1: 100956
+    second: NewMesh_tris_630
+  - first:
+      1: 100958
+    second: NewMesh_tris_630 1
+  - first:
+      1: 100960
+    second: NewMesh_tris_630 2
+  - first:
+      1: 100962
+    second: NewMesh_tris_637
+  - first:
+      1: 100964
+    second: NewMesh_tris_668
+  - first:
+      1: 100966
+    second: NewMesh_tris_680
+  - first:
+      1: 100968
+    second: NewMesh_tris_688
+  - first:
+      1: 100970
+    second: NewMesh_tris_860
+  - first:
+      1: 100972
+    second: Object075
+  - first:
+      1: 100974
+    second: Object075 1
+  - first:
+      1: 100976
+    second: Old building
+  - first:
+      1: 100978
+    second: Old building (1)
+  - first:
+      1: 100980
+    second: Pipe
+  - first:
+      1: 100982
+    second: Pipe (1)
+  - first:
+      1: 100984
+    second: Pipe (10)
+  - first:
+      1: 100986
+    second: Pipe (11)
+  - first:
+      1: 100988
+    second: Pipe (12)
+  - first:
+      1: 100990
+    second: Pipe (13)
+  - first:
+      1: 100992
+    second: Pipe (14)
+  - first:
+      1: 100994
+    second: Pipe (2)
+  - first:
+      1: 100996
+    second: Pipe (3)
+  - first:
+      1: 100998
+    second: Pipe (4)
+  - first:
+      1: 101000
+    second: Pipe (5)
+  - first:
+      1: 101002
+    second: Pipe (6)
+  - first:
+      1: 101004
+    second: Pipe (7)
+  - first:
+      1: 101006
+    second: Pipe (8)
+  - first:
+      1: 101008
+    second: Pipe (9)
+  - first:
+      1: 101010
+    second: //RootNode
+  - first:
+      1: 101012
+    second: Scene_03_Terrain
+  - first:
+      1: 101014
+    second: Shack_04
+  - first:
+      1: 101016
+    second: Shack_04 (1)
+  - first:
+      1: 101018
+    second: Shtak_01
+  - first:
+      1: 101020
+    second: Shtak_02
+  - first:
+      1: 101022
+    second: Shtak_03
+  - first:
+      1: 101024
+    second: Shtak_04
+  - first:
+      1: 101026
+    second: Shtak_05
+  - first:
+      1: 101028
+    second: Shtak_06
+  - first:
+      1: 101030
+    second: Shtak_07
+  - first:
+      1: 101032
+    second: Shtak_08
+  - first:
+      1: 101034
+    second: Shtak_09
+  - first:
+      1: 101036
+    second: Shtak_10
+  - first:
+      1: 101038
+    second: Shtak_11
+  - first:
+      1: 101040
+    second: Shtak_12
+  - first:
+      1: 101042
+    second: Shtak_13
+  - first:
+      1: 101044
+    second: Shtak_14
+  - first:
+      1: 101046
+    second: Shtak_15
+  - first:
+      1: 101048
+    second: Shtak_16
+  - first:
+      1: 101050
+    second: Shtak_18
+  - first:
+      1: 101052
+    second: Shtak_19
+  - first:
+      1: 101054
+    second: Shtak_20
+  - first:
+      1: 101056
+    second: Shtak_21
+  - first:
+      1: 101058
+    second: Shtak_22
+  - first:
+      1: 101060
+    second: Shtak_break
+  - first:
+      1: 101062
+    second: Shtak_break01
+  - first:
+      1: 101064
+    second: Shtak_break02
+  - first:
+      1: 101066
+    second: Shtak_break03
+  - first:
+      1: 101068
+    second: Shtak_kalitka
+  - first:
+      1: 101070
+    second: Shtak_kalitka 1
+  - first:
+      1: 101072
+    second: TAIL_boeing
+  - first:
+      1: 101074
+    second: Tualet
+  - first:
+      1: 101076
+    second: WING_boeing
+  - first:
+      4: 400000
+    second: BASE_boeing
+  - first:
+      4: 400002
+    second: Box001
+  - first:
+      4: 400004
+    second: Box001 1
+  - first:
+      4: 400006
+    second: Brick_garage
+  - first:
+      4: 400008
+    second: BULDING1_0_0
+  - first:
+      4: 400010
+    second: CABIN_boeing
+  - first:
+      4: 400012
+    second: Crashed_Boeing
+  - first:
+      4: 400014
+    second: EP_Leafs_02_b
+  - first:
+      4: 400016
+    second: EP_Leafs_02_b 1
+  - first:
+      4: 400018
+    second: EP_Leafs_02_b 2
+  - first:
+      4: 400020
+    second: EP_Leafs_02_b 3
+  - first:
+      4: 400022
+    second: EP_Leafs_02_b 4
+  - first:
+      4: 400024
+    second: EP_Leafs_02_b 5
+  - first:
+      4: 400026
+    second: EP_Leafs_02_b 6
+  - first:
+      4: 400028
+    second: EP_Leafs_02_b 7
+  - first:
+      4: 400030
+    second: EP_Leafs_02_f
+  - first:
+      4: 400032
+    second: EP_Leafs_02_f 1
+  - first:
+      4: 400034
+    second: EP_Leafs_02_f 10
+  - first:
+      4: 400036
+    second: EP_Leafs_02_f 11
+  - first:
+      4: 400038
+    second: EP_Leafs_02_f 12
+  - first:
+      4: 400040
+    second: EP_Leafs_02_f 13
+  - first:
+      4: 400042
+    second: EP_Leafs_02_f 14
+  - first:
+      4: 400044
+    second: EP_Leafs_02_f 2
+  - first:
+      4: 400046
+    second: EP_Leafs_02_f 3
+  - first:
+      4: 400048
+    second: EP_Leafs_02_f 4
+  - first:
+      4: 400050
+    second: EP_Leafs_02_f 5
+  - first:
+      4: 400052
+    second: EP_Leafs_02_f 6
+  - first:
+      4: 400054
+    second: EP_Leafs_02_f 7
+  - first:
+      4: 400056
+    second: EP_Leafs_02_f 8
+  - first:
+      4: 400058
+    second: EP_Leafs_02_f 9
+  - first:
+      4: 400060
+    second: GameObject
+  - first:
+      4: 400062
+    second: Hut
+  - first:
+      4: 400064
+    second: Hutor
+  - first:
+      4: 400066
+    second: kalitka
+  - first:
+      4: 400068
+    second: lavka
+  - first:
+      4: 400070
+    second: MEP_Birch_01_Part_02_Tris144_N(Clone)
+  - first:
+      4: 400072
+    second: MEP_Birches
+  - first:
+      4: 400074
+    second: MEP_Bushes
+  - first:
+      4: 400076
+    second: MEP_Cliff_05_Tris1047_N(Clone)
+  - first:
+      4: 400078
+    second: MEP_Cliff_18_Tris489_N(Clone)
+  - first:
+      4: 400080
+    second: MEP_Cliff_20_Tris812_N(Clone)
+  - first:
+      4: 400082
+    second: MEP_Cliff_S_10_Tris170_N(Clone)
+  - first:
+      4: 400084
+    second: MEP_Cliff_S_10_Tris200_N(Clone)
+  - first:
+      4: 400086
+    second: MEP_Cliff_S_10_Tris220_N(Clone)
+  - first:
+      4: 400088
+    second: MEP_Cliff_S_10_Tris320_N(Clone)
+  - first:
+      4: 400090
+    second: MEP_Cliff_S_10_Tris330_N(Clone)
+  - first:
+      4: 400092
+    second: MEP_Cliff_S_10_Tris370_N(Clone)
+  - first:
+      4: 400094
+    second: MEP_Cliff_S_10_Tris390_N(Clone)
+  - first:
+      4: 400096
+    second: MEP_Cliff_S_10_Tris430_N(Clone)
+  - first:
+      4: 400098
+    second: MEP_Cliff_S_10_Tris440_N(Clone)
+  - first:
+      4: 400100
+    second: MEP_Cliff_S_10_Tris470_N(Clone)
+  - first:
+      4: 400102
+    second: MEP_Cliff_S_10_Tris630_N(Clone)
+  - first:
+      4: 400104
+    second: MEP_Cliff_S_10_Tris680_N(Clone)
+  - first:
+      4: 400106
+    second: MEP_Cliff_S_11
+  - first:
+      4: 400108
+    second: MEP_DesertCliff_03_Tris1987_N(Clone)
+  - first:
+      4: 400110
+    second: MEP_DirtBoulder_01_Tris621_N(Clone)
+  - first:
+      4: 400112
+    second: MEP_Dirtedge_03_Tris607_N(Clone)
+  - first:
+      4: 400114
+    second: MEP_Grass
+  - first:
+      4: 400116
+    second: MEP_Grass_02_a 1
+  - first:
+      4: 400118
+    second: MEP_Grass_02_a 1 1
+  - first:
+      4: 400120
+    second: MEP_Grass_02_a 1 2
+  - first:
+      4: 400122
+    second: MEP_Grass_02_a 1 3
+  - first:
+      4: 400124
+    second: MEP_Grass_02_a_S_Tris284_N(Clone)
+  - first:
+      4: 400126
+    second: MEP_Grass_02_a_S_Tris316_N(Clone)
+  - first:
+      4: 400128
+    second: MEP_Grass_02_a_S_Tris412_N(Clone)
+  - first:
+      4: 400130
+    second: MEP_Grass_02_a_S_Tris456_N(Clone)
+  - first:
+      4: 400132
+    second: MEP_Grass_02_a_S_Tris464_N(Clone)
+  - first:
+      4: 400134
+    second: MEP_Grass_02_a_S_Tris504_N(Clone)
+  - first:
+      4: 400136
+    second: MEP_Grass_02_a_S_Tris540_N(Clone)
+  - first:
+      4: 400138
+    second: MEP_Grass_02_a_S_Tris572_N(Clone)
+  - first:
+      4: 400140
+    second: MEP_Grass_02_a_S_Tris688_N(Clone)
+  - first:
+      4: 400142
+    second: MEP_Grass_02_a_S_Tris860_N(Clone)
+  - first:
+      4: 400144
+    second: MEP_Grass_02_a_S_Tris988_N(Clone)
+  - first:
+      4: 400146
+    second: MEP_GroundBrush
+  - first:
+      4: 400148
+    second: MEP_GroundBrush_a_Tris182_N(Clone)
+  - first:
+      4: 400150
+    second: MEP_GroundBrush_a_Tris308_N(Clone)
+  - first:
+      4: 400152
+    second: MEP_GroundBrush_a_Tris420_N(Clone)
+  - first:
+      4: 400154
+    second: MEP_GroundBrush_a_Tris476_N(Clone)
+  - first:
+      4: 400156
+    second: MEP_GroundBrush_a_Tris504_N(Clone)
+  - first:
+      4: 400158
+    second: MEP_GroundBrush_a_Tris518_N(Clone)
+  - first:
+      4: 400160
+    second: MEP_GroundBrush_a_Tris616_N(Clone)
+  - first:
+      4: 400162
+    second: MEP_GroundBrush_a_Tris630_N(Clone)
+  - first:
+      4: 400164
+    second: MEP_GroundBrush_a_Tris630_N_1(Clone)
+  - first:
+      4: 400166
+    second: MEP_Leafs_02_a
+  - first:
+      4: 400168
+    second: MEP_Leafs_02_a 1
+  - first:
+      4: 400170
+    second: MEP_Leafs_02_a 2
+  - first:
+      4: 400172
+    second: MEP_Leafs_02_a 3
+  - first:
+      4: 400174
+    second: MEP_Leafs_02_b
+  - first:
+      4: 400176
+    second: MEP_Leafs_02_b 1
+  - first:
+      4: 400178
+    second: MEP_Leafs_02_b 10
+  - first:
+      4: 400180
+    second: MEP_Leafs_02_b 11
+  - first:
+      4: 400182
+    second: MEP_Leafs_02_b 12
+  - first:
+      4: 400184
+    second: MEP_Leafs_02_b 13
+  - first:
+      4: 400186
+    second: MEP_Leafs_02_b 14
+  - first:
+      4: 400188
+    second: MEP_Leafs_02_b 15
+  - first:
+      4: 400190
+    second: MEP_Leafs_02_b 16
+  - first:
+      4: 400192
+    second: MEP_Leafs_02_b 17
+  - first:
+      4: 400194
+    second: MEP_Leafs_02_b 18
+  - first:
+      4: 400196
+    second: MEP_Leafs_02_b 19
+  - first:
+      4: 400198
+    second: MEP_Leafs_02_b 2
+  - first:
+      4: 400200
+    second: MEP_Leafs_02_b 20
+  - first:
+      4: 400202
+    second: MEP_Leafs_02_b 21
+  - first:
+      4: 400204
+    second: MEP_Leafs_02_b 22
+  - first:
+      4: 400206
+    second: MEP_Leafs_02_b 23
+  - first:
+      4: 400208
+    second: MEP_Leafs_02_b 24
+  - first:
+      4: 400210
+    second: MEP_Leafs_02_b 25
+  - first:
+      4: 400212
+    second: MEP_Leafs_02_b 3
+  - first:
+      4: 400214
+    second: MEP_Leafs_02_b 4
+  - first:
+      4: 400216
+    second: MEP_Leafs_02_b 5
+  - first:
+      4: 400218
+    second: MEP_Leafs_02_b 6
+  - first:
+      4: 400220
+    second: MEP_Leafs_02_b 7
+  - first:
+      4: 400222
+    second: MEP_Leafs_02_b 8
+  - first:
+      4: 400224
+    second: MEP_Leafs_02_b 9
+  - first:
+      4: 400226
+    second: MEP_Leafs_02_d
+  - first:
+      4: 400228
+    second: MEP_Leafs_02_d 1
+  - first:
+      4: 400230
+    second: MEP_Leafs_02_d 2
+  - first:
+      4: 400232
+    second: MEP_Leafs_02_d 3
+  - first:
+      4: 400234
+    second: MEP_Leafs_02_d 4
+  - first:
+      4: 400236
+    second: MEP_Leafs_02_e
+  - first:
+      4: 400238
+    second: MEP_Leafs_02_e 1
+  - first:
+      4: 400240
+    second: MEP_Leafs_02_e 10
+  - first:
+      4: 400242
+    second: MEP_Leafs_02_e 11
+  - first:
+      4: 400244
+    second: MEP_Leafs_02_e 12
+  - first:
+      4: 400246
+    second: MEP_Leafs_02_e 13
+  - first:
+      4: 400248
+    second: MEP_Leafs_02_e 14
+  - first:
+      4: 400250
+    second: MEP_Leafs_02_e 15
+  - first:
+      4: 400252
+    second: MEP_Leafs_02_e 16
+  - first:
+      4: 400254
+    second: MEP_Leafs_02_e 17
+  - first:
+      4: 400256
+    second: MEP_Leafs_02_e 2
+  - first:
+      4: 400258
+    second: MEP_Leafs_02_e 3
+  - first:
+      4: 400260
+    second: MEP_Leafs_02_e 4
+  - first:
+      4: 400262
+    second: MEP_Leafs_02_e 5
+  - first:
+      4: 400264
+    second: MEP_Leafs_02_e 6
+  - first:
+      4: 400266
+    second: MEP_Leafs_02_e 7
+  - first:
+      4: 400268
+    second: MEP_Leafs_02_e 8
+  - first:
+      4: 400270
+    second: MEP_Leafs_02_e 9
+  - first:
+      4: 400272
+    second: MEP_Leafs_02_i
+  - first:
+      4: 400274
+    second: MEP_Leafs_02_i 1
+  - first:
+      4: 400276
+    second: MEP_Leafs_02_i 10
+  - first:
+      4: 400278
+    second: MEP_Leafs_02_i 11
+  - first:
+      4: 400280
+    second: MEP_Leafs_02_i 12
+  - first:
+      4: 400282
+    second: MEP_Leafs_02_i 13
+  - first:
+      4: 400284
+    second: MEP_Leafs_02_i 14
+  - first:
+      4: 400286
+    second: MEP_Leafs_02_i 15
+  - first:
+      4: 400288
+    second: MEP_Leafs_02_i 16
+  - first:
+      4: 400290
+    second: MEP_Leafs_02_i 17
+  - first:
+      4: 400292
+    second: MEP_Leafs_02_i 18
+  - first:
+      4: 400294
+    second: MEP_Leafs_02_i 19
+  - first:
+      4: 400296
+    second: MEP_Leafs_02_i 2
+  - first:
+      4: 400298
+    second: MEP_Leafs_02_i 20
+  - first:
+      4: 400300
+    second: MEP_Leafs_02_i 21
+  - first:
+      4: 400302
+    second: MEP_Leafs_02_i 22
+  - first:
+      4: 400304
+    second: MEP_Leafs_02_i 23
+  - first:
+      4: 400306
+    second: MEP_Leafs_02_i 24
+  - first:
+      4: 400308
+    second: MEP_Leafs_02_i 3
+  - first:
+      4: 400310
+    second: MEP_Leafs_02_i 4
+  - first:
+      4: 400312
+    second: MEP_Leafs_02_i 5
+  - first:
+      4: 400314
+    second: MEP_Leafs_02_i 6
+  - first:
+      4: 400316
+    second: MEP_Leafs_02_i 7
+  - first:
+      4: 400318
+    second: MEP_Leafs_02_i 8
+  - first:
+      4: 400320
+    second: MEP_Leafs_02_i 9
+  - first:
+      4: 400322
+    second: MEP_Leafs_02_j
+  - first:
+      4: 400324
+    second: MEP_Leafs_02_j 1
+  - first:
+      4: 400326
+    second: MEP_Leafs_02_j 10
+  - first:
+      4: 400328
+    second: MEP_Leafs_02_j 11
+  - first:
+      4: 400330
+    second: MEP_Leafs_02_j 12
+  - first:
+      4: 400332
+    second: MEP_Leafs_02_j 13
+  - first:
+      4: 400334
+    second: MEP_Leafs_02_j 14
+  - first:
+      4: 400336
+    second: MEP_Leafs_02_j 15
+  - first:
+      4: 400338
+    second: MEP_Leafs_02_j 16
+  - first:
+      4: 400340
+    second: MEP_Leafs_02_j 17
+  - first:
+      4: 400342
+    second: MEP_Leafs_02_j 18
+  - first:
+      4: 400344
+    second: MEP_Leafs_02_j 19
+  - first:
+      4: 400346
+    second: MEP_Leafs_02_j 2
+  - first:
+      4: 400348
+    second: MEP_Leafs_02_j 20
+  - first:
+      4: 400350
+    second: MEP_Leafs_02_j 3
+  - first:
+      4: 400352
+    second: MEP_Leafs_02_j 4
+  - first:
+      4: 400354
+    second: MEP_Leafs_02_j 5
+  - first:
+      4: 400356
+    second: MEP_Leafs_02_j 6
+  - first:
+      4: 400358
+    second: MEP_Leafs_02_j 7
+  - first:
+      4: 400360
+    second: MEP_Leafs_02_j 8
+  - first:
+      4: 400362
+    second: MEP_Leafs_02_j 9
+  - first:
+      4: 400364
+    second: MEP_Rock_02_a_Tris173_N(Clone)
+  - first:
+      4: 400366
+    second: MEP_Rocks
+  - first:
+      4: 400368
+    second: MEP_Shack_05
+  - first:
+      4: 400370
+    second: MEP_Tree_02_a
+  - first:
+      4: 400372
+    second: MEP_Tree_02_a 1
+  - first:
+      4: 400374
+    second: MEP_Tree_02_a 2
+  - first:
+      4: 400376
+    second: MEP_Tree_02_a 3
+  - first:
+      4: 400378
+    second: MEP_Tree_02_b
+  - first:
+      4: 400380
+    second: MEP_Tree_02_b (1)
+  - first:
+      4: 400382
+    second: MEP_Tree_02_b (10)
+  - first:
+      4: 400384
+    second: MEP_Tree_02_b (2)
+  - first:
+      4: 400386
+    second: MEP_Tree_02_b (3)
+  - first:
+      4: 400388
+    second: MEP_Tree_02_b (4)
+  - first:
+      4: 400390
+    second: MEP_Tree_02_b (5)
+  - first:
+      4: 400392
+    second: MEP_Tree_02_b (6)
+  - first:
+      4: 400394
+    second: MEP_Tree_02_b (7)
+  - first:
+      4: 400396
+    second: MEP_Tree_02_b (8)
+  - first:
+      4: 400398
+    second: MEP_Tree_02_b (9)
+  - first:
+      4: 400400
+    second: MEP_Tree_02_b 1
+  - first:
+      4: 400402
+    second: MEP_Tree_02_b 10
+  - first:
+      4: 400404
+    second: MEP_Tree_02_b 11
+  - first:
+      4: 400406
+    second: MEP_Tree_02_b 12
+  - first:
+      4: 400408
+    second: MEP_Tree_02_b 13
+  - first:
+      4: 400410
+    second: MEP_Tree_02_b 14
+  - first:
+      4: 400412
+    second: MEP_Tree_02_b 15
+  - first:
+      4: 400414
+    second: MEP_Tree_02_b 2
+  - first:
+      4: 400416
+    second: MEP_Tree_02_b 3
+  - first:
+      4: 400418
+    second: MEP_Tree_02_b 4
+  - first:
+      4: 400420
+    second: MEP_Tree_02_b 5
+  - first:
+      4: 400422
+    second: MEP_Tree_02_b 6
+  - first:
+      4: 400424
+    second: MEP_Tree_02_b 7
+  - first:
+      4: 400426
+    second: MEP_Tree_02_b 8
+  - first:
+      4: 400428
+    second: MEP_Tree_02_b 9
+  - first:
+      4: 400430
+    second: 'MEP_Tree_02_c '
+  - first:
+      4: 400432
+    second: MEP_Tree_02_c  1
+  - first:
+      4: 400434
+    second: MEP_Tree_02_c  2
+  - first:
+      4: 400436
+    second: MEP_Tree_02_c  3
+  - first:
+      4: 400438
+    second: MEP_Tree_02_c  4
+  - first:
+      4: 400440
+    second: MEP_Tree_02_c  5
+  - first:
+      4: 400442
+    second: MEP_Tree_02_c  6
+  - first:
+      4: 400444
+    second: MEP_Tree_02_c  7
+  - first:
+      4: 400446
+    second: MEP_Tree_02_d
+  - first:
+      4: 400448
+    second: MEP_Tree_02_d 1
+  - first:
+      4: 400450
+    second: MEP_Tree_02_d 2
+  - first:
+      4: 400452
+    second: MEP_Tree_02_d 3
+  - first:
+      4: 400454
+    second: MEP_Tree_02_d 4
+  - first:
+      4: 400456
+    second: MEP_Tree_02_d 5
+  - first:
+      4: 400458
+    second: 'MEP_Tree_02_e '
+  - first:
+      4: 400460
+    second: MEP_Tree_02_e  1
+  - first:
+      4: 400462
+    second: MEP_Tree_02_e  10
+  - first:
+      4: 400464
+    second: MEP_Tree_02_e  11
+  - first:
+      4: 400466
+    second: MEP_Tree_02_e  12
+  - first:
+      4: 400468
+    second: MEP_Tree_02_e  13
+  - first:
+      4: 400470
+    second: MEP_Tree_02_e  14
+  - first:
+      4: 400472
+    second: MEP_Tree_02_e  2
+  - first:
+      4: 400474
+    second: MEP_Tree_02_e  3
+  - first:
+      4: 400476
+    second: MEP_Tree_02_e  4
+  - first:
+      4: 400478
+    second: MEP_Tree_02_e  5
+  - first:
+      4: 400480
+    second: MEP_Tree_02_e  6
+  - first:
+      4: 400482
+    second: MEP_Tree_02_e  7
+  - first:
+      4: 400484
+    second: MEP_Tree_02_e  8
+  - first:
+      4: 400486
+    second: MEP_Tree_02_e  9
+  - first:
+      4: 400488
+    second: MEP_Tree_02_e (1)
+  - first:
+      4: 400490
+    second: MEP_Tree_02_e (2)
+  - first:
+      4: 400492
+    second: MEP_Tree_02_e (3)
+  - first:
+      4: 400494
+    second: 'MEP_Tree_02_f '
+  - first:
+      4: 400496
+    second: MEP_Tree_02_f  1
+  - first:
+      4: 400498
+    second: MEP_Tree_02_f  10
+  - first:
+      4: 400500
+    second: MEP_Tree_02_f  11
+  - first:
+      4: 400502
+    second: MEP_Tree_02_f  12
+  - first:
+      4: 400504
+    second: MEP_Tree_02_f  2
+  - first:
+      4: 400506
+    second: MEP_Tree_02_f  3
+  - first:
+      4: 400508
+    second: MEP_Tree_02_f  4
+  - first:
+      4: 400510
+    second: MEP_Tree_02_f  5
+  - first:
+      4: 400512
+    second: MEP_Tree_02_f  6
+  - first:
+      4: 400514
+    second: MEP_Tree_02_f  7
+  - first:
+      4: 400516
+    second: MEP_Tree_02_f  8
+  - first:
+      4: 400518
+    second: MEP_Tree_02_f  9
+  - first:
+      4: 400520
+    second: MEP_Tree_02_f (1)
+  - first:
+      4: 400522
+    second: MEP_Tree_02_f (2)
+  - first:
+      4: 400524
+    second: 'MEP_Tree_02_i '
+  - first:
+      4: 400526
+    second: MEP_Tree_02_i  1
+  - first:
+      4: 400528
+    second: MEP_Tree_02_i  10
+  - first:
+      4: 400530
+    second: MEP_Tree_02_i  11
+  - first:
+      4: 400532
+    second: MEP_Tree_02_i  12
+  - first:
+      4: 400534
+    second: MEP_Tree_02_i  13
+  - first:
+      4: 400536
+    second: MEP_Tree_02_i  14
+  - first:
+      4: 400538
+    second: MEP_Tree_02_i  15
+  - first:
+      4: 400540
+    second: MEP_Tree_02_i  16
+  - first:
+      4: 400542
+    second: MEP_Tree_02_i  17
+  - first:
+      4: 400544
+    second: MEP_Tree_02_i  18
+  - first:
+      4: 400546
+    second: MEP_Tree_02_i  19
+  - first:
+      4: 400548
+    second: MEP_Tree_02_i  2
+  - first:
+      4: 400550
+    second: MEP_Tree_02_i  20
+  - first:
+      4: 400552
+    second: MEP_Tree_02_i  21
+  - first:
+      4: 400554
+    second: MEP_Tree_02_i  22
+  - first:
+      4: 400556
+    second: MEP_Tree_02_i  23
+  - first:
+      4: 400558
+    second: MEP_Tree_02_i  24
+  - first:
+      4: 400560
+    second: MEP_Tree_02_i  3
+  - first:
+      4: 400562
+    second: MEP_Tree_02_i  4
+  - first:
+      4: 400564
+    second: MEP_Tree_02_i  5
+  - first:
+      4: 400566
+    second: MEP_Tree_02_i  6
+  - first:
+      4: 400568
+    second: MEP_Tree_02_i  7
+  - first:
+      4: 400570
+    second: MEP_Tree_02_i  8
+  - first:
+      4: 400572
+    second: MEP_Tree_02_i  9
+  - first:
+      4: 400574
+    second: 'MEP_Tree_02_j '
+  - first:
+      4: 400576
+    second: MEP_Tree_02_j  1
+  - first:
+      4: 400578
+    second: MEP_Tree_02_j  10
+  - first:
+      4: 400580
+    second: MEP_Tree_02_j  11
+  - first:
+      4: 400582
+    second: MEP_Tree_02_j  12
+  - first:
+      4: 400584
+    second: MEP_Tree_02_j  13
+  - first:
+      4: 400586
+    second: MEP_Tree_02_j  14
+  - first:
+      4: 400588
+    second: MEP_Tree_02_j  15
+  - first:
+      4: 400590
+    second: MEP_Tree_02_j  16
+  - first:
+      4: 400592
+    second: MEP_Tree_02_j  17
+  - first:
+      4: 400594
+    second: MEP_Tree_02_j  18
+  - first:
+      4: 400596
+    second: MEP_Tree_02_j  19
+  - first:
+      4: 400598
+    second: MEP_Tree_02_j  2
+  - first:
+      4: 400600
+    second: MEP_Tree_02_j  20
+  - first:
+      4: 400602
+    second: MEP_Tree_02_j  3
+  - first:
+      4: 400604
+    second: MEP_Tree_02_j  4
+  - first:
+      4: 400606
+    second: MEP_Tree_02_j  5
+  - first:
+      4: 400608
+    second: MEP_Tree_02_j  6
+  - first:
+      4: 400610
+    second: MEP_Tree_02_j  7
+  - first:
+      4: 400612
+    second: MEP_Tree_02_j  8
+  - first:
+      4: 400614
+    second: MEP_Tree_02_j  9
+  - first:
+      4: 400616
+    second: MEP_TreeBark_01_a
+  - first:
+      4: 400618
+    second: MEP_TreeBark_01_a 1
+  - first:
+      4: 400620
+    second: MEP_TreeBark_01_a 2
+  - first:
+      4: 400622
+    second: MEP_TreeBark_01_a 3
+  - first:
+      4: 400624
+    second: MEP_TreeBark_01_b
+  - first:
+      4: 400626
+    second: MEP_TreeBark_01_b 1
+  - first:
+      4: 400628
+    second: MEP_TreeBark_01_b 10
+  - first:
+      4: 400630
+    second: MEP_TreeBark_01_b 11
+  - first:
+      4: 400632
+    second: MEP_TreeBark_01_b 12
+  - first:
+      4: 400634
+    second: MEP_TreeBark_01_b 13
+  - first:
+      4: 400636
+    second: MEP_TreeBark_01_b 14
+  - first:
+      4: 400638
+    second: MEP_TreeBark_01_b 15
+  - first:
+      4: 400640
+    second: MEP_TreeBark_01_b 16
+  - first:
+      4: 400642
+    second: MEP_TreeBark_01_b 17
+  - first:
+      4: 400644
+    second: MEP_TreeBark_01_b 18
+  - first:
+      4: 400646
+    second: MEP_TreeBark_01_b 19
+  - first:
+      4: 400648
+    second: MEP_TreeBark_01_b 2
+  - first:
+      4: 400650
+    second: MEP_TreeBark_01_b 20
+  - first:
+      4: 400652
+    second: MEP_TreeBark_01_b 21
+  - first:
+      4: 400654
+    second: MEP_TreeBark_01_b 22
+  - first:
+      4: 400656
+    second: MEP_TreeBark_01_b 23
+  - first:
+      4: 400658
+    second: MEP_TreeBark_01_b 24
+  - first:
+      4: 400660
+    second: MEP_TreeBark_01_b 25
+  - first:
+      4: 400662
+    second: MEP_TreeBark_01_b 3
+  - first:
+      4: 400664
+    second: MEP_TreeBark_01_b 4
+  - first:
+      4: 400666
+    second: MEP_TreeBark_01_b 5
+  - first:
+      4: 400668
+    second: MEP_TreeBark_01_b 6
+  - first:
+      4: 400670
+    second: MEP_TreeBark_01_b 7
+  - first:
+      4: 400672
+    second: MEP_TreeBark_01_b 8
+  - first:
+      4: 400674
+    second: MEP_TreeBark_01_b 9
+  - first:
+      4: 400676
+    second: MEP_TreeBark_01_c
+  - first:
+      4: 400678
+    second: MEP_TreeBark_01_c 1
+  - first:
+      4: 400680
+    second: MEP_TreeBark_01_c 2
+  - first:
+      4: 400682
+    second: MEP_TreeBark_01_c 3
+  - first:
+      4: 400684
+    second: MEP_TreeBark_01_c 4
+  - first:
+      4: 400686
+    second: MEP_TreeBark_01_c 5
+  - first:
+      4: 400688
+    second: MEP_TreeBark_01_c 6
+  - first:
+      4: 400690
+    second: MEP_TreeBark_01_c 7
+  - first:
+      4: 400692
+    second: MEP_TreeBark_01_d
+  - first:
+      4: 400694
+    second: MEP_TreeBark_01_d 1
+  - first:
+      4: 400696
+    second: MEP_TreeBark_01_d 2
+  - first:
+      4: 400698
+    second: MEP_TreeBark_01_d 3
+  - first:
+      4: 400700
+    second: MEP_TreeBark_01_d 4
+  - first:
+      4: 400702
+    second: MEP_TreeBark_01_d 5
+  - first:
+      4: 400704
+    second: MEP_TreeBark_01_e
+  - first:
+      4: 400706
+    second: MEP_TreeBark_01_e 1
+  - first:
+      4: 400708
+    second: MEP_TreeBark_01_e 10
+  - first:
+      4: 400710
+    second: MEP_TreeBark_01_e 11
+  - first:
+      4: 400712
+    second: MEP_TreeBark_01_e 12
+  - first:
+      4: 400714
+    second: MEP_TreeBark_01_e 13
+  - first:
+      4: 400716
+    second: MEP_TreeBark_01_e 14
+  - first:
+      4: 400718
+    second: MEP_TreeBark_01_e 15
+  - first:
+      4: 400720
+    second: MEP_TreeBark_01_e 16
+  - first:
+      4: 400722
+    second: MEP_TreeBark_01_e 17
+  - first:
+      4: 400724
+    second: MEP_TreeBark_01_e 2
+  - first:
+      4: 400726
+    second: MEP_TreeBark_01_e 3
+  - first:
+      4: 400728
+    second: MEP_TreeBark_01_e 4
+  - first:
+      4: 400730
+    second: MEP_TreeBark_01_e 5
+  - first:
+      4: 400732
+    second: MEP_TreeBark_01_e 6
+  - first:
+      4: 400734
+    second: MEP_TreeBark_01_e 7
+  - first:
+      4: 400736
+    second: MEP_TreeBark_01_e 8
+  - first:
+      4: 400738
+    second: MEP_TreeBark_01_e 9
+  - first:
+      4: 400740
+    second: MEP_TreeBark_01_f
+  - first:
+      4: 400742
+    second: MEP_TreeBark_01_f 1
+  - first:
+      4: 400744
+    second: MEP_TreeBark_01_f 10
+  - first:
+      4: 400746
+    second: MEP_TreeBark_01_f 11
+  - first:
+      4: 400748
+    second: MEP_TreeBark_01_f 12
+  - first:
+      4: 400750
+    second: MEP_TreeBark_01_f 13
+  - first:
+      4: 400752
+    second: MEP_TreeBark_01_f 14
+  - first:
+      4: 400754
+    second: MEP_TreeBark_01_f 2
+  - first:
+      4: 400756
+    second: MEP_TreeBark_01_f 3
+  - first:
+      4: 400758
+    second: MEP_TreeBark_01_f 4
+  - first:
+      4: 400760
+    second: MEP_TreeBark_01_f 5
+  - first:
+      4: 400762
+    second: MEP_TreeBark_01_f 6
+  - first:
+      4: 400764
+    second: MEP_TreeBark_01_f 7
+  - first:
+      4: 400766
+    second: MEP_TreeBark_01_f 8
+  - first:
+      4: 400768
+    second: MEP_TreeBark_01_f 9
+  - first:
+      4: 400770
+    second: MEP_TreeBark_01_i
+  - first:
+      4: 400772
+    second: MEP_TreeBark_01_i 1
+  - first:
+      4: 400774
+    second: MEP_TreeBark_01_i 10
+  - first:
+      4: 400776
+    second: MEP_TreeBark_01_i 11
+  - first:
+      4: 400778
+    second: MEP_TreeBark_01_i 12
+  - first:
+      4: 400780
+    second: MEP_TreeBark_01_i 13
+  - first:
+      4: 400782
+    second: MEP_TreeBark_01_i 14
+  - first:
+      4: 400784
+    second: MEP_TreeBark_01_i 15
+  - first:
+      4: 400786
+    second: MEP_TreeBark_01_i 16
+  - first:
+      4: 400788
+    second: MEP_TreeBark_01_i 17
+  - first:
+      4: 400790
+    second: MEP_TreeBark_01_i 18
+  - first:
+      4: 400792
+    second: MEP_TreeBark_01_i 19
+  - first:
+      4: 400794
+    second: MEP_TreeBark_01_i 2
+  - first:
+      4: 400796
+    second: MEP_TreeBark_01_i 20
+  - first:
+      4: 400798
+    second: MEP_TreeBark_01_i 21
+  - first:
+      4: 400800
+    second: MEP_TreeBark_01_i 22
+  - first:
+      4: 400802
+    second: MEP_TreeBark_01_i 23
+  - first:
+      4: 400804
+    second: MEP_TreeBark_01_i 24
+  - first:
+      4: 400806
+    second: MEP_TreeBark_01_i 3
+  - first:
+      4: 400808
+    second: MEP_TreeBark_01_i 4
+  - first:
+      4: 400810
+    second: MEP_TreeBark_01_i 5
+  - first:
+      4: 400812
+    second: MEP_TreeBark_01_i 6
+  - first:
+      4: 400814
+    second: MEP_TreeBark_01_i 7
+  - first:
+      4: 400816
+    second: MEP_TreeBark_01_i 8
+  - first:
+      4: 400818
+    second: MEP_TreeBark_01_i 9
+  - first:
+      4: 400820
+    second: MEP_TreeBark_01_j
+  - first:
+      4: 400822
+    second: MEP_TreeBark_01_j 1
+  - first:
+      4: 400824
+    second: MEP_TreeBark_01_j 10
+  - first:
+      4: 400826
+    second: MEP_TreeBark_01_j 11
+  - first:
+      4: 400828
+    second: MEP_TreeBark_01_j 12
+  - first:
+      4: 400830
+    second: MEP_TreeBark_01_j 13
+  - first:
+      4: 400832
+    second: MEP_TreeBark_01_j 14
+  - first:
+      4: 400834
+    second: MEP_TreeBark_01_j 15
+  - first:
+      4: 400836
+    second: MEP_TreeBark_01_j 16
+  - first:
+      4: 400838
+    second: MEP_TreeBark_01_j 17
+  - first:
+      4: 400840
+    second: MEP_TreeBark_01_j 18
+  - first:
+      4: 400842
+    second: MEP_TreeBark_01_j 19
+  - first:
+      4: 400844
+    second: MEP_TreeBark_01_j 2
+  - first:
+      4: 400846
+    second: MEP_TreeBark_01_j 20
+  - first:
+      4: 400848
+    second: MEP_TreeBark_01_j 3
+  - first:
+      4: 400850
+    second: MEP_TreeBark_01_j 4
+  - first:
+      4: 400852
+    second: MEP_TreeBark_01_j 5
+  - first:
+      4: 400854
+    second: MEP_TreeBark_01_j 6
+  - first:
+      4: 400856
+    second: MEP_TreeBark_01_j 7
+  - first:
+      4: 400858
+    second: MEP_TreeBark_01_j 8
+  - first:
+      4: 400860
+    second: MEP_TreeBark_01_j 9
+  - first:
+      4: 400862
+    second: MEP_Trees
+  - first:
+      4: 400864
+    second: MEP_Village
+  - first:
+      4: 400866
+    second: MEP_Weed
+  - first:
+      4: 400868
+    second: MEP_Weed_02_a_2_S_Tris260_N(Clone)
+  - first:
+      4: 400870
+    second: MEP_Weed_02_a_2_S_Tris320_N(Clone)
+  - first:
+      4: 400872
+    second: MEP_Weed_02_a_2_S_Tris352_N(Clone)
+  - first:
+      4: 400874
+    second: MEP_Weed_02_a_2_S_Tris408_N(Clone)
+  - first:
+      4: 400876
+    second: MEP_Weed_02_a_2_S_Tris444_N(Clone)
+  - first:
+      4: 400878
+    second: MEP_Weed_02_a_2_S_Tris560_N(Clone)
+  - first:
+      4: 400880
+    second: MEP_Weed_02_a_2_S_Tris636_N(Clone)
+  - first:
+      4: 400882
+    second: MEP_Weed_02_a_2_S_Tris668_N(Clone)
+  - first:
+      4: 400884
+    second: MOTOR_boeing
+  - first:
+      4: 400886
+    second: NewMesh_tris_1047
+  - first:
+      4: 400888
+    second: NewMesh_tris_120
+  - first:
+      4: 400890
+    second: NewMesh_tris_120(Clone)
+  - first:
+      4: 400892
+    second: NewMesh_tris_144
+  - first:
+      4: 400894
+    second: NewMesh_tris_170
+  - first:
+      4: 400896
+    second: NewMesh_tris_173
+  - first:
+      4: 400898
+    second: NewMesh_tris_1987
+  - first:
+      4: 400900
+    second: NewMesh_tris_200
+  - first:
+      4: 400902
+    second: NewMesh_tris_220
+  - first:
+      4: 400904
+    second: NewMesh_tris_260
+  - first:
+      4: 400906
+    second: NewMesh_tris_308
+  - first:
+      4: 400908
+    second: NewMesh_tris_316
+  - first:
+      4: 400910
+    second: NewMesh_tris_320
+  - first:
+      4: 400912
+    second: NewMesh_tris_330
+  - first:
+      4: 400914
+    second: NewMesh_tris_370
+  - first:
+      4: 400916
+    second: NewMesh_tris_390
+  - first:
+      4: 400918
+    second: NewMesh_tris_412
+  - first:
+      4: 400920
+    second: NewMesh_tris_420
+  - first:
+      4: 400922
+    second: NewMesh_tris_430
+  - first:
+      4: 400924
+    second: NewMesh_tris_440
+  - first:
+      4: 400926
+    second: NewMesh_tris_444
+  - first:
+      4: 400928
+    second: NewMesh_tris_464
+  - first:
+      4: 400930
+    second: NewMesh_tris_470_Tris637_N(Clone)
+  - first:
+      4: 400932
+    second: NewMesh_tris_476
+  - first:
+      4: 400934
+    second: NewMesh_tris_489
+  - first:
+      4: 400936
+    second: NewMesh_tris_489 (1)
+  - first:
+      4: 400938
+    second: NewMesh_tris_489 (2)
+  - first:
+      4: 400940
+    second: NewMesh_tris_489 (3)
+  - first:
+      4: 400942
+    second: NewMesh_tris_504
+  - first:
+      4: 400944
+    second: NewMesh_tris_518
+  - first:
+      4: 400946
+    second: NewMesh_tris_560
+  - first:
+      4: 400948
+    second: NewMesh_tris_572
+  - first:
+      4: 400950
+    second: NewMesh_tris_607
+  - first:
+      4: 400952
+    second: NewMesh_tris_616
+  - first:
+      4: 400954
+    second: NewMesh_tris_621
+  - first:
+      4: 400956
+    second: NewMesh_tris_630
+  - first:
+      4: 400958
+    second: NewMesh_tris_630 1
+  - first:
+      4: 400960
+    second: NewMesh_tris_630 2
+  - first:
+      4: 400962
+    second: NewMesh_tris_637
+  - first:
+      4: 400964
+    second: NewMesh_tris_668
+  - first:
+      4: 400966
+    second: NewMesh_tris_680
+  - first:
+      4: 400968
+    second: NewMesh_tris_688
+  - first:
+      4: 400970
+    second: NewMesh_tris_860
+  - first:
+      4: 400972
+    second: Object075
+  - first:
+      4: 400974
+    second: Object075 1
+  - first:
+      4: 400976
+    second: Old building
+  - first:
+      4: 400978
+    second: Old building (1)
+  - first:
+      4: 400980
+    second: Pipe
+  - first:
+      4: 400982
+    second: Pipe (1)
+  - first:
+      4: 400984
+    second: Pipe (10)
+  - first:
+      4: 400986
+    second: Pipe (11)
+  - first:
+      4: 400988
+    second: Pipe (12)
+  - first:
+      4: 400990
+    second: Pipe (13)
+  - first:
+      4: 400992
+    second: Pipe (14)
+  - first:
+      4: 400994
+    second: Pipe (2)
+  - first:
+      4: 400996
+    second: Pipe (3)
+  - first:
+      4: 400998
+    second: Pipe (4)
+  - first:
+      4: 401000
+    second: Pipe (5)
+  - first:
+      4: 401002
+    second: Pipe (6)
+  - first:
+      4: 401004
+    second: Pipe (7)
+  - first:
+      4: 401006
+    second: Pipe (8)
+  - first:
+      4: 401008
+    second: Pipe (9)
+  - first:
+      4: 401010
+    second: //RootNode
+  - first:
+      4: 401012
+    second: Scene_03_Terrain
+  - first:
+      4: 401014
+    second: Shack_04
+  - first:
+      4: 401016
+    second: Shack_04 (1)
+  - first:
+      4: 401018
+    second: Shtak_01
+  - first:
+      4: 401020
+    second: Shtak_02
+  - first:
+      4: 401022
+    second: Shtak_03
+  - first:
+      4: 401024
+    second: Shtak_04
+  - first:
+      4: 401026
+    second: Shtak_05
+  - first:
+      4: 401028
+    second: Shtak_06
+  - first:
+      4: 401030
+    second: Shtak_07
+  - first:
+      4: 401032
+    second: Shtak_08
+  - first:
+      4: 401034
+    second: Shtak_09
+  - first:
+      4: 401036
+    second: Shtak_10
+  - first:
+      4: 401038
+    second: Shtak_11
+  - first:
+      4: 401040
+    second: Shtak_12
+  - first:
+      4: 401042
+    second: Shtak_13
+  - first:
+      4: 401044
+    second: Shtak_14
+  - first:
+      4: 401046
+    second: Shtak_15
+  - first:
+      4: 401048
+    second: Shtak_16
+  - first:
+      4: 401050
+    second: Shtak_18
+  - first:
+      4: 401052
+    second: Shtak_19
+  - first:
+      4: 401054
+    second: Shtak_20
+  - first:
+      4: 401056
+    second: Shtak_21
+  - first:
+      4: 401058
+    second: Shtak_22
+  - first:
+      4: 401060
+    second: Shtak_break
+  - first:
+      4: 401062
+    second: Shtak_break01
+  - first:
+      4: 401064
+    second: Shtak_break02
+  - first:
+      4: 401066
+    second: Shtak_break03
+  - first:
+      4: 401068
+    second: Shtak_kalitka
+  - first:
+      4: 401070
+    second: Shtak_kalitka 1
+  - first:
+      4: 401072
+    second: TAIL_boeing
+  - first:
+      4: 401074
+    second: Tualet
+  - first:
+      4: 401076
+    second: WING_boeing
+  - first:
+      21: 2100000
+    second: MEP_Grass_02_a 1
+  - first:
+      21: 2100002
+    second: MEP_GroundBrush_Dif
+  - first:
+      21: 2100004
+    second: Box001_diffuse
+  - first:
+      21: 2100006
+    second: TexFasad_diff
+  - first:
+      21: 2100008
+    second: MEP_Cliff_Dif
+  - first:
+      21: 2100010
+    second: MEP_DirtEdge_01
+  - first:
+      21: 2100012
+    second: MEP_Rock_02-03_Dif
+  - first:
+      21: 2100014
+    second: MEP_Birch
+  - first:
+      21: 2100016
+    second: MEP_Tree_02_Dif
+  - first:
+      21: 2100018
+    second: Bark_02
+  - first:
+      21: 2100020
+    second: MEP_Wall_Roof_Dif
+  - first:
+      21: 2100022
+    second: Weed_02_2_S
+  - first:
+      21: 2100024
+    second: Scene_03_Terrain_Mat
+  - first:
+      21: 2100026
+    second: Pipers_diffuse
+  - first:
+      21: 2100028
+    second: m_Boeng
+  - first:
+      23: 2300000
+    second: BASE_boeing
+  - first:
+      23: 2300002
+    second: Box001
+  - first:
+      23: 2300004
+    second: Box001 1
+  - first:
+      23: 2300006
+    second: CABIN_boeing
+  - first:
+      23: 2300008
+    second: EP_Leafs_02_b
+  - first:
+      23: 2300010
+    second: EP_Leafs_02_b 1
+  - first:
+      23: 2300012
+    second: EP_Leafs_02_b 2
+  - first:
+      23: 2300014
+    second: EP_Leafs_02_b 3
+  - first:
+      23: 2300016
+    second: EP_Leafs_02_b 4
+  - first:
+      23: 2300018
+    second: EP_Leafs_02_b 5
+  - first:
+      23: 2300020
+    second: EP_Leafs_02_b 6
+  - first:
+      23: 2300022
+    second: EP_Leafs_02_b 7
+  - first:
+      23: 2300024
+    second: EP_Leafs_02_f
+  - first:
+      23: 2300026
+    second: EP_Leafs_02_f 1
+  - first:
+      23: 2300028
+    second: EP_Leafs_02_f 10
+  - first:
+      23: 2300030
+    second: EP_Leafs_02_f 11
+  - first:
+      23: 2300032
+    second: EP_Leafs_02_f 12
+  - first:
+      23: 2300034
+    second: EP_Leafs_02_f 13
+  - first:
+      23: 2300036
+    second: EP_Leafs_02_f 14
+  - first:
+      23: 2300038
+    second: EP_Leafs_02_f 2
+  - first:
+      23: 2300040
+    second: EP_Leafs_02_f 3
+  - first:
+      23: 2300042
+    second: EP_Leafs_02_f 4
+  - first:
+      23: 2300044
+    second: EP_Leafs_02_f 5
+  - first:
+      23: 2300046
+    second: EP_Leafs_02_f 6
+  - first:
+      23: 2300048
+    second: EP_Leafs_02_f 7
+  - first:
+      23: 2300050
+    second: EP_Leafs_02_f 8
+  - first:
+      23: 2300052
+    second: EP_Leafs_02_f 9
+  - first:
+      23: 2300054
+    second: Hut
+  - first:
+      23: 2300056
+    second: kalitka
+  - first:
+      23: 2300058
+    second: lavka
+  - first:
+      23: 2300060
+    second: MEP_Cliff_S_11
+  - first:
+      23: 2300062
+    second: MEP_Grass_02_a 1
+  - first:
+      23: 2300064
+    second: MEP_Grass_02_a 1 1
+  - first:
+      23: 2300066
+    second: MEP_Grass_02_a 1 2
+  - first:
+      23: 2300068
+    second: MEP_Grass_02_a 1 3
+  - first:
+      23: 2300070
+    second: MEP_Leafs_02_a
+  - first:
+      23: 2300072
+    second: MEP_Leafs_02_a 1
+  - first:
+      23: 2300074
+    second: MEP_Leafs_02_a 2
+  - first:
+      23: 2300076
+    second: MEP_Leafs_02_a 3
+  - first:
+      23: 2300078
+    second: MEP_Leafs_02_b
+  - first:
+      23: 2300080
+    second: MEP_Leafs_02_b 1
+  - first:
+      23: 2300082
+    second: MEP_Leafs_02_b 10
+  - first:
+      23: 2300084
+    second: MEP_Leafs_02_b 11
+  - first:
+      23: 2300086
+    second: MEP_Leafs_02_b 12
+  - first:
+      23: 2300088
+    second: MEP_Leafs_02_b 13
+  - first:
+      23: 2300090
+    second: MEP_Leafs_02_b 14
+  - first:
+      23: 2300092
+    second: MEP_Leafs_02_b 15
+  - first:
+      23: 2300094
+    second: MEP_Leafs_02_b 16
+  - first:
+      23: 2300096
+    second: MEP_Leafs_02_b 17
+  - first:
+      23: 2300098
+    second: MEP_Leafs_02_b 18
+  - first:
+      23: 2300100
+    second: MEP_Leafs_02_b 19
+  - first:
+      23: 2300102
+    second: MEP_Leafs_02_b 2
+  - first:
+      23: 2300104
+    second: MEP_Leafs_02_b 20
+  - first:
+      23: 2300106
+    second: MEP_Leafs_02_b 21
+  - first:
+      23: 2300108
+    second: MEP_Leafs_02_b 22
+  - first:
+      23: 2300110
+    second: MEP_Leafs_02_b 23
+  - first:
+      23: 2300112
+    second: MEP_Leafs_02_b 24
+  - first:
+      23: 2300114
+    second: MEP_Leafs_02_b 25
+  - first:
+      23: 2300116
+    second: MEP_Leafs_02_b 3
+  - first:
+      23: 2300118
+    second: MEP_Leafs_02_b 4
+  - first:
+      23: 2300120
+    second: MEP_Leafs_02_b 5
+  - first:
+      23: 2300122
+    second: MEP_Leafs_02_b 6
+  - first:
+      23: 2300124
+    second: MEP_Leafs_02_b 7
+  - first:
+      23: 2300126
+    second: MEP_Leafs_02_b 8
+  - first:
+      23: 2300128
+    second: MEP_Leafs_02_b 9
+  - first:
+      23: 2300130
+    second: MEP_Leafs_02_d
+  - first:
+      23: 2300132
+    second: MEP_Leafs_02_d 1
+  - first:
+      23: 2300134
+    second: MEP_Leafs_02_d 2
+  - first:
+      23: 2300136
+    second: MEP_Leafs_02_d 3
+  - first:
+      23: 2300138
+    second: MEP_Leafs_02_d 4
+  - first:
+      23: 2300140
+    second: MEP_Leafs_02_e
+  - first:
+      23: 2300142
+    second: MEP_Leafs_02_e 1
+  - first:
+      23: 2300144
+    second: MEP_Leafs_02_e 10
+  - first:
+      23: 2300146
+    second: MEP_Leafs_02_e 11
+  - first:
+      23: 2300148
+    second: MEP_Leafs_02_e 12
+  - first:
+      23: 2300150
+    second: MEP_Leafs_02_e 13
+  - first:
+      23: 2300152
+    second: MEP_Leafs_02_e 14
+  - first:
+      23: 2300154
+    second: MEP_Leafs_02_e 15
+  - first:
+      23: 2300156
+    second: MEP_Leafs_02_e 16
+  - first:
+      23: 2300158
+    second: MEP_Leafs_02_e 17
+  - first:
+      23: 2300160
+    second: MEP_Leafs_02_e 2
+  - first:
+      23: 2300162
+    second: MEP_Leafs_02_e 3
+  - first:
+      23: 2300164
+    second: MEP_Leafs_02_e 4
+  - first:
+      23: 2300166
+    second: MEP_Leafs_02_e 5
+  - first:
+      23: 2300168
+    second: MEP_Leafs_02_e 6
+  - first:
+      23: 2300170
+    second: MEP_Leafs_02_e 7
+  - first:
+      23: 2300172
+    second: MEP_Leafs_02_e 8
+  - first:
+      23: 2300174
+    second: MEP_Leafs_02_e 9
+  - first:
+      23: 2300176
+    second: MEP_Leafs_02_i
+  - first:
+      23: 2300178
+    second: MEP_Leafs_02_i 1
+  - first:
+      23: 2300180
+    second: MEP_Leafs_02_i 10
+  - first:
+      23: 2300182
+    second: MEP_Leafs_02_i 11
+  - first:
+      23: 2300184
+    second: MEP_Leafs_02_i 12
+  - first:
+      23: 2300186
+    second: MEP_Leafs_02_i 13
+  - first:
+      23: 2300188
+    second: MEP_Leafs_02_i 14
+  - first:
+      23: 2300190
+    second: MEP_Leafs_02_i 15
+  - first:
+      23: 2300192
+    second: MEP_Leafs_02_i 16
+  - first:
+      23: 2300194
+    second: MEP_Leafs_02_i 17
+  - first:
+      23: 2300196
+    second: MEP_Leafs_02_i 18
+  - first:
+      23: 2300198
+    second: MEP_Leafs_02_i 19
+  - first:
+      23: 2300200
+    second: MEP_Leafs_02_i 2
+  - first:
+      23: 2300202
+    second: MEP_Leafs_02_i 20
+  - first:
+      23: 2300204
+    second: MEP_Leafs_02_i 21
+  - first:
+      23: 2300206
+    second: MEP_Leafs_02_i 22
+  - first:
+      23: 2300208
+    second: MEP_Leafs_02_i 23
+  - first:
+      23: 2300210
+    second: MEP_Leafs_02_i 24
+  - first:
+      23: 2300212
+    second: MEP_Leafs_02_i 3
+  - first:
+      23: 2300214
+    second: MEP_Leafs_02_i 4
+  - first:
+      23: 2300216
+    second: MEP_Leafs_02_i 5
+  - first:
+      23: 2300218
+    second: MEP_Leafs_02_i 6
+  - first:
+      23: 2300220
+    second: MEP_Leafs_02_i 7
+  - first:
+      23: 2300222
+    second: MEP_Leafs_02_i 8
+  - first:
+      23: 2300224
+    second: MEP_Leafs_02_i 9
+  - first:
+      23: 2300226
+    second: MEP_Leafs_02_j
+  - first:
+      23: 2300228
+    second: MEP_Leafs_02_j 1
+  - first:
+      23: 2300230
+    second: MEP_Leafs_02_j 10
+  - first:
+      23: 2300232
+    second: MEP_Leafs_02_j 11
+  - first:
+      23: 2300234
+    second: MEP_Leafs_02_j 12
+  - first:
+      23: 2300236
+    second: MEP_Leafs_02_j 13
+  - first:
+      23: 2300238
+    second: MEP_Leafs_02_j 14
+  - first:
+      23: 2300240
+    second: MEP_Leafs_02_j 15
+  - first:
+      23: 2300242
+    second: MEP_Leafs_02_j 16
+  - first:
+      23: 2300244
+    second: MEP_Leafs_02_j 17
+  - first:
+      23: 2300246
+    second: MEP_Leafs_02_j 18
+  - first:
+      23: 2300248
+    second: MEP_Leafs_02_j 19
+  - first:
+      23: 2300250
+    second: MEP_Leafs_02_j 2
+  - first:
+      23: 2300252
+    second: MEP_Leafs_02_j 20
+  - first:
+      23: 2300254
+    second: MEP_Leafs_02_j 3
+  - first:
+      23: 2300256
+    second: MEP_Leafs_02_j 4
+  - first:
+      23: 2300258
+    second: MEP_Leafs_02_j 5
+  - first:
+      23: 2300260
+    second: MEP_Leafs_02_j 6
+  - first:
+      23: 2300262
+    second: MEP_Leafs_02_j 7
+  - first:
+      23: 2300264
+    second: MEP_Leafs_02_j 8
+  - first:
+      23: 2300266
+    second: MEP_Leafs_02_j 9
+  - first:
+      23: 2300268
+    second: MEP_Shack_05
+  - first:
+      23: 2300270
+    second: MEP_TreeBark_01_a
+  - first:
+      23: 2300272
+    second: MEP_TreeBark_01_a 1
+  - first:
+      23: 2300274
+    second: MEP_TreeBark_01_a 2
+  - first:
+      23: 2300276
+    second: MEP_TreeBark_01_a 3
+  - first:
+      23: 2300278
+    second: MEP_TreeBark_01_b
+  - first:
+      23: 2300280
+    second: MEP_TreeBark_01_b 1
+  - first:
+      23: 2300282
+    second: MEP_TreeBark_01_b 10
+  - first:
+      23: 2300284
+    second: MEP_TreeBark_01_b 11
+  - first:
+      23: 2300286
+    second: MEP_TreeBark_01_b 12
+  - first:
+      23: 2300288
+    second: MEP_TreeBark_01_b 13
+  - first:
+      23: 2300290
+    second: MEP_TreeBark_01_b 14
+  - first:
+      23: 2300292
+    second: MEP_TreeBark_01_b 15
+  - first:
+      23: 2300294
+    second: MEP_TreeBark_01_b 16
+  - first:
+      23: 2300296
+    second: MEP_TreeBark_01_b 17
+  - first:
+      23: 2300298
+    second: MEP_TreeBark_01_b 18
+  - first:
+      23: 2300300
+    second: MEP_TreeBark_01_b 19
+  - first:
+      23: 2300302
+    second: MEP_TreeBark_01_b 2
+  - first:
+      23: 2300304
+    second: MEP_TreeBark_01_b 20
+  - first:
+      23: 2300306
+    second: MEP_TreeBark_01_b 21
+  - first:
+      23: 2300308
+    second: MEP_TreeBark_01_b 22
+  - first:
+      23: 2300310
+    second: MEP_TreeBark_01_b 23
+  - first:
+      23: 2300312
+    second: MEP_TreeBark_01_b 24
+  - first:
+      23: 2300314
+    second: MEP_TreeBark_01_b 25
+  - first:
+      23: 2300316
+    second: MEP_TreeBark_01_b 3
+  - first:
+      23: 2300318
+    second: MEP_TreeBark_01_b 4
+  - first:
+      23: 2300320
+    second: MEP_TreeBark_01_b 5
+  - first:
+      23: 2300322
+    second: MEP_TreeBark_01_b 6
+  - first:
+      23: 2300324
+    second: MEP_TreeBark_01_b 7
+  - first:
+      23: 2300326
+    second: MEP_TreeBark_01_b 8
+  - first:
+      23: 2300328
+    second: MEP_TreeBark_01_b 9
+  - first:
+      23: 2300330
+    second: MEP_TreeBark_01_c
+  - first:
+      23: 2300332
+    second: MEP_TreeBark_01_c 1
+  - first:
+      23: 2300334
+    second: MEP_TreeBark_01_c 2
+  - first:
+      23: 2300336
+    second: MEP_TreeBark_01_c 3
+  - first:
+      23: 2300338
+    second: MEP_TreeBark_01_c 4
+  - first:
+      23: 2300340
+    second: MEP_TreeBark_01_c 5
+  - first:
+      23: 2300342
+    second: MEP_TreeBark_01_c 6
+  - first:
+      23: 2300344
+    second: MEP_TreeBark_01_c 7
+  - first:
+      23: 2300346
+    second: MEP_TreeBark_01_d
+  - first:
+      23: 2300348
+    second: MEP_TreeBark_01_d 1
+  - first:
+      23: 2300350
+    second: MEP_TreeBark_01_d 2
+  - first:
+      23: 2300352
+    second: MEP_TreeBark_01_d 3
+  - first:
+      23: 2300354
+    second: MEP_TreeBark_01_d 4
+  - first:
+      23: 2300356
+    second: MEP_TreeBark_01_d 5
+  - first:
+      23: 2300358
+    second: MEP_TreeBark_01_e
+  - first:
+      23: 2300360
+    second: MEP_TreeBark_01_e 1
+  - first:
+      23: 2300362
+    second: MEP_TreeBark_01_e 10
+  - first:
+      23: 2300364
+    second: MEP_TreeBark_01_e 11
+  - first:
+      23: 2300366
+    second: MEP_TreeBark_01_e 12
+  - first:
+      23: 2300368
+    second: MEP_TreeBark_01_e 13
+  - first:
+      23: 2300370
+    second: MEP_TreeBark_01_e 14
+  - first:
+      23: 2300372
+    second: MEP_TreeBark_01_e 15
+  - first:
+      23: 2300374
+    second: MEP_TreeBark_01_e 16
+  - first:
+      23: 2300376
+    second: MEP_TreeBark_01_e 17
+  - first:
+      23: 2300378
+    second: MEP_TreeBark_01_e 2
+  - first:
+      23: 2300380
+    second: MEP_TreeBark_01_e 3
+  - first:
+      23: 2300382
+    second: MEP_TreeBark_01_e 4
+  - first:
+      23: 2300384
+    second: MEP_TreeBark_01_e 5
+  - first:
+      23: 2300386
+    second: MEP_TreeBark_01_e 6
+  - first:
+      23: 2300388
+    second: MEP_TreeBark_01_e 7
+  - first:
+      23: 2300390
+    second: MEP_TreeBark_01_e 8
+  - first:
+      23: 2300392
+    second: MEP_TreeBark_01_e 9
+  - first:
+      23: 2300394
+    second: MEP_TreeBark_01_f
+  - first:
+      23: 2300396
+    second: MEP_TreeBark_01_f 1
+  - first:
+      23: 2300398
+    second: MEP_TreeBark_01_f 10
+  - first:
+      23: 2300400
+    second: MEP_TreeBark_01_f 11
+  - first:
+      23: 2300402
+    second: MEP_TreeBark_01_f 12
+  - first:
+      23: 2300404
+    second: MEP_TreeBark_01_f 13
+  - first:
+      23: 2300406
+    second: MEP_TreeBark_01_f 14
+  - first:
+      23: 2300408
+    second: MEP_TreeBark_01_f 2
+  - first:
+      23: 2300410
+    second: MEP_TreeBark_01_f 3
+  - first:
+      23: 2300412
+    second: MEP_TreeBark_01_f 4
+  - first:
+      23: 2300414
+    second: MEP_TreeBark_01_f 5
+  - first:
+      23: 2300416
+    second: MEP_TreeBark_01_f 6
+  - first:
+      23: 2300418
+    second: MEP_TreeBark_01_f 7
+  - first:
+      23: 2300420
+    second: MEP_TreeBark_01_f 8
+  - first:
+      23: 2300422
+    second: MEP_TreeBark_01_f 9
+  - first:
+      23: 2300424
+    second: MEP_TreeBark_01_i
+  - first:
+      23: 2300426
+    second: MEP_TreeBark_01_i 1
+  - first:
+      23: 2300428
+    second: MEP_TreeBark_01_i 10
+  - first:
+      23: 2300430
+    second: MEP_TreeBark_01_i 11
+  - first:
+      23: 2300432
+    second: MEP_TreeBark_01_i 12
+  - first:
+      23: 2300434
+    second: MEP_TreeBark_01_i 13
+  - first:
+      23: 2300436
+    second: MEP_TreeBark_01_i 14
+  - first:
+      23: 2300438
+    second: MEP_TreeBark_01_i 15
+  - first:
+      23: 2300440
+    second: MEP_TreeBark_01_i 16
+  - first:
+      23: 2300442
+    second: MEP_TreeBark_01_i 17
+  - first:
+      23: 2300444
+    second: MEP_TreeBark_01_i 18
+  - first:
+      23: 2300446
+    second: MEP_TreeBark_01_i 19
+  - first:
+      23: 2300448
+    second: MEP_TreeBark_01_i 2
+  - first:
+      23: 2300450
+    second: MEP_TreeBark_01_i 20
+  - first:
+      23: 2300452
+    second: MEP_TreeBark_01_i 21
+  - first:
+      23: 2300454
+    second: MEP_TreeBark_01_i 22
+  - first:
+      23: 2300456
+    second: MEP_TreeBark_01_i 23
+  - first:
+      23: 2300458
+    second: MEP_TreeBark_01_i 24
+  - first:
+      23: 2300460
+    second: MEP_TreeBark_01_i 3
+  - first:
+      23: 2300462
+    second: MEP_TreeBark_01_i 4
+  - first:
+      23: 2300464
+    second: MEP_TreeBark_01_i 5
+  - first:
+      23: 2300466
+    second: MEP_TreeBark_01_i 6
+  - first:
+      23: 2300468
+    second: MEP_TreeBark_01_i 7
+  - first:
+      23: 2300470
+    second: MEP_TreeBark_01_i 8
+  - first:
+      23: 2300472
+    second: MEP_TreeBark_01_i 9
+  - first:
+      23: 2300474
+    second: MEP_TreeBark_01_j
+  - first:
+      23: 2300476
+    second: MEP_TreeBark_01_j 1
+  - first:
+      23: 2300478
+    second: MEP_TreeBark_01_j 10
+  - first:
+      23: 2300480
+    second: MEP_TreeBark_01_j 11
+  - first:
+      23: 2300482
+    second: MEP_TreeBark_01_j 12
+  - first:
+      23: 2300484
+    second: MEP_TreeBark_01_j 13
+  - first:
+      23: 2300486
+    second: MEP_TreeBark_01_j 14
+  - first:
+      23: 2300488
+    second: MEP_TreeBark_01_j 15
+  - first:
+      23: 2300490
+    second: MEP_TreeBark_01_j 16
+  - first:
+      23: 2300492
+    second: MEP_TreeBark_01_j 17
+  - first:
+      23: 2300494
+    second: MEP_TreeBark_01_j 18
+  - first:
+      23: 2300496
+    second: MEP_TreeBark_01_j 19
+  - first:
+      23: 2300498
+    second: MEP_TreeBark_01_j 2
+  - first:
+      23: 2300500
+    second: MEP_TreeBark_01_j 20
+  - first:
+      23: 2300502
+    second: MEP_TreeBark_01_j 3
+  - first:
+      23: 2300504
+    second: MEP_TreeBark_01_j 4
+  - first:
+      23: 2300506
+    second: MEP_TreeBark_01_j 5
+  - first:
+      23: 2300508
+    second: MEP_TreeBark_01_j 6
+  - first:
+      23: 2300510
+    second: MEP_TreeBark_01_j 7
+  - first:
+      23: 2300512
+    second: MEP_TreeBark_01_j 8
+  - first:
+      23: 2300514
+    second: MEP_TreeBark_01_j 9
+  - first:
+      23: 2300516
+    second: MOTOR_boeing
+  - first:
+      23: 2300518
+    second: NewMesh_tris_1047
+  - first:
+      23: 2300520
+    second: NewMesh_tris_120
+  - first:
+      23: 2300522
+    second: NewMesh_tris_144
+  - first:
+      23: 2300524
+    second: NewMesh_tris_170
+  - first:
+      23: 2300526
+    second: NewMesh_tris_173
+  - first:
+      23: 2300528
+    second: NewMesh_tris_1987
+  - first:
+      23: 2300530
+    second: NewMesh_tris_200
+  - first:
+      23: 2300532
+    second: NewMesh_tris_220
+  - first:
+      23: 2300534
+    second: NewMesh_tris_260
+  - first:
+      23: 2300536
+    second: NewMesh_tris_308
+  - first:
+      23: 2300538
+    second: NewMesh_tris_316
+  - first:
+      23: 2300540
+    second: NewMesh_tris_320
+  - first:
+      23: 2300542
+    second: NewMesh_tris_330
+  - first:
+      23: 2300544
+    second: NewMesh_tris_370
+  - first:
+      23: 2300546
+    second: NewMesh_tris_390
+  - first:
+      23: 2300548
+    second: NewMesh_tris_412
+  - first:
+      23: 2300550
+    second: NewMesh_tris_420
+  - first:
+      23: 2300552
+    second: NewMesh_tris_430
+  - first:
+      23: 2300554
+    second: NewMesh_tris_440
+  - first:
+      23: 2300556
+    second: NewMesh_tris_444
+  - first:
+      23: 2300558
+    second: NewMesh_tris_464
+  - first:
+      23: 2300560
+    second: NewMesh_tris_476
+  - first:
+      23: 2300562
+    second: NewMesh_tris_489
+  - first:
+      23: 2300564
+    second: NewMesh_tris_489 (1)
+  - first:
+      23: 2300566
+    second: NewMesh_tris_489 (2)
+  - first:
+      23: 2300568
+    second: NewMesh_tris_489 (3)
+  - first:
+      23: 2300570
+    second: NewMesh_tris_504
+  - first:
+      23: 2300572
+    second: NewMesh_tris_518
+  - first:
+      23: 2300574
+    second: NewMesh_tris_560
+  - first:
+      23: 2300576
+    second: NewMesh_tris_572
+  - first:
+      23: 2300578
+    second: NewMesh_tris_607
+  - first:
+      23: 2300580
+    second: NewMesh_tris_616
+  - first:
+      23: 2300582
+    second: NewMesh_tris_621
+  - first:
+      23: 2300584
+    second: NewMesh_tris_630
+  - first:
+      23: 2300586
+    second: NewMesh_tris_630 1
+  - first:
+      23: 2300588
+    second: NewMesh_tris_630 2
+  - first:
+      23: 2300590
+    second: NewMesh_tris_637
+  - first:
+      23: 2300592
+    second: NewMesh_tris_668
+  - first:
+      23: 2300594
+    second: NewMesh_tris_680
+  - first:
+      23: 2300596
+    second: NewMesh_tris_688
+  - first:
+      23: 2300598
+    second: NewMesh_tris_860
+  - first:
+      23: 2300600
+    second: Object075
+  - first:
+      23: 2300602
+    second: Object075 1
+  - first:
+      23: 2300604
+    second: Pipe
+  - first:
+      23: 2300606
+    second: Pipe (1)
+  - first:
+      23: 2300608
+    second: Pipe (10)
+  - first:
+      23: 2300610
+    second: Pipe (11)
+  - first:
+      23: 2300612
+    second: Pipe (12)
+  - first:
+      23: 2300614
+    second: Pipe (13)
+  - first:
+      23: 2300616
+    second: Pipe (14)
+  - first:
+      23: 2300618
+    second: Pipe (2)
+  - first:
+      23: 2300620
+    second: Pipe (3)
+  - first:
+      23: 2300622
+    second: Pipe (4)
+  - first:
+      23: 2300624
+    second: Pipe (5)
+  - first:
+      23: 2300626
+    second: Pipe (6)
+  - first:
+      23: 2300628
+    second: Pipe (7)
+  - first:
+      23: 2300630
+    second: Pipe (8)
+  - first:
+      23: 2300632
+    second: Pipe (9)
+  - first:
+      23: 2300634
+    second: Scene_03_Terrain
+  - first:
+      23: 2300636
+    second: Shack_04
+  - first:
+      23: 2300638
+    second: Shack_04 (1)
+  - first:
+      23: 2300640
+    second: Shtak_01
+  - first:
+      23: 2300642
+    second: Shtak_02
+  - first:
+      23: 2300644
+    second: Shtak_03
+  - first:
+      23: 2300646
+    second: Shtak_04
+  - first:
+      23: 2300648
+    second: Shtak_05
+  - first:
+      23: 2300650
+    second: Shtak_06
+  - first:
+      23: 2300652
+    second: Shtak_07
+  - first:
+      23: 2300654
+    second: Shtak_08
+  - first:
+      23: 2300656
+    second: Shtak_09
+  - first:
+      23: 2300658
+    second: Shtak_10
+  - first:
+      23: 2300660
+    second: Shtak_11
+  - first:
+      23: 2300662
+    second: Shtak_12
+  - first:
+      23: 2300664
+    second: Shtak_13
+  - first:
+      23: 2300666
+    second: Shtak_14
+  - first:
+      23: 2300668
+    second: Shtak_15
+  - first:
+      23: 2300670
+    second: Shtak_16
+  - first:
+      23: 2300672
+    second: Shtak_18
+  - first:
+      23: 2300674
+    second: Shtak_19
+  - first:
+      23: 2300676
+    second: Shtak_20
+  - first:
+      23: 2300678
+    second: Shtak_21
+  - first:
+      23: 2300680
+    second: Shtak_22
+  - first:
+      23: 2300682
+    second: Shtak_break
+  - first:
+      23: 2300684
+    second: Shtak_break01
+  - first:
+      23: 2300686
+    second: Shtak_break02
+  - first:
+      23: 2300688
+    second: Shtak_break03
+  - first:
+      23: 2300690
+    second: Shtak_kalitka 1
+  - first:
+      23: 2300692
+    second: TAIL_boeing
+  - first:
+      23: 2300694
+    second: Tualet
+  - first:
+      23: 2300696
+    second: WING_boeing
+  - first:
+      33: 3300000
+    second: BASE_boeing
+  - first:
+      33: 3300002
+    second: Box001
+  - first:
+      33: 3300004
+    second: Box001 1
+  - first:
+      33: 3300006
+    second: CABIN_boeing
+  - first:
+      33: 3300008
+    second: EP_Leafs_02_b
+  - first:
+      33: 3300010
+    second: EP_Leafs_02_b 1
+  - first:
+      33: 3300012
+    second: EP_Leafs_02_b 2
+  - first:
+      33: 3300014
+    second: EP_Leafs_02_b 3
+  - first:
+      33: 3300016
+    second: EP_Leafs_02_b 4
+  - first:
+      33: 3300018
+    second: EP_Leafs_02_b 5
+  - first:
+      33: 3300020
+    second: EP_Leafs_02_b 6
+  - first:
+      33: 3300022
+    second: EP_Leafs_02_b 7
+  - first:
+      33: 3300024
+    second: EP_Leafs_02_f
+  - first:
+      33: 3300026
+    second: EP_Leafs_02_f 1
+  - first:
+      33: 3300028
+    second: EP_Leafs_02_f 10
+  - first:
+      33: 3300030
+    second: EP_Leafs_02_f 11
+  - first:
+      33: 3300032
+    second: EP_Leafs_02_f 12
+  - first:
+      33: 3300034
+    second: EP_Leafs_02_f 13
+  - first:
+      33: 3300036
+    second: EP_Leafs_02_f 14
+  - first:
+      33: 3300038
+    second: EP_Leafs_02_f 2
+  - first:
+      33: 3300040
+    second: EP_Leafs_02_f 3
+  - first:
+      33: 3300042
+    second: EP_Leafs_02_f 4
+  - first:
+      33: 3300044
+    second: EP_Leafs_02_f 5
+  - first:
+      33: 3300046
+    second: EP_Leafs_02_f 6
+  - first:
+      33: 3300048
+    second: EP_Leafs_02_f 7
+  - first:
+      33: 3300050
+    second: EP_Leafs_02_f 8
+  - first:
+      33: 3300052
+    second: EP_Leafs_02_f 9
+  - first:
+      33: 3300054
+    second: Hut
+  - first:
+      33: 3300056
+    second: kalitka
+  - first:
+      33: 3300058
+    second: lavka
+  - first:
+      33: 3300060
+    second: MEP_Cliff_S_11
+  - first:
+      33: 3300062
+    second: MEP_Grass_02_a 1
+  - first:
+      33: 3300064
+    second: MEP_Grass_02_a 1 1
+  - first:
+      33: 3300066
+    second: MEP_Grass_02_a 1 2
+  - first:
+      33: 3300068
+    second: MEP_Grass_02_a 1 3
+  - first:
+      33: 3300070
+    second: MEP_Leafs_02_a
+  - first:
+      33: 3300072
+    second: MEP_Leafs_02_a 1
+  - first:
+      33: 3300074
+    second: MEP_Leafs_02_a 2
+  - first:
+      33: 3300076
+    second: MEP_Leafs_02_a 3
+  - first:
+      33: 3300078
+    second: MEP_Leafs_02_b
+  - first:
+      33: 3300080
+    second: MEP_Leafs_02_b 1
+  - first:
+      33: 3300082
+    second: MEP_Leafs_02_b 10
+  - first:
+      33: 3300084
+    second: MEP_Leafs_02_b 11
+  - first:
+      33: 3300086
+    second: MEP_Leafs_02_b 12
+  - first:
+      33: 3300088
+    second: MEP_Leafs_02_b 13
+  - first:
+      33: 3300090
+    second: MEP_Leafs_02_b 14
+  - first:
+      33: 3300092
+    second: MEP_Leafs_02_b 15
+  - first:
+      33: 3300094
+    second: MEP_Leafs_02_b 16
+  - first:
+      33: 3300096
+    second: MEP_Leafs_02_b 17
+  - first:
+      33: 3300098
+    second: MEP_Leafs_02_b 18
+  - first:
+      33: 3300100
+    second: MEP_Leafs_02_b 19
+  - first:
+      33: 3300102
+    second: MEP_Leafs_02_b 2
+  - first:
+      33: 3300104
+    second: MEP_Leafs_02_b 20
+  - first:
+      33: 3300106
+    second: MEP_Leafs_02_b 21
+  - first:
+      33: 3300108
+    second: MEP_Leafs_02_b 22
+  - first:
+      33: 3300110
+    second: MEP_Leafs_02_b 23
+  - first:
+      33: 3300112
+    second: MEP_Leafs_02_b 24
+  - first:
+      33: 3300114
+    second: MEP_Leafs_02_b 25
+  - first:
+      33: 3300116
+    second: MEP_Leafs_02_b 3
+  - first:
+      33: 3300118
+    second: MEP_Leafs_02_b 4
+  - first:
+      33: 3300120
+    second: MEP_Leafs_02_b 5
+  - first:
+      33: 3300122
+    second: MEP_Leafs_02_b 6
+  - first:
+      33: 3300124
+    second: MEP_Leafs_02_b 7
+  - first:
+      33: 3300126
+    second: MEP_Leafs_02_b 8
+  - first:
+      33: 3300128
+    second: MEP_Leafs_02_b 9
+  - first:
+      33: 3300130
+    second: MEP_Leafs_02_d
+  - first:
+      33: 3300132
+    second: MEP_Leafs_02_d 1
+  - first:
+      33: 3300134
+    second: MEP_Leafs_02_d 2
+  - first:
+      33: 3300136
+    second: MEP_Leafs_02_d 3
+  - first:
+      33: 3300138
+    second: MEP_Leafs_02_d 4
+  - first:
+      33: 3300140
+    second: MEP_Leafs_02_e
+  - first:
+      33: 3300142
+    second: MEP_Leafs_02_e 1
+  - first:
+      33: 3300144
+    second: MEP_Leafs_02_e 10
+  - first:
+      33: 3300146
+    second: MEP_Leafs_02_e 11
+  - first:
+      33: 3300148
+    second: MEP_Leafs_02_e 12
+  - first:
+      33: 3300150
+    second: MEP_Leafs_02_e 13
+  - first:
+      33: 3300152
+    second: MEP_Leafs_02_e 14
+  - first:
+      33: 3300154
+    second: MEP_Leafs_02_e 15
+  - first:
+      33: 3300156
+    second: MEP_Leafs_02_e 16
+  - first:
+      33: 3300158
+    second: MEP_Leafs_02_e 17
+  - first:
+      33: 3300160
+    second: MEP_Leafs_02_e 2
+  - first:
+      33: 3300162
+    second: MEP_Leafs_02_e 3
+  - first:
+      33: 3300164
+    second: MEP_Leafs_02_e 4
+  - first:
+      33: 3300166
+    second: MEP_Leafs_02_e 5
+  - first:
+      33: 3300168
+    second: MEP_Leafs_02_e 6
+  - first:
+      33: 3300170
+    second: MEP_Leafs_02_e 7
+  - first:
+      33: 3300172
+    second: MEP_Leafs_02_e 8
+  - first:
+      33: 3300174
+    second: MEP_Leafs_02_e 9
+  - first:
+      33: 3300176
+    second: MEP_Leafs_02_i
+  - first:
+      33: 3300178
+    second: MEP_Leafs_02_i 1
+  - first:
+      33: 3300180
+    second: MEP_Leafs_02_i 10
+  - first:
+      33: 3300182
+    second: MEP_Leafs_02_i 11
+  - first:
+      33: 3300184
+    second: MEP_Leafs_02_i 12
+  - first:
+      33: 3300186
+    second: MEP_Leafs_02_i 13
+  - first:
+      33: 3300188
+    second: MEP_Leafs_02_i 14
+  - first:
+      33: 3300190
+    second: MEP_Leafs_02_i 15
+  - first:
+      33: 3300192
+    second: MEP_Leafs_02_i 16
+  - first:
+      33: 3300194
+    second: MEP_Leafs_02_i 17
+  - first:
+      33: 3300196
+    second: MEP_Leafs_02_i 18
+  - first:
+      33: 3300198
+    second: MEP_Leafs_02_i 19
+  - first:
+      33: 3300200
+    second: MEP_Leafs_02_i 2
+  - first:
+      33: 3300202
+    second: MEP_Leafs_02_i 20
+  - first:
+      33: 3300204
+    second: MEP_Leafs_02_i 21
+  - first:
+      33: 3300206
+    second: MEP_Leafs_02_i 22
+  - first:
+      33: 3300208
+    second: MEP_Leafs_02_i 23
+  - first:
+      33: 3300210
+    second: MEP_Leafs_02_i 24
+  - first:
+      33: 3300212
+    second: MEP_Leafs_02_i 3
+  - first:
+      33: 3300214
+    second: MEP_Leafs_02_i 4
+  - first:
+      33: 3300216
+    second: MEP_Leafs_02_i 5
+  - first:
+      33: 3300218
+    second: MEP_Leafs_02_i 6
+  - first:
+      33: 3300220
+    second: MEP_Leafs_02_i 7
+  - first:
+      33: 3300222
+    second: MEP_Leafs_02_i 8
+  - first:
+      33: 3300224
+    second: MEP_Leafs_02_i 9
+  - first:
+      33: 3300226
+    second: MEP_Leafs_02_j
+  - first:
+      33: 3300228
+    second: MEP_Leafs_02_j 1
+  - first:
+      33: 3300230
+    second: MEP_Leafs_02_j 10
+  - first:
+      33: 3300232
+    second: MEP_Leafs_02_j 11
+  - first:
+      33: 3300234
+    second: MEP_Leafs_02_j 12
+  - first:
+      33: 3300236
+    second: MEP_Leafs_02_j 13
+  - first:
+      33: 3300238
+    second: MEP_Leafs_02_j 14
+  - first:
+      33: 3300240
+    second: MEP_Leafs_02_j 15
+  - first:
+      33: 3300242
+    second: MEP_Leafs_02_j 16
+  - first:
+      33: 3300244
+    second: MEP_Leafs_02_j 17
+  - first:
+      33: 3300246
+    second: MEP_Leafs_02_j 18
+  - first:
+      33: 3300248
+    second: MEP_Leafs_02_j 19
+  - first:
+      33: 3300250
+    second: MEP_Leafs_02_j 2
+  - first:
+      33: 3300252
+    second: MEP_Leafs_02_j 20
+  - first:
+      33: 3300254
+    second: MEP_Leafs_02_j 3
+  - first:
+      33: 3300256
+    second: MEP_Leafs_02_j 4
+  - first:
+      33: 3300258
+    second: MEP_Leafs_02_j 5
+  - first:
+      33: 3300260
+    second: MEP_Leafs_02_j 6
+  - first:
+      33: 3300262
+    second: MEP_Leafs_02_j 7
+  - first:
+      33: 3300264
+    second: MEP_Leafs_02_j 8
+  - first:
+      33: 3300266
+    second: MEP_Leafs_02_j 9
+  - first:
+      33: 3300268
+    second: MEP_Shack_05
+  - first:
+      33: 3300270
+    second: MEP_TreeBark_01_a
+  - first:
+      33: 3300272
+    second: MEP_TreeBark_01_a 1
+  - first:
+      33: 3300274
+    second: MEP_TreeBark_01_a 2
+  - first:
+      33: 3300276
+    second: MEP_TreeBark_01_a 3
+  - first:
+      33: 3300278
+    second: MEP_TreeBark_01_b
+  - first:
+      33: 3300280
+    second: MEP_TreeBark_01_b 1
+  - first:
+      33: 3300282
+    second: MEP_TreeBark_01_b 10
+  - first:
+      33: 3300284
+    second: MEP_TreeBark_01_b 11
+  - first:
+      33: 3300286
+    second: MEP_TreeBark_01_b 12
+  - first:
+      33: 3300288
+    second: MEP_TreeBark_01_b 13
+  - first:
+      33: 3300290
+    second: MEP_TreeBark_01_b 14
+  - first:
+      33: 3300292
+    second: MEP_TreeBark_01_b 15
+  - first:
+      33: 3300294
+    second: MEP_TreeBark_01_b 16
+  - first:
+      33: 3300296
+    second: MEP_TreeBark_01_b 17
+  - first:
+      33: 3300298
+    second: MEP_TreeBark_01_b 18
+  - first:
+      33: 3300300
+    second: MEP_TreeBark_01_b 19
+  - first:
+      33: 3300302
+    second: MEP_TreeBark_01_b 2
+  - first:
+      33: 3300304
+    second: MEP_TreeBark_01_b 20
+  - first:
+      33: 3300306
+    second: MEP_TreeBark_01_b 21
+  - first:
+      33: 3300308
+    second: MEP_TreeBark_01_b 22
+  - first:
+      33: 3300310
+    second: MEP_TreeBark_01_b 23
+  - first:
+      33: 3300312
+    second: MEP_TreeBark_01_b 24
+  - first:
+      33: 3300314
+    second: MEP_TreeBark_01_b 25
+  - first:
+      33: 3300316
+    second: MEP_TreeBark_01_b 3
+  - first:
+      33: 3300318
+    second: MEP_TreeBark_01_b 4
+  - first:
+      33: 3300320
+    second: MEP_TreeBark_01_b 5
+  - first:
+      33: 3300322
+    second: MEP_TreeBark_01_b 6
+  - first:
+      33: 3300324
+    second: MEP_TreeBark_01_b 7
+  - first:
+      33: 3300326
+    second: MEP_TreeBark_01_b 8
+  - first:
+      33: 3300328
+    second: MEP_TreeBark_01_b 9
+  - first:
+      33: 3300330
+    second: MEP_TreeBark_01_c
+  - first:
+      33: 3300332
+    second: MEP_TreeBark_01_c 1
+  - first:
+      33: 3300334
+    second: MEP_TreeBark_01_c 2
+  - first:
+      33: 3300336
+    second: MEP_TreeBark_01_c 3
+  - first:
+      33: 3300338
+    second: MEP_TreeBark_01_c 4
+  - first:
+      33: 3300340
+    second: MEP_TreeBark_01_c 5
+  - first:
+      33: 3300342
+    second: MEP_TreeBark_01_c 6
+  - first:
+      33: 3300344
+    second: MEP_TreeBark_01_c 7
+  - first:
+      33: 3300346
+    second: MEP_TreeBark_01_d
+  - first:
+      33: 3300348
+    second: MEP_TreeBark_01_d 1
+  - first:
+      33: 3300350
+    second: MEP_TreeBark_01_d 2
+  - first:
+      33: 3300352
+    second: MEP_TreeBark_01_d 3
+  - first:
+      33: 3300354
+    second: MEP_TreeBark_01_d 4
+  - first:
+      33: 3300356
+    second: MEP_TreeBark_01_d 5
+  - first:
+      33: 3300358
+    second: MEP_TreeBark_01_e
+  - first:
+      33: 3300360
+    second: MEP_TreeBark_01_e 1
+  - first:
+      33: 3300362
+    second: MEP_TreeBark_01_e 10
+  - first:
+      33: 3300364
+    second: MEP_TreeBark_01_e 11
+  - first:
+      33: 3300366
+    second: MEP_TreeBark_01_e 12
+  - first:
+      33: 3300368
+    second: MEP_TreeBark_01_e 13
+  - first:
+      33: 3300370
+    second: MEP_TreeBark_01_e 14
+  - first:
+      33: 3300372
+    second: MEP_TreeBark_01_e 15
+  - first:
+      33: 3300374
+    second: MEP_TreeBark_01_e 16
+  - first:
+      33: 3300376
+    second: MEP_TreeBark_01_e 17
+  - first:
+      33: 3300378
+    second: MEP_TreeBark_01_e 2
+  - first:
+      33: 3300380
+    second: MEP_TreeBark_01_e 3
+  - first:
+      33: 3300382
+    second: MEP_TreeBark_01_e 4
+  - first:
+      33: 3300384
+    second: MEP_TreeBark_01_e 5
+  - first:
+      33: 3300386
+    second: MEP_TreeBark_01_e 6
+  - first:
+      33: 3300388
+    second: MEP_TreeBark_01_e 7
+  - first:
+      33: 3300390
+    second: MEP_TreeBark_01_e 8
+  - first:
+      33: 3300392
+    second: MEP_TreeBark_01_e 9
+  - first:
+      33: 3300394
+    second: MEP_TreeBark_01_f
+  - first:
+      33: 3300396
+    second: MEP_TreeBark_01_f 1
+  - first:
+      33: 3300398
+    second: MEP_TreeBark_01_f 10
+  - first:
+      33: 3300400
+    second: MEP_TreeBark_01_f 11
+  - first:
+      33: 3300402
+    second: MEP_TreeBark_01_f 12
+  - first:
+      33: 3300404
+    second: MEP_TreeBark_01_f 13
+  - first:
+      33: 3300406
+    second: MEP_TreeBark_01_f 14
+  - first:
+      33: 3300408
+    second: MEP_TreeBark_01_f 2
+  - first:
+      33: 3300410
+    second: MEP_TreeBark_01_f 3
+  - first:
+      33: 3300412
+    second: MEP_TreeBark_01_f 4
+  - first:
+      33: 3300414
+    second: MEP_TreeBark_01_f 5
+  - first:
+      33: 3300416
+    second: MEP_TreeBark_01_f 6
+  - first:
+      33: 3300418
+    second: MEP_TreeBark_01_f 7
+  - first:
+      33: 3300420
+    second: MEP_TreeBark_01_f 8
+  - first:
+      33: 3300422
+    second: MEP_TreeBark_01_f 9
+  - first:
+      33: 3300424
+    second: MEP_TreeBark_01_i
+  - first:
+      33: 3300426
+    second: MEP_TreeBark_01_i 1
+  - first:
+      33: 3300428
+    second: MEP_TreeBark_01_i 10
+  - first:
+      33: 3300430
+    second: MEP_TreeBark_01_i 11
+  - first:
+      33: 3300432
+    second: MEP_TreeBark_01_i 12
+  - first:
+      33: 3300434
+    second: MEP_TreeBark_01_i 13
+  - first:
+      33: 3300436
+    second: MEP_TreeBark_01_i 14
+  - first:
+      33: 3300438
+    second: MEP_TreeBark_01_i 15
+  - first:
+      33: 3300440
+    second: MEP_TreeBark_01_i 16
+  - first:
+      33: 3300442
+    second: MEP_TreeBark_01_i 17
+  - first:
+      33: 3300444
+    second: MEP_TreeBark_01_i 18
+  - first:
+      33: 3300446
+    second: MEP_TreeBark_01_i 19
+  - first:
+      33: 3300448
+    second: MEP_TreeBark_01_i 2
+  - first:
+      33: 3300450
+    second: MEP_TreeBark_01_i 20
+  - first:
+      33: 3300452
+    second: MEP_TreeBark_01_i 21
+  - first:
+      33: 3300454
+    second: MEP_TreeBark_01_i 22
+  - first:
+      33: 3300456
+    second: MEP_TreeBark_01_i 23
+  - first:
+      33: 3300458
+    second: MEP_TreeBark_01_i 24
+  - first:
+      33: 3300460
+    second: MEP_TreeBark_01_i 3
+  - first:
+      33: 3300462
+    second: MEP_TreeBark_01_i 4
+  - first:
+      33: 3300464
+    second: MEP_TreeBark_01_i 5
+  - first:
+      33: 3300466
+    second: MEP_TreeBark_01_i 6
+  - first:
+      33: 3300468
+    second: MEP_TreeBark_01_i 7
+  - first:
+      33: 3300470
+    second: MEP_TreeBark_01_i 8
+  - first:
+      33: 3300472
+    second: MEP_TreeBark_01_i 9
+  - first:
+      33: 3300474
+    second: MEP_TreeBark_01_j
+  - first:
+      33: 3300476
+    second: MEP_TreeBark_01_j 1
+  - first:
+      33: 3300478
+    second: MEP_TreeBark_01_j 10
+  - first:
+      33: 3300480
+    second: MEP_TreeBark_01_j 11
+  - first:
+      33: 3300482
+    second: MEP_TreeBark_01_j 12
+  - first:
+      33: 3300484
+    second: MEP_TreeBark_01_j 13
+  - first:
+      33: 3300486
+    second: MEP_TreeBark_01_j 14
+  - first:
+      33: 3300488
+    second: MEP_TreeBark_01_j 15
+  - first:
+      33: 3300490
+    second: MEP_TreeBark_01_j 16
+  - first:
+      33: 3300492
+    second: MEP_TreeBark_01_j 17
+  - first:
+      33: 3300494
+    second: MEP_TreeBark_01_j 18
+  - first:
+      33: 3300496
+    second: MEP_TreeBark_01_j 19
+  - first:
+      33: 3300498
+    second: MEP_TreeBark_01_j 2
+  - first:
+      33: 3300500
+    second: MEP_TreeBark_01_j 20
+  - first:
+      33: 3300502
+    second: MEP_TreeBark_01_j 3
+  - first:
+      33: 3300504
+    second: MEP_TreeBark_01_j 4
+  - first:
+      33: 3300506
+    second: MEP_TreeBark_01_j 5
+  - first:
+      33: 3300508
+    second: MEP_TreeBark_01_j 6
+  - first:
+      33: 3300510
+    second: MEP_TreeBark_01_j 7
+  - first:
+      33: 3300512
+    second: MEP_TreeBark_01_j 8
+  - first:
+      33: 3300514
+    second: MEP_TreeBark_01_j 9
+  - first:
+      33: 3300516
+    second: MOTOR_boeing
+  - first:
+      33: 3300518
+    second: NewMesh_tris_1047
+  - first:
+      33: 3300520
+    second: NewMesh_tris_120
+  - first:
+      33: 3300522
+    second: NewMesh_tris_144
+  - first:
+      33: 3300524
+    second: NewMesh_tris_170
+  - first:
+      33: 3300526
+    second: NewMesh_tris_173
+  - first:
+      33: 3300528
+    second: NewMesh_tris_1987
+  - first:
+      33: 3300530
+    second: NewMesh_tris_200
+  - first:
+      33: 3300532
+    second: NewMesh_tris_220
+  - first:
+      33: 3300534
+    second: NewMesh_tris_260
+  - first:
+      33: 3300536
+    second: NewMesh_tris_308
+  - first:
+      33: 3300538
+    second: NewMesh_tris_316
+  - first:
+      33: 3300540
+    second: NewMesh_tris_320
+  - first:
+      33: 3300542
+    second: NewMesh_tris_330
+  - first:
+      33: 3300544
+    second: NewMesh_tris_370
+  - first:
+      33: 3300546
+    second: NewMesh_tris_390
+  - first:
+      33: 3300548
+    second: NewMesh_tris_412
+  - first:
+      33: 3300550
+    second: NewMesh_tris_420
+  - first:
+      33: 3300552
+    second: NewMesh_tris_430
+  - first:
+      33: 3300554
+    second: NewMesh_tris_440
+  - first:
+      33: 3300556
+    second: NewMesh_tris_444
+  - first:
+      33: 3300558
+    second: NewMesh_tris_464
+  - first:
+      33: 3300560
+    second: NewMesh_tris_476
+  - first:
+      33: 3300562
+    second: NewMesh_tris_489
+  - first:
+      33: 3300564
+    second: NewMesh_tris_489 (1)
+  - first:
+      33: 3300566
+    second: NewMesh_tris_489 (2)
+  - first:
+      33: 3300568
+    second: NewMesh_tris_489 (3)
+  - first:
+      33: 3300570
+    second: NewMesh_tris_504
+  - first:
+      33: 3300572
+    second: NewMesh_tris_518
+  - first:
+      33: 3300574
+    second: NewMesh_tris_560
+  - first:
+      33: 3300576
+    second: NewMesh_tris_572
+  - first:
+      33: 3300578
+    second: NewMesh_tris_607
+  - first:
+      33: 3300580
+    second: NewMesh_tris_616
+  - first:
+      33: 3300582
+    second: NewMesh_tris_621
+  - first:
+      33: 3300584
+    second: NewMesh_tris_630
+  - first:
+      33: 3300586
+    second: NewMesh_tris_630 1
+  - first:
+      33: 3300588
+    second: NewMesh_tris_630 2
+  - first:
+      33: 3300590
+    second: NewMesh_tris_637
+  - first:
+      33: 3300592
+    second: NewMesh_tris_668
+  - first:
+      33: 3300594
+    second: NewMesh_tris_680
+  - first:
+      33: 3300596
+    second: NewMesh_tris_688
+  - first:
+      33: 3300598
+    second: NewMesh_tris_860
+  - first:
+      33: 3300600
+    second: Object075
+  - first:
+      33: 3300602
+    second: Object075 1
+  - first:
+      33: 3300604
+    second: Pipe
+  - first:
+      33: 3300606
+    second: Pipe (1)
+  - first:
+      33: 3300608
+    second: Pipe (10)
+  - first:
+      33: 3300610
+    second: Pipe (11)
+  - first:
+      33: 3300612
+    second: Pipe (12)
+  - first:
+      33: 3300614
+    second: Pipe (13)
+  - first:
+      33: 3300616
+    second: Pipe (14)
+  - first:
+      33: 3300618
+    second: Pipe (2)
+  - first:
+      33: 3300620
+    second: Pipe (3)
+  - first:
+      33: 3300622
+    second: Pipe (4)
+  - first:
+      33: 3300624
+    second: Pipe (5)
+  - first:
+      33: 3300626
+    second: Pipe (6)
+  - first:
+      33: 3300628
+    second: Pipe (7)
+  - first:
+      33: 3300630
+    second: Pipe (8)
+  - first:
+      33: 3300632
+    second: Pipe (9)
+  - first:
+      33: 3300634
+    second: Scene_03_Terrain
+  - first:
+      33: 3300636
+    second: Shack_04
+  - first:
+      33: 3300638
+    second: Shack_04 (1)
+  - first:
+      33: 3300640
+    second: Shtak_01
+  - first:
+      33: 3300642
+    second: Shtak_02
+  - first:
+      33: 3300644
+    second: Shtak_03
+  - first:
+      33: 3300646
+    second: Shtak_04
+  - first:
+      33: 3300648
+    second: Shtak_05
+  - first:
+      33: 3300650
+    second: Shtak_06
+  - first:
+      33: 3300652
+    second: Shtak_07
+  - first:
+      33: 3300654
+    second: Shtak_08
+  - first:
+      33: 3300656
+    second: Shtak_09
+  - first:
+      33: 3300658
+    second: Shtak_10
+  - first:
+      33: 3300660
+    second: Shtak_11
+  - first:
+      33: 3300662
+    second: Shtak_12
+  - first:
+      33: 3300664
+    second: Shtak_13
+  - first:
+      33: 3300666
+    second: Shtak_14
+  - first:
+      33: 3300668
+    second: Shtak_15
+  - first:
+      33: 3300670
+    second: Shtak_16
+  - first:
+      33: 3300672
+    second: Shtak_18
+  - first:
+      33: 3300674
+    second: Shtak_19
+  - first:
+      33: 3300676
+    second: Shtak_20
+  - first:
+      33: 3300678
+    second: Shtak_21
+  - first:
+      33: 3300680
+    second: Shtak_22
+  - first:
+      33: 3300682
+    second: Shtak_break
+  - first:
+      33: 3300684
+    second: Shtak_break01
+  - first:
+      33: 3300686
+    second: Shtak_break02
+  - first:
+      33: 3300688
+    second: Shtak_break03
+  - first:
+      33: 3300690
+    second: Shtak_kalitka 1
+  - first:
+      33: 3300692
+    second: TAIL_boeing
+  - first:
+      33: 3300694
+    second: Tualet
+  - first:
+      33: 3300696
+    second: WING_boeing
+  - first:
+      43: 4300000
+    second: MEP_Grass_02_a 1
+  - first:
+      43: 4300002
+    second: NewMesh_tris_316
+  - first:
+      43: 4300004
+    second: NewMesh_tris_412
+  - first:
+      43: 4300006
+    second: MEP_Grass_02_a 1
+  - first:
+      43: 4300008
+    second: NewMesh_tris_464
+  - first:
+      43: 4300010
+    second: MEP_Grass_02_a 1
+  - first:
+      43: 4300012
+    second: NewMesh_tris_572
+  - first:
+      43: 4300014
+    second: NewMesh_tris_688
+  - first:
+      43: 4300016
+    second: NewMesh_tris_860
+  - first:
+      43: 4300018
+    second: MEP_Grass_02_a 1
+  - first:
+      43: 4300020
+    second: NewMesh_tris_308
+  - first:
+      43: 4300022
+    second: NewMesh_tris_420
+  - first:
+      43: 4300024
+    second: NewMesh_tris_476
+  - first:
+      43: 4300026
+    second: NewMesh_tris_504
+  - first:
+      43: 4300028
+    second: NewMesh_tris_518
+  - first:
+      43: 4300030
+    second: NewMesh_tris_616
+  - first:
+      43: 4300032
+    second: NewMesh_tris_630
+  - first:
+      43: 4300034
+    second: NewMesh_tris_630
+  - first:
+      43: 4300036
+    second: Box001
+  - first:
+      43: 4300038
+    second: Object075
+  - first:
+      43: 4300040
+    second: Hut
+  - first:
+      43: 4300042
+    second: lavka
+  - first:
+      43: 4300044
+    second: Shtak_01
+  - first:
+      43: 4300046
+    second: Shtak_02
+  - first:
+      43: 4300048
+    second: Shtak_03
+  - first:
+      43: 4300050
+    second: Shtak_04
+  - first:
+      43: 4300052
+    second: Shtak_05
+  - first:
+      43: 4300054
+    second: Shtak_06
+  - first:
+      43: 4300056
+    second: Shtak_07
+  - first:
+      43: 4300058
+    second: Shtak_08
+  - first:
+      43: 4300060
+    second: Shtak_09
+  - first:
+      43: 4300062
+    second: Shtak_10
+  - first:
+      43: 4300064
+    second: Shtak_11
+  - first:
+      43: 4300066
+    second: Shtak_12
+  - first:
+      43: 4300068
+    second: Shtak_13
+  - first:
+      43: 4300070
+    second: Shtak_14
+  - first:
+      43: 4300072
+    second: Shtak_15
+  - first:
+      43: 4300074
+    second: Shtak_16
+  - first:
+      43: 4300076
+    second: Shtak_18
+  - first:
+      43: 4300078
+    second: Shtak_19
+  - first:
+      43: 4300080
+    second: Shtak_20
+  - first:
+      43: 4300082
+    second: Shtak_21
+  - first:
+      43: 4300084
+    second: Shtak_22
+  - first:
+      43: 4300086
+    second: Shtak_break
+  - first:
+      43: 4300088
+    second: Shtak_break01
+  - first:
+      43: 4300090
+    second: Shtak_break02
+  - first:
+      43: 4300092
+    second: Shtak_break03
+  - first:
+      43: 4300094
+    second: kalitka
+  - first:
+      43: 4300096
+    second: Shtak_kalitka 1
+  - first:
+      43: 4300098
+    second: Tualet
+  - first:
+      43: 4300100
+    second: NewMesh_tris_1047
+  - first:
+      43: 4300102
+    second: NewMesh_tris_170
+  - first:
+      43: 4300104
+    second: NewMesh_tris_200
+  - first:
+      43: 4300106
+    second: NewMesh_tris_220
+  - first:
+      43: 4300108
+    second: NewMesh_tris_320
+  - first:
+      43: 4300110
+    second: NewMesh_tris_330
+  - first:
+      43: 4300112
+    second: NewMesh_tris_370
+  - first:
+      43: 4300114
+    second: NewMesh_tris_390
+  - first:
+      43: 4300116
+    second: NewMesh_tris_430
+  - first:
+      43: 4300118
+    second: NewMesh_tris_440
+  - first:
+      43: 4300120
+    second: NewMesh_tris_630
+  - first:
+      43: 4300122
+    second: NewMesh_tris_621
+  - first:
+      43: 4300124
+    second: NewMesh_tris_607
+  - first:
+      43: 4300126
+    second: NewMesh_tris_173
+  - first:
+      43: 4300128
+    second: NewMesh_tris_120
+  - first:
+      43: 4300130
+    second: NewMesh_tris_637
+  - first:
+      43: 4300132
+    second: NewMesh_tris_489
+  - first:
+      43: 4300134
+    second: NewMesh_tris_680
+  - first:
+      43: 4300136
+    second: NewMesh_tris_1987
+  - first:
+      43: 4300138
+    second: NewMesh_tris_489 (1)
+  - first:
+      43: 4300140
+    second: NewMesh_tris_489 (2)
+  - first:
+      43: 4300142
+    second: NewMesh_tris_489 (3)
+  - first:
+      43: 4300144
+    second: NewMesh_tris_144
+  - first:
+      43: 4300146
+    second: MEP_Leafs_02_a
+  - first:
+      43: 4300148
+    second: MEP_TreeBark_01_a
+  - first:
+      43: 4300150
+    second: MEP_Leafs_02_a
+  - first:
+      43: 4300152
+    second: MEP_TreeBark_01_a
+  - first:
+      43: 4300154
+    second: MEP_Leafs_02_a
+  - first:
+      43: 4300156
+    second: MEP_TreeBark_01_a
+  - first:
+      43: 4300158
+    second: MEP_Leafs_02_a
+  - first:
+      43: 4300160
+    second: MEP_TreeBark_01_a
+  - first:
+      43: 4300162
+    second: MEP_Leafs_02_b
+  - first:
+      43: 4300164
+    second: MEP_TreeBark_01_b
+  - first:
+      43: 4300166
+    second: MEP_Leafs_02_b
+  - first:
+      43: 4300168
+    second: MEP_TreeBark_01_b
+  - first:
+      43: 4300170
+    second: MEP_Leafs_02_b
+  - first:
+      43: 4300172
+    second: MEP_TreeBark_01_b
+  - first:
+      43: 4300174
+    second: MEP_Leafs_02_b
+  - first:
+      43: 4300176
+    second: MEP_TreeBark_01_b
+  - first:
+      43: 4300178
+    second: MEP_Leafs_02_b
+  - first:
+      43: 4300180
+    second: MEP_TreeBark_01_b
+  - first:
+      43: 4300182
+    second: MEP_Leafs_02_b
+  - first:
+      43: 4300184
+    second: MEP_TreeBark_01_b
+  - first:
+      43: 4300186
+    second: MEP_Leafs_02_b
+  - first:
+      43: 4300188
+    second: MEP_TreeBark_01_b
+  - first:
+      43: 4300190
+    second: MEP_Leafs_02_b
+  - first:
+      43: 4300192
+    second: MEP_TreeBark_01_b
+  - first:
+      43: 4300194
+    second: MEP_Leafs_02_b
+  - first:
+      43: 4300196
+    second: MEP_TreeBark_01_b
+  - first:
+      43: 4300198
+    second: MEP_Leafs_02_b
+  - first:
+      43: 4300200
+    second: MEP_TreeBark_01_b
+  - first:
+      43: 4300202
+    second: MEP_Leafs_02_b
+  - first:
+      43: 4300204
+    second: MEP_TreeBark_01_b
+  - first:
+      43: 4300206
+    second: MEP_Leafs_02_b
+  - first:
+      43: 4300208
+    second: MEP_TreeBark_01_b
+  - first:
+      43: 4300210
+    second: MEP_Leafs_02_b
+  - first:
+      43: 4300212
+    second: MEP_TreeBark_01_b
+  - first:
+      43: 4300214
+    second: MEP_Leafs_02_b
+  - first:
+      43: 4300216
+    second: MEP_TreeBark_01_b
+  - first:
+      43: 4300218
+    second: MEP_Leafs_02_b
+  - first:
+      43: 4300220
+    second: MEP_TreeBark_01_b
+  - first:
+      43: 4300222
+    second: MEP_Leafs_02_b
+  - first:
+      43: 4300224
+    second: MEP_TreeBark_01_b
+  - first:
+      43: 4300226
+    second: EP_Leafs_02_b
+  - first:
+      43: 4300228
+    second: MEP_TreeBark_01_c
+  - first:
+      43: 4300230
+    second: EP_Leafs_02_b
+  - first:
+      43: 4300232
+    second: MEP_TreeBark_01_c
+  - first:
+      43: 4300234
+    second: EP_Leafs_02_b
+  - first:
+      43: 4300236
+    second: MEP_TreeBark_01_c
+  - first:
+      43: 4300238
+    second: EP_Leafs_02_b
+  - first:
+      43: 4300240
+    second: MEP_TreeBark_01_c
+  - first:
+      43: 4300242
+    second: EP_Leafs_02_b
+  - first:
+      43: 4300244
+    second: MEP_TreeBark_01_c
+  - first:
+      43: 4300246
+    second: EP_Leafs_02_b
+  - first:
+      43: 4300248
+    second: MEP_TreeBark_01_c
+  - first:
+      43: 4300250
+    second: EP_Leafs_02_b
+  - first:
+      43: 4300252
+    second: MEP_TreeBark_01_c
+  - first:
+      43: 4300254
+    second: EP_Leafs_02_b
+  - first:
+      43: 4300256
+    second: MEP_TreeBark_01_c
+  - first:
+      43: 4300258
+    second: MEP_Leafs_02_d
+  - first:
+      43: 4300260
+    second: MEP_TreeBark_01_d
+  - first:
+      43: 4300262
+    second: MEP_TreeBark_01_d
+  - first:
+      43: 4300264
+    second: MEP_Leafs_02_d
+  - first:
+      43: 4300266
+    second: MEP_TreeBark_01_d
+  - first:
+      43: 4300268
+    second: MEP_Leafs_02_d
+  - first:
+      43: 4300270
+    second: MEP_TreeBark_01_d
+  - first:
+      43: 4300272
+    second: MEP_Leafs_02_d
+  - first:
+      43: 4300274
+    second: MEP_TreeBark_01_d
+  - first:
+      43: 4300276
+    second: MEP_Leafs_02_d
+  - first:
+      43: 4300278
+    second: MEP_TreeBark_01_d
+  - first:
+      43: 4300280
+    second: MEP_Leafs_02_e
+  - first:
+      43: 4300282
+    second: MEP_TreeBark_01_e
+  - first:
+      43: 4300284
+    second: MEP_Leafs_02_e
+  - first:
+      43: 4300286
+    second: MEP_TreeBark_01_e
+  - first:
+      43: 4300288
+    second: MEP_Leafs_02_e
+  - first:
+      43: 4300290
+    second: MEP_TreeBark_01_e
+  - first:
+      43: 4300292
+    second: MEP_Leafs_02_e
+  - first:
+      43: 4300294
+    second: MEP_TreeBark_01_e
+  - first:
+      43: 4300296
+    second: MEP_Leafs_02_e
+  - first:
+      43: 4300298
+    second: MEP_TreeBark_01_e
+  - first:
+      43: 4300300
+    second: MEP_Leafs_02_e
+  - first:
+      43: 4300302
+    second: MEP_TreeBark_01_e
+  - first:
+      43: 4300304
+    second: MEP_Leafs_02_e
+  - first:
+      43: 4300306
+    second: MEP_TreeBark_01_e
+  - first:
+      43: 4300308
+    second: MEP_Leafs_02_e
+  - first:
+      43: 4300310
+    second: MEP_TreeBark_01_e
+  - first:
+      43: 4300312
+    second: MEP_Leafs_02_e
+  - first:
+      43: 4300314
+    second: MEP_TreeBark_01_e
+  - first:
+      43: 4300316
+    second: MEP_Leafs_02_e
+  - first:
+      43: 4300318
+    second: MEP_TreeBark_01_e
+  - first:
+      43: 4300320
+    second: MEP_Leafs_02_e
+  - first:
+      43: 4300322
+    second: MEP_TreeBark_01_e
+  - first:
+      43: 4300324
+    second: MEP_Leafs_02_e
+  - first:
+      43: 4300326
+    second: MEP_TreeBark_01_e
+  - first:
+      43: 4300328
+    second: MEP_Leafs_02_e
+  - first:
+      43: 4300330
+    second: MEP_TreeBark_01_e
+  - first:
+      43: 4300332
+    second: MEP_Leafs_02_e
+  - first:
+      43: 4300334
+    second: MEP_TreeBark_01_e
+  - first:
+      43: 4300336
+    second: EP_Leafs_02_f
+  - first:
+      43: 4300338
+    second: MEP_TreeBark_01_f
+  - first:
+      43: 4300340
+    second: EP_Leafs_02_f
+  - first:
+      43: 4300342
+    second: MEP_TreeBark_01_f
+  - first:
+      43: 4300344
+    second: EP_Leafs_02_f
+  - first:
+      43: 4300346
+    second: MEP_TreeBark_01_f
+  - first:
+      43: 4300348
+    second: EP_Leafs_02_f
+  - first:
+      43: 4300350
+    second: MEP_TreeBark_01_f
+  - first:
+      43: 4300352
+    second: EP_Leafs_02_f
+  - first:
+      43: 4300354
+    second: MEP_TreeBark_01_f
+  - first:
+      43: 4300356
+    second: EP_Leafs_02_f
+  - first:
+      43: 4300358
+    second: MEP_TreeBark_01_f
+  - first:
+      43: 4300360
+    second: EP_Leafs_02_f
+  - first:
+      43: 4300362
+    second: MEP_TreeBark_01_f
+  - first:
+      43: 4300364
+    second: EP_Leafs_02_f
+  - first:
+      43: 4300366
+    second: MEP_TreeBark_01_f
+  - first:
+      43: 4300368
+    second: EP_Leafs_02_f
+  - first:
+      43: 4300370
+    second: MEP_TreeBark_01_f
+  - first:
+      43: 4300372
+    second: EP_Leafs_02_f
+  - first:
+      43: 4300374
+    second: MEP_TreeBark_01_f
+  - first:
+      43: 4300376
+    second: EP_Leafs_02_f
+  - first:
+      43: 4300378
+    second: MEP_TreeBark_01_f
+  - first:
+      43: 4300380
+    second: EP_Leafs_02_f
+  - first:
+      43: 4300382
+    second: MEP_TreeBark_01_f
+  - first:
+      43: 4300384
+    second: MEP_Leafs_02_i
+  - first:
+      43: 4300386
+    second: MEP_TreeBark_01_i
+  - first:
+      43: 4300388
+    second: MEP_Leafs_02_i
+  - first:
+      43: 4300390
+    second: MEP_TreeBark_01_i
+  - first:
+      43: 4300392
+    second: MEP_Leafs_02_i
+  - first:
+      43: 4300394
+    second: MEP_TreeBark_01_i
+  - first:
+      43: 4300396
+    second: MEP_Leafs_02_i
+  - first:
+      43: 4300398
+    second: MEP_TreeBark_01_i
+  - first:
+      43: 4300400
+    second: MEP_Leafs_02_i
+  - first:
+      43: 4300402
+    second: MEP_TreeBark_01_i
+  - first:
+      43: 4300404
+    second: MEP_Leafs_02_i
+  - first:
+      43: 4300406
+    second: MEP_TreeBark_01_i
+  - first:
+      43: 4300408
+    second: MEP_Leafs_02_i
+  - first:
+      43: 4300410
+    second: MEP_TreeBark_01_i
+  - first:
+      43: 4300412
+    second: MEP_Leafs_02_i
+  - first:
+      43: 4300414
+    second: MEP_TreeBark_01_i
+  - first:
+      43: 4300416
+    second: MEP_Leafs_02_i
+  - first:
+      43: 4300418
+    second: MEP_TreeBark_01_i
+  - first:
+      43: 4300420
+    second: MEP_Leafs_02_i
+  - first:
+      43: 4300422
+    second: MEP_TreeBark_01_i
+  - first:
+      43: 4300424
+    second: MEP_Leafs_02_i
+  - first:
+      43: 4300426
+    second: MEP_TreeBark_01_i
+  - first:
+      43: 4300428
+    second: MEP_Leafs_02_i
+  - first:
+      43: 4300430
+    second: MEP_TreeBark_01_i
+  - first:
+      43: 4300432
+    second: MEP_Leafs_02_i
+  - first:
+      43: 4300434
+    second: MEP_TreeBark_01_i
+  - first:
+      43: 4300436
+    second: MEP_Leafs_02_i
+  - first:
+      43: 4300438
+    second: MEP_TreeBark_01_i
+  - first:
+      43: 4300440
+    second: MEP_Leafs_02_i
+  - first:
+      43: 4300442
+    second: MEP_TreeBark_01_i
+  - first:
+      43: 4300444
+    second: MEP_Leafs_02_i
+  - first:
+      43: 4300446
+    second: MEP_TreeBark_01_i
+  - first:
+      43: 4300448
+    second: MEP_Leafs_02_i
+  - first:
+      43: 4300450
+    second: MEP_TreeBark_01_i
+  - first:
+      43: 4300452
+    second: MEP_Leafs_02_i
+  - first:
+      43: 4300454
+    second: MEP_TreeBark_01_i
+  - first:
+      43: 4300456
+    second: MEP_Leafs_02_i
+  - first:
+      43: 4300458
+    second: MEP_TreeBark_01_i
+  - first:
+      43: 4300460
+    second: MEP_Leafs_02_i
+  - first:
+      43: 4300462
+    second: MEP_TreeBark_01_i
+  - first:
+      43: 4300464
+    second: MEP_Leafs_02_i
+  - first:
+      43: 4300466
+    second: MEP_TreeBark_01_i
+  - first:
+      43: 4300468
+    second: MEP_Leafs_02_i
+  - first:
+      43: 4300470
+    second: MEP_TreeBark_01_i
+  - first:
+      43: 4300472
+    second: MEP_Leafs_02_i
+  - first:
+      43: 4300474
+    second: MEP_TreeBark_01_i
+  - first:
+      43: 4300476
+    second: MEP_Leafs_02_i
+  - first:
+      43: 4300478
+    second: MEP_TreeBark_01_i
+  - first:
+      43: 4300480
+    second: MEP_Leafs_02_i
+  - first:
+      43: 4300482
+    second: MEP_TreeBark_01_i
+  - first:
+      43: 4300484
+    second: MEP_Leafs_02_j
+  - first:
+      43: 4300486
+    second: MEP_TreeBark_01_j
+  - first:
+      43: 4300488
+    second: MEP_Leafs_02_j
+  - first:
+      43: 4300490
+    second: MEP_TreeBark_01_j
+  - first:
+      43: 4300492
+    second: MEP_Leafs_02_j
+  - first:
+      43: 4300494
+    second: MEP_TreeBark_01_j
+  - first:
+      43: 4300496
+    second: MEP_Leafs_02_j
+  - first:
+      43: 4300498
+    second: MEP_TreeBark_01_j
+  - first:
+      43: 4300500
+    second: MEP_Leafs_02_j
+  - first:
+      43: 4300502
+    second: MEP_TreeBark_01_j
+  - first:
+      43: 4300504
+    second: MEP_Leafs_02_j
+  - first:
+      43: 4300506
+    second: MEP_TreeBark_01_j
+  - first:
+      43: 4300508
+    second: MEP_Leafs_02_j
+  - first:
+      43: 4300510
+    second: MEP_TreeBark_01_j
+  - first:
+      43: 4300512
+    second: MEP_Leafs_02_j
+  - first:
+      43: 4300514
+    second: MEP_TreeBark_01_j
+  - first:
+      43: 4300516
+    second: MEP_Leafs_02_j
+  - first:
+      43: 4300518
+    second: MEP_TreeBark_01_j
+  - first:
+      43: 4300520
+    second: MEP_Leafs_02_j
+  - first:
+      43: 4300522
+    second: MEP_TreeBark_01_j
+  - first:
+      43: 4300524
+    second: MEP_Leafs_02_j
+  - first:
+      43: 4300526
+    second: MEP_TreeBark_01_j
+  - first:
+      43: 4300528
+    second: MEP_Leafs_02_j
+  - first:
+      43: 4300530
+    second: MEP_TreeBark_01_j
+  - first:
+      43: 4300532
+    second: MEP_Leafs_02_j
+  - first:
+      43: 4300534
+    second: MEP_TreeBark_01_j
+  - first:
+      43: 4300536
+    second: MEP_Leafs_02_j
+  - first:
+      43: 4300538
+    second: MEP_TreeBark_01_j
+  - first:
+      43: 4300540
+    second: MEP_Leafs_02_j
+  - first:
+      43: 4300542
+    second: MEP_TreeBark_01_j
+  - first:
+      43: 4300544
+    second: MEP_Leafs_02_j
+  - first:
+      43: 4300546
+    second: MEP_TreeBark_01_j
+  - first:
+      43: 4300548
+    second: MEP_Leafs_02_j
+  - first:
+      43: 4300550
+    second: MEP_TreeBark_01_j
+  - first:
+      43: 4300552
+    second: MEP_Leafs_02_j
+  - first:
+      43: 4300554
+    second: MEP_TreeBark_01_j
+  - first:
+      43: 4300556
+    second: MEP_Leafs_02_j
+  - first:
+      43: 4300558
+    second: MEP_TreeBark_01_j
+  - first:
+      43: 4300560
+    second: MEP_Leafs_02_j
+  - first:
+      43: 4300562
+    second: MEP_TreeBark_01_j
+  - first:
+      43: 4300564
+    second: MEP_Leafs_02_j
+  - first:
+      43: 4300566
+    second: MEP_TreeBark_01_j
+  - first:
+      43: 4300568
+    second: MEP_Leafs_02_e
+  - first:
+      43: 4300570
+    second: MEP_TreeBark_01_e
+  - first:
+      43: 4300572
+    second: EP_Leafs_02_f
+  - first:
+      43: 4300574
+    second: MEP_TreeBark_01_f
+  - first:
+      43: 4300576
+    second: EP_Leafs_02_f
+  - first:
+      43: 4300578
+    second: MEP_TreeBark_01_f
+  - first:
+      43: 4300580
+    second: EP_Leafs_02_f
+  - first:
+      43: 4300582
+    second: MEP_TreeBark_01_f
+  - first:
+      43: 4300584
+    second: MEP_Leafs_02_e
+  - first:
+      43: 4300586
+    second: MEP_TreeBark_01_e
+  - first:
+      43: 4300588
+    second: MEP_Leafs_02_e
+  - first:
+      43: 4300590
+    second: MEP_TreeBark_01_e
+  - first:
+      43: 4300592
+    second: MEP_Leafs_02_e
+  - first:
+      43: 4300594
+    second: MEP_TreeBark_01_e
+  - first:
+      43: 4300596
+    second: MEP_Leafs_02_b
+  - first:
+      43: 4300598
+    second: MEP_TreeBark_01_b
+  - first:
+      43: 4300600
+    second: MEP_Leafs_02_b
+  - first:
+      43: 4300602
+    second: MEP_TreeBark_01_b
+  - first:
+      43: 4300604
+    second: MEP_Leafs_02_b
+  - first:
+      43: 4300606
+    second: MEP_TreeBark_01_b
+  - first:
+      43: 4300608
+    second: MEP_Leafs_02_b
+  - first:
+      43: 4300610
+    second: MEP_TreeBark_01_b
+  - first:
+      43: 4300612
+    second: MEP_Leafs_02_b
+  - first:
+      43: 4300614
+    second: MEP_TreeBark_01_b
+  - first:
+      43: 4300616
+    second: MEP_Leafs_02_b
+  - first:
+      43: 4300618
+    second: MEP_TreeBark_01_b
+  - first:
+      43: 4300620
+    second: MEP_Leafs_02_b
+  - first:
+      43: 4300622
+    second: MEP_TreeBark_01_b
+  - first:
+      43: 4300624
+    second: MEP_Leafs_02_b
+  - first:
+      43: 4300626
+    second: MEP_TreeBark_01_b
+  - first:
+      43: 4300628
+    second: MEP_Leafs_02_b
+  - first:
+      43: 4300630
+    second: MEP_TreeBark_01_b
+  - first:
+      43: 4300632
+    second: MEP_Leafs_02_b
+  - first:
+      43: 4300634
+    second: MEP_TreeBark_01_b
+  - first:
+      43: 4300636
+    second: MEP_Shack_05
+  - first:
+      43: 4300638
+    second: Shack_04
+  - first:
+      43: 4300640
+    second: Shack_04 (1)
+  - first:
+      43: 4300642
+    second: NewMesh_tris_260
+  - first:
+      43: 4300644
+    second: NewMesh_tris_444
+  - first:
+      43: 4300646
+    second: NewMesh_tris_560
+  - first:
+      43: 4300648
+    second: NewMesh_tris_668
+  - first:
+      43: 4300650
+    second: Scene_03_Terrain
+  - first:
+      43: 4300652
+    second: Pipe
+  - first:
+      43: 4300654
+    second: MEP_Cliff_S_11
+  - first:
+      43: 4300656
+    second: BASE_boeing
+  - first:
+      43: 4300658
+    second: CABIN_boeing
+  - first:
+      43: 4300660
+    second: MOTOR_boeing
+  - first:
+      43: 4300662
+    second: TAIL_boeing
+  - first:
+      43: 4300664
+    second: WING_boeing
+  - first:
+      43: 4300666
+    second: Pipe (1)
+  - first:
+      43: 4300668
+    second: Pipe (2)
+  - first:
+      43: 4300670
+    second: Pipe (3)
+  - first:
+      43: 4300672
+    second: Pipe (4)
+  - first:
+      43: 4300674
+    second: Pipe (5)
+  - first:
+      43: 4300676
+    second: Pipe (6)
+  - first:
+      43: 4300678
+    second: Pipe (7)
+  - first:
+      43: 4300680
+    second: Pipe (8)
+  - first:
+      43: 4300682
+    second: Pipe (9)
+  - first:
+      43: 4300684
+    second: Pipe (10)
+  - first:
+      43: 4300686
+    second: Pipe (11)
+  - first:
+      43: 4300688
+    second: Pipe (12)
+  - first:
+      43: 4300690
+    second: Pipe (13)
+  - first:
+      43: 4300692
+    second: Pipe (14)
+  - first:
+      43: 4300694
+    second: Box001
+  - first:
+      43: 4300696
+    second: Object075
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -2221,7 +6503,7 @@ ModelImporter:
       name: m_Boeng
     second: {fileID: 2100000, guid: b6e8d7c884bada041a2d5459b686374d, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -2251,28 +6533,35 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 50
-    meshCompression: 2
+    meshCompression: 3
     addColliders: 0
     useSRGBMaterialColor: 1
-    importVisibility: 1
-    importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -2281,10 +6570,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -2294,13 +6583,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 50
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

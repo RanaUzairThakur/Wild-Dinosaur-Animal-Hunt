@@ -28,11 +28,11 @@ Time.timeScale = 1f;
 	}
 	void Consent1Load(){
         UserSplash.SetActive(false);
-        imagePath1 =Application.streamingAssetsPath + "/"+PlayerPrefs.GetString ("GameId")+"ConsentS1.jpg";
+        imagePath1 =Application.streamingAssetsPath + "/"+PlayerPrefs.GetString ("GameId")+"ConsentS1.png";
 		if (Application.platform == RuntimePlatform.Android) {
 			StartCoroutine (loadConsent1_Image ()); 
 		} else {
-			imagePath1="file:///"+ Application.streamingAssetsPath + "/"+PlayerPrefs.GetString ("GameId")+"ConsentS1.jpg";
+			imagePath1="file:///"+ Application.streamingAssetsPath + "/"+PlayerPrefs.GetString ("GameId")+"ConsentS1.png";
 
 			StartCoroutine (loadConsent1_Image()); 
 		}
@@ -61,12 +61,12 @@ Time.timeScale = 1f;
 		}
 	}
 	void Consent2Load(){
-		imagePath2=Application.streamingAssetsPath + "/"+PlayerPrefs.GetString ("GameId")+"ConsentS2.jpg";
+		imagePath2=Application.streamingAssetsPath + "/"+PlayerPrefs.GetString ("GameId")+"ConsentS2.png";
 
 		if (Application.platform == RuntimePlatform.Android) {
 			StartCoroutine (loadConsent2_Image ()); 
 		} else {
-			imagePath2="file:///"+ Application.streamingAssetsPath + "/"+PlayerPrefs.GetString ("GameId")+"ConsentS2.jpg";
+			imagePath2="file:///"+ Application.streamingAssetsPath + "/"+PlayerPrefs.GetString ("GameId")+"ConsentS2.png";
 			StartCoroutine (loadConsent2_Image()); 
 		}
 	}
@@ -90,7 +90,7 @@ Time.timeScale = 1f;
 	}
     void UserSplashScreen()
     {
-        imagePath2 = Application.streamingAssetsPath + "/" + PlayerPrefs.GetString("GameId") + "UserSplash.jpg";
+        imagePath2 = Application.streamingAssetsPath + "/" + PlayerPrefs.GetString("GameId") + "UserSplash.png";
 
         if (Application.platform == RuntimePlatform.Android)
         {
@@ -98,7 +98,7 @@ Time.timeScale = 1f;
         }
         else
         {
-            imagePath2 = "file:///" + Application.streamingAssetsPath + "/" + PlayerPrefs.GetString("GameId") + "UserSplash.jpg";
+            imagePath2 = "file:///" + Application.streamingAssetsPath + "/" + PlayerPrefs.GetString("GameId") + "UserSplash.png";
             StartCoroutine(UserSplashScreen_Image());
         }
     }

@@ -208,7 +208,7 @@ public class wasii_LevelSelections : MonoBehaviour
         yield return null;
 
         //Begin to load the Scene you specify
-        AsyncOperation asyncOperation = SceneManager.LoadSceneAsync("wasii_GamePlay");
+        AsyncOperation asyncOperation = SceneManager.LoadSceneAsync("GamePlay");
         //Don't let the Scene activate until you allow it to
         asyncOperation.allowSceneActivation = false;
         //Debug.Log("Pro :" + asyncOperation.progress);

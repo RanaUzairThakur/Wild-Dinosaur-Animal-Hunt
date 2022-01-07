@@ -1,127 +1,145 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
-public class DamageCharacter : MonoBehaviour {
-	public float TotalHealth = 100,currentHealth;
-	public GameObject DeathObject;
-	public Image HealthBar;
-	public AudioClip hitsound,deadSound;
-	public AudioSource audioSource;
+public class DamageCharacter : MonoBehaviour
+{
+    public float TotalHealth = 100, currentHealth;
+    public GameObject DeathObject;
+    public Image HealthBar;
+    public AudioClip hitsound, deadSound;
+    public AudioSource audioSource;
 
-	public static DamageCharacter Instance;
-	public bool PlayerDied;
-	// Use this for initialization
-	void Start () {
+    public static DamageCharacter Instance;
+    public bool PlayerDied;
+    // Use this for initialization
+    void Start()
+    {
         PlayerDied = false;
 
-		if (this.gameObject.tag == "Enemy") {
-			//HealthBar = GameObject.FindGameObjectWithTag ("GameManger").GetComponent<LevelManger> ().Animal_health;
+        if (this.gameObject.tag == "Enemy")
+        {
+            //HealthBar = GameObject.FindGameObjectWithTag ("GameManger").GetComponent<LevelManger> ().Animal_health;
 
-//			audioSource = GetComponent<AudioSource>();
-		}
-		currentHealth = TotalHealth;
-		if (HealthBar) 
-		{
-			HealthBar.fillAmount = currentHealth / TotalHealth;	
-		}
-	}
-	
-	// Update is called once per frame
-//	void Update () {
-//		if (currentHealth <= 0) {
-//			Death ();
-//		}
-//	}
-	void OnEnable(){
+            //			audioSource = GetComponent<AudioSource>();
+        }
+        currentHealth = TotalHealth;
+        if (HealthBar)
+        {
+            HealthBar.fillAmount = currentHealth / TotalHealth;
+        }
+    }
 
-		if (this.gameObject.name == "Jeep") {
-			//currentHealth = GameObject.FindGameObjectWithTag ("GameManger").GetComponent<LevelManger> ().PlayerModel.GetComponent<DamageCharacter> ().currentHealth;
-		}
+    // Update is called once per frame
+    //	void Update () {
+    //		if (currentHealth <= 0) {
+    //			Death ();
+    //		}
+    //	}
+    void OnEnable()
+    {
 
-		if (this.gameObject.name == "Player") {
-			//currentHealth = GameObject.FindGameObjectWithTag ("GameManger").GetComponent<LevelManger> ().Jeep.GetComponent<DamageCharacter> ().currentHealth;
+        if (this.gameObject.name == "Jeep")
+        {
+            //currentHealth = GameObject.FindGameObjectWithTag ("GameManger").GetComponent<LevelManger> ().PlayerModel.GetComponent<DamageCharacter> ().currentHealth;
+        }
 
-		}
+        if (this.gameObject.name == "Player")
+        {
+            //currentHealth = GameObject.FindGameObjectWithTag ("GameManger").GetComponent<LevelManger> ().Jeep.GetComponent<DamageCharacter> ().currentHealth;
 
-	}
+        }
 
-	public void Damage(float damageReceived)
-	{
-		if (hitsound!=null) {
-			audioSource.PlayOneShot (hitsound);
-		}
-		HealthBar.transform.parent.gameObject.SetActive (true);
-		//Debug.Log ("DamageCalled");
-//		Debug.Log (this.gameObject.name);
-		if (this.gameObject.name.Contains ("Lion")) {
-			//Debug.Log ("its Lion man");
-			this.gameObject.GetComponent<Animator>().SetTrigger("Hit");
+    }
 
-		}
-		if (this.gameObject.name.Contains ("Tiger")) {
-			//Debug.Log ("its tiger man");
+    public void Damage(float damageReceived)
+    {
+        if (hitsound != null)
+        {
+            audioSource.PlayOneShot(hitsound);
+        }
+        if (HealthBar)
+            HealthBar.transform.parent.gameObject.SetActive(true);
+        //Debug.Log ("DamageCalled");
+        //		Debug.Log (this.gameObject.name);
+        if (this.gameObject.name.Contains("Lion"))
+        {
+            //Debug.Log ("its Lion man");
+            this.gameObject.GetComponent<Animator>().SetTrigger("Hit");
 
-		}
-		currentHealth -= damageReceived;
+        }
+        if (this.gameObject.name.Contains("Tiger"))
+        {
+            //Debug.Log ("its tiger man");
 
-		if (HealthBar) 
-		{
-			float current = (float)currentHealth;
-			float total = (float)TotalHealth;
-			HealthBar.fillAmount = (current / total);	
-		}
+        }
+        currentHealth -= damageReceived;
+
+        if (HealthBar)
+        {
+            float current = (float)currentHealth;
+            float total = (float)TotalHealth;
+            HealthBar.fillAmount = (current / total);
+        }
 
 
-		if (currentHealth <= 0 && !PlayerDied) {
-						Death ();
-					}
-		
-	}
-	public void ApplyDamage(float damageReceived)
-	{
-		if (this.gameObject.tag == "Player") {
-			audioSource.PlayOneShot (hitsound);
-		}
-		HealthBar.transform.parent.gameObject.SetActive (true);
-		currentHealth -= damageReceived;
-		if (HealthBar) 
-		{
-			float current = (float)currentHealth;
-			float total = (float)TotalHealth;
-			HealthBar.fillAmount = (current / total);	
-		}
-		if (currentHealth <= 0 && !PlayerDied) {
-			Death ();
-		}
-	}
-	public void Death(){
-		HealthBar.transform.parent.gameObject.SetActive (false);
-		if (DeathObject) {
-			Instantiate (DeathObject, this.gameObject.transform.position, this.gameObject.transform.rotation);
-			Destroy (this.gameObject);
-		}
+        if (currentHealth <= 0 && !PlayerDied)
+        {
+            Death();
+        }
 
-//		
-		if (this.gameObject.CompareTag ("Player")) {
-			audioSource.PlayOneShot (deadSound);
+    }
+    public void ApplyDamage(float damageReceived)
+    {
+        if (this.gameObject.tag == "Player")
+        {
+            audioSource.PlayOneShot(hitsound);
+        }
+        HealthBar.transform.parent.gameObject.SetActive(true);
+        currentHealth -= damageReceived;
+        if (HealthBar)
+        {
+            float current = (float)currentHealth;
+            float total = (float)TotalHealth;
+            HealthBar.fillAmount = (current / total);
+        }
+        if (currentHealth <= 0 && !PlayerDied)
+        {
+            Death();
+        }
+    }
+    public void Death()
+    {
+        if (HealthBar)
+            HealthBar.transform.parent.gameObject.SetActive(false);
+        if (DeathObject)
+        {
+            Instantiate(DeathObject, this.gameObject.transform.position, this.gameObject.transform.rotation);
+            Destroy(this.gameObject);
+        }
 
-			wasii_GamePlay_UI_Handler.instance.Level_Failed();
+        //		
+        if (this.gameObject.CompareTag("Player"))
+        {
+            audioSource.PlayOneShot(deadSound);
+
+            if (wasii_GamePlay_UI_Handler.instance)
+                wasii_GamePlay_UI_Handler.instance.Level_Failed();
             Debug.Log("fail1");
             PlayerDied = true;
 
             Debug.Log("PlayerDied");
 
-//			Destroy (this.gameObject);
-		}
+            //			Destroy (this.gameObject);
+        }
 
 
-		if (this.gameObject.CompareTag ("Enemy")) {
-			ObjectiveHandler.instance.EnemyKilled ();
-			if(deadSound!=null)
-			 	audioSource.PlayOneShot (deadSound);
-		}
-	}
+        if (this.gameObject.CompareTag("Enemy"))
+        {
+            if (ObjectiveHandler.instance)
+                ObjectiveHandler.instance.EnemyKilled();
+            if (deadSound != null)
+                audioSource.PlayOneShot(deadSound);
+        }
+    }
 
 
 }

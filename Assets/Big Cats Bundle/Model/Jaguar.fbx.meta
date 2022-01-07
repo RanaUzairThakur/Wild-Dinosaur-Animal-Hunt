@@ -1,128 +1,362 @@
 fileFormatVersion: 2
 guid: a64f379eb04b71440abd01c9ac6ebea1
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: BigCats_Head_JawSHJnt
-    100002: BigCats_Head_TopSHJnt
-    100004: BigCats_l_Clavicle_01_01SHJnt
-    100006: BigCats_l_FrontLeg_AnkleSHJnt
-    100008: BigCats_l_FrontLeg_BallSHJnt
-    100010: BigCats_l_FrontLeg_HipSHJnt
-    100012: BigCats_l_FrontLeg_KneeSHJnt
-    100014: BigCats_l_HindLeg_AnkleSHJnt
-    100016: BigCats_l_HindLeg_BallSHJnt
-    100018: BigCats_l_HindLeg_HipSHJnt
-    100020: BigCats_l_HindLeg_Knee1SHJnt
-    100022: BigCats_l_HindLeg_Knee2SHJnt
-    100024: BigCats_Neck_01SHJnt
-    100026: BigCats_Neck_02SHJnt
-    100028: BigCats_Neck_TopSHJnt
-    100030: BigCats_r_Clavicle_01_01SHJnt
-    100032: BigCats_r_FrontLeg_AnkleSHJnt
-    100034: BigCats_r_FrontLeg_BallSHJnt
-    100036: BigCats_r_FrontLeg_HipSHJnt
-    100038: BigCats_r_FrontLeg_KneeSHJnt
-    100040: BigCats_r_HindLeg_AnkleSHJnt
-    100042: BigCats_r_HindLeg_BallSHJnt
-    100044: BigCats_r_HindLeg_HipSHJnt
-    100046: BigCats_r_HindLeg_Knee1SHJnt
-    100048: BigCats_r_HindLeg_Knee2SHJnt
-    100050: BigCats_ROOTSHJnt
-    100052: BigCats_SHJntGrp
-    100054: BigCats_Spine_01SHJnt
-    100056: BigCats_Spine_02SHJnt
-    100058: BigCats_Spine_03SHJnt
-    100060: BigCats_Spine_04SHJnt
-    100062: BigCats_Spine_TopSHJnt
-    100064: BigCats_Tail_01_01SHJnt
-    100066: BigCats_Tail_01_02SHJnt
-    100068: BigCats_Tail_01_03SHJnt
-    100070: BigCats_Tail_01_04SHJnt
-    100072: BigCats_Tail_01_05SHJnt
-    100074: Cats_Jaguar_lp
-    100076: Cats_Jaguar_SLP
-    100078: Cats_Jaguara_hp
-    100080: //RootNode
-    400000: BigCats_Head_JawSHJnt
-    400002: BigCats_Head_TopSHJnt
-    400004: BigCats_l_Clavicle_01_01SHJnt
-    400006: BigCats_l_FrontLeg_AnkleSHJnt
-    400008: BigCats_l_FrontLeg_BallSHJnt
-    400010: BigCats_l_FrontLeg_HipSHJnt
-    400012: BigCats_l_FrontLeg_KneeSHJnt
-    400014: BigCats_l_HindLeg_AnkleSHJnt
-    400016: BigCats_l_HindLeg_BallSHJnt
-    400018: BigCats_l_HindLeg_HipSHJnt
-    400020: BigCats_l_HindLeg_Knee1SHJnt
-    400022: BigCats_l_HindLeg_Knee2SHJnt
-    400024: BigCats_Neck_01SHJnt
-    400026: BigCats_Neck_02SHJnt
-    400028: BigCats_Neck_TopSHJnt
-    400030: BigCats_r_Clavicle_01_01SHJnt
-    400032: BigCats_r_FrontLeg_AnkleSHJnt
-    400034: BigCats_r_FrontLeg_BallSHJnt
-    400036: BigCats_r_FrontLeg_HipSHJnt
-    400038: BigCats_r_FrontLeg_KneeSHJnt
-    400040: BigCats_r_HindLeg_AnkleSHJnt
-    400042: BigCats_r_HindLeg_BallSHJnt
-    400044: BigCats_r_HindLeg_HipSHJnt
-    400046: BigCats_r_HindLeg_Knee1SHJnt
-    400048: BigCats_r_HindLeg_Knee2SHJnt
-    400050: BigCats_ROOTSHJnt
-    400052: BigCats_SHJntGrp
-    400054: BigCats_Spine_01SHJnt
-    400056: BigCats_Spine_02SHJnt
-    400058: BigCats_Spine_03SHJnt
-    400060: BigCats_Spine_04SHJnt
-    400062: BigCats_Spine_TopSHJnt
-    400064: BigCats_Tail_01_01SHJnt
-    400066: BigCats_Tail_01_02SHJnt
-    400068: BigCats_Tail_01_03SHJnt
-    400070: BigCats_Tail_01_04SHJnt
-    400072: BigCats_Tail_01_05SHJnt
-    400074: Cats_Jaguar_lp
-    400076: Cats_Jaguar_SLP
-    400078: Cats_Jaguara_hp
-    400080: //RootNode
-    4300000: Cats_Jaguara_hp
-    4300002: Cats_Jaguar_lp
-    4300004: Cats_Jaguar_SLP
-    7400000: BindPose
-    7400002: Walk
-    7400004: Run
-    7400006: Jump
-    7400008: Attack
-    7400010: Start Eating
-    7400012: Eating
-    7400014: End Eating
-    7400016: Fight Idle
-    7400018: Idle
-    7400020: Start  Rest
-    7400022: Rest
-    7400024: End Rest
-    7400026: Go To Sleep
-    7400028: Sleep
-    7400030: End Sleep
-    7400032: Hit Left
-    7400034: Hit Right
-    7400036: Hit Up
-    7400038: Hit Back
-    7400040: Walk Back
-    7400042: Attack Paw
-    7400044: Death
-    7400046: Roaring
-    7400048: Lying Eating
-    7400050: Death 01
-    7400052: Creeping
-    9500000: //RootNode
-    11100000: //RootNode
-    13700000: Cats_Jaguar_lp
-    13700002: Cats_Jaguar_SLP
-    13700004: Cats_Jaguara_hp
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: BigCats_Head_JawSHJnt
+  - first:
+      1: 100002
+    second: BigCats_Head_TopSHJnt
+  - first:
+      1: 100004
+    second: BigCats_l_Clavicle_01_01SHJnt
+  - first:
+      1: 100006
+    second: BigCats_l_FrontLeg_AnkleSHJnt
+  - first:
+      1: 100008
+    second: BigCats_l_FrontLeg_BallSHJnt
+  - first:
+      1: 100010
+    second: BigCats_l_FrontLeg_HipSHJnt
+  - first:
+      1: 100012
+    second: BigCats_l_FrontLeg_KneeSHJnt
+  - first:
+      1: 100014
+    second: BigCats_l_HindLeg_AnkleSHJnt
+  - first:
+      1: 100016
+    second: BigCats_l_HindLeg_BallSHJnt
+  - first:
+      1: 100018
+    second: BigCats_l_HindLeg_HipSHJnt
+  - first:
+      1: 100020
+    second: BigCats_l_HindLeg_Knee1SHJnt
+  - first:
+      1: 100022
+    second: BigCats_l_HindLeg_Knee2SHJnt
+  - first:
+      1: 100024
+    second: BigCats_Neck_01SHJnt
+  - first:
+      1: 100026
+    second: BigCats_Neck_02SHJnt
+  - first:
+      1: 100028
+    second: BigCats_Neck_TopSHJnt
+  - first:
+      1: 100030
+    second: BigCats_r_Clavicle_01_01SHJnt
+  - first:
+      1: 100032
+    second: BigCats_r_FrontLeg_AnkleSHJnt
+  - first:
+      1: 100034
+    second: BigCats_r_FrontLeg_BallSHJnt
+  - first:
+      1: 100036
+    second: BigCats_r_FrontLeg_HipSHJnt
+  - first:
+      1: 100038
+    second: BigCats_r_FrontLeg_KneeSHJnt
+  - first:
+      1: 100040
+    second: BigCats_r_HindLeg_AnkleSHJnt
+  - first:
+      1: 100042
+    second: BigCats_r_HindLeg_BallSHJnt
+  - first:
+      1: 100044
+    second: BigCats_r_HindLeg_HipSHJnt
+  - first:
+      1: 100046
+    second: BigCats_r_HindLeg_Knee1SHJnt
+  - first:
+      1: 100048
+    second: BigCats_r_HindLeg_Knee2SHJnt
+  - first:
+      1: 100050
+    second: BigCats_ROOTSHJnt
+  - first:
+      1: 100052
+    second: BigCats_SHJntGrp
+  - first:
+      1: 100054
+    second: BigCats_Spine_01SHJnt
+  - first:
+      1: 100056
+    second: BigCats_Spine_02SHJnt
+  - first:
+      1: 100058
+    second: BigCats_Spine_03SHJnt
+  - first:
+      1: 100060
+    second: BigCats_Spine_04SHJnt
+  - first:
+      1: 100062
+    second: BigCats_Spine_TopSHJnt
+  - first:
+      1: 100064
+    second: BigCats_Tail_01_01SHJnt
+  - first:
+      1: 100066
+    second: BigCats_Tail_01_02SHJnt
+  - first:
+      1: 100068
+    second: BigCats_Tail_01_03SHJnt
+  - first:
+      1: 100070
+    second: BigCats_Tail_01_04SHJnt
+  - first:
+      1: 100072
+    second: BigCats_Tail_01_05SHJnt
+  - first:
+      1: 100074
+    second: Cats_Jaguar_lp
+  - first:
+      1: 100076
+    second: Cats_Jaguar_SLP
+  - first:
+      1: 100078
+    second: Cats_Jaguara_hp
+  - first:
+      1: 100080
+    second: //RootNode
+  - first:
+      4: 400000
+    second: BigCats_Head_JawSHJnt
+  - first:
+      4: 400002
+    second: BigCats_Head_TopSHJnt
+  - first:
+      4: 400004
+    second: BigCats_l_Clavicle_01_01SHJnt
+  - first:
+      4: 400006
+    second: BigCats_l_FrontLeg_AnkleSHJnt
+  - first:
+      4: 400008
+    second: BigCats_l_FrontLeg_BallSHJnt
+  - first:
+      4: 400010
+    second: BigCats_l_FrontLeg_HipSHJnt
+  - first:
+      4: 400012
+    second: BigCats_l_FrontLeg_KneeSHJnt
+  - first:
+      4: 400014
+    second: BigCats_l_HindLeg_AnkleSHJnt
+  - first:
+      4: 400016
+    second: BigCats_l_HindLeg_BallSHJnt
+  - first:
+      4: 400018
+    second: BigCats_l_HindLeg_HipSHJnt
+  - first:
+      4: 400020
+    second: BigCats_l_HindLeg_Knee1SHJnt
+  - first:
+      4: 400022
+    second: BigCats_l_HindLeg_Knee2SHJnt
+  - first:
+      4: 400024
+    second: BigCats_Neck_01SHJnt
+  - first:
+      4: 400026
+    second: BigCats_Neck_02SHJnt
+  - first:
+      4: 400028
+    second: BigCats_Neck_TopSHJnt
+  - first:
+      4: 400030
+    second: BigCats_r_Clavicle_01_01SHJnt
+  - first:
+      4: 400032
+    second: BigCats_r_FrontLeg_AnkleSHJnt
+  - first:
+      4: 400034
+    second: BigCats_r_FrontLeg_BallSHJnt
+  - first:
+      4: 400036
+    second: BigCats_r_FrontLeg_HipSHJnt
+  - first:
+      4: 400038
+    second: BigCats_r_FrontLeg_KneeSHJnt
+  - first:
+      4: 400040
+    second: BigCats_r_HindLeg_AnkleSHJnt
+  - first:
+      4: 400042
+    second: BigCats_r_HindLeg_BallSHJnt
+  - first:
+      4: 400044
+    second: BigCats_r_HindLeg_HipSHJnt
+  - first:
+      4: 400046
+    second: BigCats_r_HindLeg_Knee1SHJnt
+  - first:
+      4: 400048
+    second: BigCats_r_HindLeg_Knee2SHJnt
+  - first:
+      4: 400050
+    second: BigCats_ROOTSHJnt
+  - first:
+      4: 400052
+    second: BigCats_SHJntGrp
+  - first:
+      4: 400054
+    second: BigCats_Spine_01SHJnt
+  - first:
+      4: 400056
+    second: BigCats_Spine_02SHJnt
+  - first:
+      4: 400058
+    second: BigCats_Spine_03SHJnt
+  - first:
+      4: 400060
+    second: BigCats_Spine_04SHJnt
+  - first:
+      4: 400062
+    second: BigCats_Spine_TopSHJnt
+  - first:
+      4: 400064
+    second: BigCats_Tail_01_01SHJnt
+  - first:
+      4: 400066
+    second: BigCats_Tail_01_02SHJnt
+  - first:
+      4: 400068
+    second: BigCats_Tail_01_03SHJnt
+  - first:
+      4: 400070
+    second: BigCats_Tail_01_04SHJnt
+  - first:
+      4: 400072
+    second: BigCats_Tail_01_05SHJnt
+  - first:
+      4: 400074
+    second: Cats_Jaguar_lp
+  - first:
+      4: 400076
+    second: Cats_Jaguar_SLP
+  - first:
+      4: 400078
+    second: Cats_Jaguara_hp
+  - first:
+      4: 400080
+    second: //RootNode
+  - first:
+      43: 4300000
+    second: Cats_Jaguara_hp
+  - first:
+      43: 4300002
+    second: Cats_Jaguar_lp
+  - first:
+      43: 4300004
+    second: Cats_Jaguar_SLP
+  - first:
+      74: 7400000
+    second: BindPose
+  - first:
+      74: 7400002
+    second: Walk
+  - first:
+      74: 7400004
+    second: Run
+  - first:
+      74: 7400006
+    second: Jump
+  - first:
+      74: 7400008
+    second: Attack
+  - first:
+      74: 7400010
+    second: Start Eating
+  - first:
+      74: 7400012
+    second: Eating
+  - first:
+      74: 7400014
+    second: End Eating
+  - first:
+      74: 7400016
+    second: Fight Idle
+  - first:
+      74: 7400018
+    second: Idle
+  - first:
+      74: 7400020
+    second: Start  Rest
+  - first:
+      74: 7400022
+    second: Rest
+  - first:
+      74: 7400024
+    second: End Rest
+  - first:
+      74: 7400026
+    second: Go To Sleep
+  - first:
+      74: 7400028
+    second: Sleep
+  - first:
+      74: 7400030
+    second: End Sleep
+  - first:
+      74: 7400032
+    second: Hit Left
+  - first:
+      74: 7400034
+    second: Hit Right
+  - first:
+      74: 7400036
+    second: Hit Up
+  - first:
+      74: 7400038
+    second: Hit Back
+  - first:
+      74: 7400040
+    second: Walk Back
+  - first:
+      74: 7400042
+    second: Attack Paw
+  - first:
+      74: 7400044
+    second: Death
+  - first:
+      74: 7400046
+    second: Roaring
+  - first:
+      74: 7400048
+    second: Lying Eating
+  - first:
+      74: 7400050
+    second: Death 01
+  - first:
+      74: 7400052
+    second: Creeping
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Cats_Jaguar_lp
+  - first:
+      137: 13700002
+    second: Cats_Jaguar_SLP
+  - first:
+      137: 13700004
+    second: Cats_Jaguara_hp
   externalObjects: {}
   materials:
-    importMaterials: 0
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -151,6 +385,7 @@ ModelImporter:
     - serializedVersion: 16
       name: BindPose
       takeName: 
+      internalID: 0
       firstFrame: 0
       lastFrame: 0
       wrapMode: 0
@@ -179,6 +414,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Walk
       takeName: 
+      internalID: 0
       firstFrame: 1
       lastFrame: 31
       wrapMode: 0
@@ -207,6 +443,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Run
       takeName: 
+      internalID: 0
       firstFrame: 33
       lastFrame: 42
       wrapMode: 0
@@ -235,6 +472,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Jump
       takeName: 
+      internalID: 0
       firstFrame: 44
       lastFrame: 63
       wrapMode: 0
@@ -263,6 +501,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Attack
       takeName: 
+      internalID: 0
       firstFrame: 64
       lastFrame: 95
       wrapMode: 0
@@ -291,6 +530,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Start Eating
       takeName: 
+      internalID: 0
       firstFrame: 96
       lastFrame: 108
       wrapMode: 0
@@ -319,6 +559,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Eating
       takeName: 
+      internalID: 0
       firstFrame: 109
       lastFrame: 168
       wrapMode: 0
@@ -347,6 +588,7 @@ ModelImporter:
     - serializedVersion: 16
       name: End Eating
       takeName: 
+      internalID: 0
       firstFrame: 169
       lastFrame: 183
       wrapMode: 0
@@ -375,6 +617,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Fight Idle
       takeName: 
+      internalID: 0
       firstFrame: 185
       lastFrame: 224
       wrapMode: 0
@@ -403,6 +646,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Idle
       takeName: 
+      internalID: 0
       firstFrame: 226
       lastFrame: 265
       wrapMode: 0
@@ -431,6 +675,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Start  Rest
       takeName: 
+      internalID: 0
       firstFrame: 266
       lastFrame: 299
       wrapMode: 0
@@ -459,6 +704,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Rest
       takeName: 
+      internalID: 0
       firstFrame: 300
       lastFrame: 359
       wrapMode: 0
@@ -487,6 +733,7 @@ ModelImporter:
     - serializedVersion: 16
       name: End Rest
       takeName: 
+      internalID: 0
       firstFrame: 360
       lastFrame: 393
       wrapMode: 0
@@ -515,6 +762,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Go To Sleep
       takeName: 
+      internalID: 0
       firstFrame: 395
       lastFrame: 414
       wrapMode: 0
@@ -543,6 +791,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Sleep
       takeName: 
+      internalID: 0
       firstFrame: 415
       lastFrame: 454
       wrapMode: 0
@@ -571,6 +820,7 @@ ModelImporter:
     - serializedVersion: 16
       name: End Sleep
       takeName: 
+      internalID: 0
       firstFrame: 455
       lastFrame: 474
       wrapMode: 0
@@ -599,6 +849,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hit Left
       takeName: 
+      internalID: 0
       firstFrame: 476
       lastFrame: 490
       wrapMode: 0
@@ -627,6 +878,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hit Right
       takeName: 
+      internalID: 0
       firstFrame: 491
       lastFrame: 505
       wrapMode: 0
@@ -655,6 +907,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hit Up
       takeName: 
+      internalID: 0
       firstFrame: 506
       lastFrame: 520
       wrapMode: 0
@@ -683,6 +936,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hit Back
       takeName: 
+      internalID: 0
       firstFrame: 521
       lastFrame: 535
       wrapMode: 0
@@ -711,6 +965,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Walk Back
       takeName: 
+      internalID: 0
       firstFrame: 538
       lastFrame: 584
       wrapMode: 0
@@ -739,6 +994,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Attack Paw
       takeName: 
+      internalID: 0
       firstFrame: 586
       lastFrame: 608
       wrapMode: 0
@@ -767,6 +1023,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Death
       takeName: 
+      internalID: 0
       firstFrame: 610
       lastFrame: 625
       wrapMode: 0
@@ -795,6 +1052,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Roaring
       takeName: 
+      internalID: 0
       firstFrame: 627
       lastFrame: 706
       wrapMode: 0
@@ -823,6 +1081,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Lying Eating
       takeName: 
+      internalID: 0
       firstFrame: 708
       lastFrame: 799
       wrapMode: 0
@@ -851,6 +1110,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Death 01
       takeName: 
+      internalID: 0
       firstFrame: 801
       lastFrame: 819
       wrapMode: 0
@@ -879,6 +1139,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Creeping
       takeName: 
+      internalID: 0
       firstFrame: 821
       lastFrame: 884
       wrapMode: 0
@@ -908,28 +1169,35 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 2
+    meshCompression: 3
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 0
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -938,10 +1206,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -951,13 +1219,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

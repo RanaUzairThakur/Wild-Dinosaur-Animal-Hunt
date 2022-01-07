@@ -7,7 +7,8 @@ public class Show_Unity_InterstitialAd : MonoBehaviour
     private void OnEnable()
     {
         // Show  Unity Interstitial ads.............................
-        if (AdsManager.Instance)
-            AdsManager.Instance.ShowInterstitialUnityAds();
+        // comment by Rana Uzair Thakur
+        //if (AdsManager.Instance)
+        //    AdsManager.Instance.ShowInterstitialUnityAds();
     }
 }

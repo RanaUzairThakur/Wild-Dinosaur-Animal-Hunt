@@ -1,169 +1,491 @@
 fileFormatVersion: 2
 guid: 01c0836188cc57e40a28eddfaed27f87
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: AMrifle
-    100002: arms
-    100004: //RootNode
-    100006: base
-    100008: bolt
-    100010: bullet
-    100012: clip
-    100014: Joint_3
-    100016: Joint_3_2
-    100018: Joint_4
-    100020: Joint_4_2
-    100022: Joint_4_3
-    100024: Joint_4_4
-    100026: Joint_4_5
-    100028: Joint_4_6
-    100030: Joint_4_7
-    100032: Joint_4_8
-    100034: L_arm
-    100036: L_elbow
-    100038: L_middle1
-    100040: L_middle2
-    100042: L_middle3
-    100044: L_pink1
-    100046: L_pink2
-    100048: L_pink3
-    100050: L_point1
-    100052: L_point2
-    100054: L_point3
-    100056: L_ring1
-    100058: L_ring2
-    100060: L_ring3
-    100062: L_stick
-    100064: L_thumb1
-    100066: L_thumb2
-    100068: L_thumb3
-    100070: L_wrist
-    100072: L_wrist_Goal
-    100074: R_arm
-    100076: R_elbow
-    100078: R_middle1
-    100080: R_middle2
-    100082: R_middle3
-    100084: R_pink1
-    100086: R_pink2
-    100088: R_pink3
-    100090: R_point1
-    100092: R_point2
-    100094: R_point3
-    100096: R_ring1
-    100098: R_ring2
-    100100: R_ring3
-    100102: R_stick
-    100104: R_thumb1
-    100106: R_thumb2
-    100108: R_thumb3
-    100110: R_wrist
-    100112: R_wrist_Goal
-    100114: root
-    100116: stock
-    100118: trigger
-    100120: L_arm_Pole
-    100122: R_arm_Pole
-    100124: lens
-    400000: AMrifle
-    400002: arms
-    400004: //RootNode
-    400006: base
-    400008: bolt
-    400010: bullet
-    400012: clip
-    400014: Joint_3
-    400016: Joint_3_2
-    400018: Joint_4
-    400020: Joint_4_2
-    400022: Joint_4_3
-    400024: Joint_4_4
-    400026: Joint_4_5
-    400028: Joint_4_6
-    400030: Joint_4_7
-    400032: Joint_4_8
-    400034: L_arm
-    400036: L_elbow
-    400038: L_middle1
-    400040: L_middle2
-    400042: L_middle3
-    400044: L_pink1
-    400046: L_pink2
-    400048: L_pink3
-    400050: L_point1
-    400052: L_point2
-    400054: L_point3
-    400056: L_ring1
-    400058: L_ring2
-    400060: L_ring3
-    400062: L_stick
-    400064: L_thumb1
-    400066: L_thumb2
-    400068: L_thumb3
-    400070: L_wrist
-    400072: L_wrist_Goal
-    400074: R_arm
-    400076: R_elbow
-    400078: R_middle1
-    400080: R_middle2
-    400082: R_middle3
-    400084: R_pink1
-    400086: R_pink2
-    400088: R_pink3
-    400090: R_point1
-    400092: R_point2
-    400094: R_point3
-    400096: R_ring1
-    400098: R_ring2
-    400100: R_ring3
-    400102: R_stick
-    400104: R_thumb1
-    400106: R_thumb2
-    400108: R_thumb3
-    400110: R_wrist
-    400112: R_wrist_Goal
-    400114: root
-    400116: stock
-    400118: trigger
-    400120: L_arm_Pole
-    400122: R_arm_Pole
-    400124: lens
-    2300000: base
-    2300002: bolt
-    2300004: bullet
-    2300006: clip
-    2300008: L_stick
-    2300010: R_stick
-    2300012: stock
-    2300014: trigger
-    2300016: lens
-    3300000: base
-    3300002: bolt
-    3300004: bullet
-    3300006: clip
-    3300008: L_stick
-    3300010: R_stick
-    3300012: stock
-    3300014: trigger
-    3300016: lens
-    4300000: base
-    4300002: L_stick
-    4300004: R_stick
-    4300006: bolt
-    4300008: stock
-    4300010: trigger
-    4300012: clip
-    4300014: bullet
-    4300016: arms
-    4300018: lens
-    7400000: AMrifleFire
-    7400002: AMrifleReload
-    7400004: AMriflehide
-    7400006: AMrifleready
-    9500000: //RootNode
-    11100000: //RootNode
-    13700000: arms
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: AMrifle
+  - first:
+      1: 100002
+    second: arms
+  - first:
+      1: 100004
+    second: //RootNode
+  - first:
+      1: 100006
+    second: base
+  - first:
+      1: 100008
+    second: bolt
+  - first:
+      1: 100010
+    second: bullet
+  - first:
+      1: 100012
+    second: clip
+  - first:
+      1: 100014
+    second: Joint_3
+  - first:
+      1: 100016
+    second: Joint_3_2
+  - first:
+      1: 100018
+    second: Joint_4
+  - first:
+      1: 100020
+    second: Joint_4_2
+  - first:
+      1: 100022
+    second: Joint_4_3
+  - first:
+      1: 100024
+    second: Joint_4_4
+  - first:
+      1: 100026
+    second: Joint_4_5
+  - first:
+      1: 100028
+    second: Joint_4_6
+  - first:
+      1: 100030
+    second: Joint_4_7
+  - first:
+      1: 100032
+    second: Joint_4_8
+  - first:
+      1: 100034
+    second: L_arm
+  - first:
+      1: 100036
+    second: L_elbow
+  - first:
+      1: 100038
+    second: L_middle1
+  - first:
+      1: 100040
+    second: L_middle2
+  - first:
+      1: 100042
+    second: L_middle3
+  - first:
+      1: 100044
+    second: L_pink1
+  - first:
+      1: 100046
+    second: L_pink2
+  - first:
+      1: 100048
+    second: L_pink3
+  - first:
+      1: 100050
+    second: L_point1
+  - first:
+      1: 100052
+    second: L_point2
+  - first:
+      1: 100054
+    second: L_point3
+  - first:
+      1: 100056
+    second: L_ring1
+  - first:
+      1: 100058
+    second: L_ring2
+  - first:
+      1: 100060
+    second: L_ring3
+  - first:
+      1: 100062
+    second: L_stick
+  - first:
+      1: 100064
+    second: L_thumb1
+  - first:
+      1: 100066
+    second: L_thumb2
+  - first:
+      1: 100068
+    second: L_thumb3
+  - first:
+      1: 100070
+    second: L_wrist
+  - first:
+      1: 100072
+    second: L_wrist_Goal
+  - first:
+      1: 100074
+    second: R_arm
+  - first:
+      1: 100076
+    second: R_elbow
+  - first:
+      1: 100078
+    second: R_middle1
+  - first:
+      1: 100080
+    second: R_middle2
+  - first:
+      1: 100082
+    second: R_middle3
+  - first:
+      1: 100084
+    second: R_pink1
+  - first:
+      1: 100086
+    second: R_pink2
+  - first:
+      1: 100088
+    second: R_pink3
+  - first:
+      1: 100090
+    second: R_point1
+  - first:
+      1: 100092
+    second: R_point2
+  - first:
+      1: 100094
+    second: R_point3
+  - first:
+      1: 100096
+    second: R_ring1
+  - first:
+      1: 100098
+    second: R_ring2
+  - first:
+      1: 100100
+    second: R_ring3
+  - first:
+      1: 100102
+    second: R_stick
+  - first:
+      1: 100104
+    second: R_thumb1
+  - first:
+      1: 100106
+    second: R_thumb2
+  - first:
+      1: 100108
+    second: R_thumb3
+  - first:
+      1: 100110
+    second: R_wrist
+  - first:
+      1: 100112
+    second: R_wrist_Goal
+  - first:
+      1: 100114
+    second: root
+  - first:
+      1: 100116
+    second: stock
+  - first:
+      1: 100118
+    second: trigger
+  - first:
+      1: 100120
+    second: L_arm_Pole
+  - first:
+      1: 100122
+    second: R_arm_Pole
+  - first:
+      1: 100124
+    second: lens
+  - first:
+      4: 400000
+    second: AMrifle
+  - first:
+      4: 400002
+    second: arms
+  - first:
+      4: 400004
+    second: //RootNode
+  - first:
+      4: 400006
+    second: base
+  - first:
+      4: 400008
+    second: bolt
+  - first:
+      4: 400010
+    second: bullet
+  - first:
+      4: 400012
+    second: clip
+  - first:
+      4: 400014
+    second: Joint_3
+  - first:
+      4: 400016
+    second: Joint_3_2
+  - first:
+      4: 400018
+    second: Joint_4
+  - first:
+      4: 400020
+    second: Joint_4_2
+  - first:
+      4: 400022
+    second: Joint_4_3
+  - first:
+      4: 400024
+    second: Joint_4_4
+  - first:
+      4: 400026
+    second: Joint_4_5
+  - first:
+      4: 400028
+    second: Joint_4_6
+  - first:
+      4: 400030
+    second: Joint_4_7
+  - first:
+      4: 400032
+    second: Joint_4_8
+  - first:
+      4: 400034
+    second: L_arm
+  - first:
+      4: 400036
+    second: L_elbow
+  - first:
+      4: 400038
+    second: L_middle1
+  - first:
+      4: 400040
+    second: L_middle2
+  - first:
+      4: 400042
+    second: L_middle3
+  - first:
+      4: 400044
+    second: L_pink1
+  - first:
+      4: 400046
+    second: L_pink2
+  - first:
+      4: 400048
+    second: L_pink3
+  - first:
+      4: 400050
+    second: L_point1
+  - first:
+      4: 400052
+    second: L_point2
+  - first:
+      4: 400054
+    second: L_point3
+  - first:
+      4: 400056
+    second: L_ring1
+  - first:
+      4: 400058
+    second: L_ring2
+  - first:
+      4: 400060
+    second: L_ring3
+  - first:
+      4: 400062
+    second: L_stick
+  - first:
+      4: 400064
+    second: L_thumb1
+  - first:
+      4: 400066
+    second: L_thumb2
+  - first:
+      4: 400068
+    second: L_thumb3
+  - first:
+      4: 400070
+    second: L_wrist
+  - first:
+      4: 400072
+    second: L_wrist_Goal
+  - first:
+      4: 400074
+    second: R_arm
+  - first:
+      4: 400076
+    second: R_elbow
+  - first:
+      4: 400078
+    second: R_middle1
+  - first:
+      4: 400080
+    second: R_middle2
+  - first:
+      4: 400082
+    second: R_middle3
+  - first:
+      4: 400084
+    second: R_pink1
+  - first:
+      4: 400086
+    second: R_pink2
+  - first:
+      4: 400088
+    second: R_pink3
+  - first:
+      4: 400090
+    second: R_point1
+  - first:
+      4: 400092
+    second: R_point2
+  - first:
+      4: 400094
+    second: R_point3
+  - first:
+      4: 400096
+    second: R_ring1
+  - first:
+      4: 400098
+    second: R_ring2
+  - first:
+      4: 400100
+    second: R_ring3
+  - first:
+      4: 400102
+    second: R_stick
+  - first:
+      4: 400104
+    second: R_thumb1
+  - first:
+      4: 400106
+    second: R_thumb2
+  - first:
+      4: 400108
+    second: R_thumb3
+  - first:
+      4: 400110
+    second: R_wrist
+  - first:
+      4: 400112
+    second: R_wrist_Goal
+  - first:
+      4: 400114
+    second: root
+  - first:
+      4: 400116
+    second: stock
+  - first:
+      4: 400118
+    second: trigger
+  - first:
+      4: 400120
+    second: L_arm_Pole
+  - first:
+      4: 400122
+    second: R_arm_Pole
+  - first:
+      4: 400124
+    second: lens
+  - first:
+      23: 2300000
+    second: base
+  - first:
+      23: 2300002
+    second: bolt
+  - first:
+      23: 2300004
+    second: bullet
+  - first:
+      23: 2300006
+    second: clip
+  - first:
+      23: 2300008
+    second: L_stick
+  - first:
+      23: 2300010
+    second: R_stick
+  - first:
+      23: 2300012
+    second: stock
+  - first:
+      23: 2300014
+    second: trigger
+  - first:
+      23: 2300016
+    second: lens
+  - first:
+      33: 3300000
+    second: base
+  - first:
+      33: 3300002
+    second: bolt
+  - first:
+      33: 3300004
+    second: bullet
+  - first:
+      33: 3300006
+    second: clip
+  - first:
+      33: 3300008
+    second: L_stick
+  - first:
+      33: 3300010
+    second: R_stick
+  - first:
+      33: 3300012
+    second: stock
+  - first:
+      33: 3300014
+    second: trigger
+  - first:
+      33: 3300016
+    second: lens
+  - first:
+      43: 4300000
+    second: base
+  - first:
+      43: 4300002
+    second: L_stick
+  - first:
+      43: 4300004
+    second: R_stick
+  - first:
+      43: 4300006
+    second: bolt
+  - first:
+      43: 4300008
+    second: stock
+  - first:
+      43: 4300010
+    second: trigger
+  - first:
+      43: 4300012
+    second: clip
+  - first:
+      43: 4300014
+    second: bullet
+  - first:
+      43: 4300016
+    second: arms
+  - first:
+      43: 4300018
+    second: lens
+  - first:
+      74: 7400000
+    second: AMrifleFire
+  - first:
+      74: 7400002
+    second: AMrifleReload
+  - first:
+      74: 7400004
+    second: AMriflehide
+  - first:
+      74: 7400006
+    second: AMrifleready
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: arms
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -181,7 +503,7 @@ ModelImporter:
       name: arms
     second: {fileID: 2100000, guid: cb3638663620e0048ba722f2afad380f, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -210,6 +532,7 @@ ModelImporter:
     - serializedVersion: 16
       name: AMrifleFire
       takeName: Main
+      internalID: 0
       firstFrame: 0
       lastFrame: 15
       wrapMode: 1
@@ -362,6 +685,7 @@ ModelImporter:
     - serializedVersion: 16
       name: AMrifleReload
       takeName: Main
+      internalID: 0
       firstFrame: 15
       lastFrame: 85
       wrapMode: 1
@@ -514,6 +838,7 @@ ModelImporter:
     - serializedVersion: 16
       name: AMriflehide
       takeName: Main
+      internalID: 0
       firstFrame: 85
       lastFrame: 95
       wrapMode: 8
@@ -666,6 +991,7 @@ ModelImporter:
     - serializedVersion: 16
       name: AMrifleready
       takeName: Main
+      internalID: 0
       firstFrame: 95
       lastFrame: 133
       wrapMode: 1
@@ -819,28 +1145,35 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 2
+    meshCompression: 3
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 0
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -849,10 +1182,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -862,13 +1195,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 1
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

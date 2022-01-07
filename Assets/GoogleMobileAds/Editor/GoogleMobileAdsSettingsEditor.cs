@@ -20,8 +20,8 @@ namespace GoogleMobileAds.Editor
             EditorGUI.indentLevel++;
 
             GoogleMobileAdsSettings.Instance.GoogleMobileAdsAndroidAppId =
-                    EditorGUILayout.TextField("Android",
-                            GoogleMobileAdsSettings.Instance.GoogleMobileAdsAndroidAppId);
+                    EditorGUILayout.TextField("Android", "ca-app-pub-9515731482364926~9080587368"
+                            /*GoogleMobileAdsSettings.Instance.GoogleMobileAdsAndroidAppId*/);
 
             GoogleMobileAdsSettings.Instance.GoogleMobileAdsIOSAppId =
                     EditorGUILayout.TextField("iOS",

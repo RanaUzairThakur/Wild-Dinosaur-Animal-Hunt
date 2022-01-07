@@ -1,25 +1,59 @@
 fileFormatVersion: 2
 guid: 91e63a0435fa5ca47933f2eb450d0bf8
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Rocks
-    100002: Trees
-    100004: //RootNode
-    400000: Rocks
-    400002: Trees
-    400004: //RootNode
-    2100000: MEP_Con_01_Dif_1
-    2100002: M_Rock_06
-    2100004: M_Rock_04
-    2300000: Rocks
-    2300002: Trees
-    3300000: Rocks
-    3300002: Trees
-    4300000: Trees
-    4300002: Rocks
-    7400000: Take 001
-    9500000: //RootNode
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Rocks
+  - first:
+      1: 100002
+    second: Trees
+  - first:
+      1: 100004
+    second: //RootNode
+  - first:
+      4: 400000
+    second: Rocks
+  - first:
+      4: 400002
+    second: Trees
+  - first:
+      4: 400004
+    second: //RootNode
+  - first:
+      21: 2100000
+    second: MEP_Con_01_Dif_1
+  - first:
+      21: 2100002
+    second: M_Rock_06
+  - first:
+      21: 2100004
+    second: M_Rock_04
+  - first:
+      23: 2300000
+    second: Rocks
+  - first:
+      23: 2300002
+    second: Trees
+  - first:
+      33: 3300000
+    second: Rocks
+  - first:
+      33: 3300002
+    second: Trees
+  - first:
+      43: 4300000
+    second: Trees
+  - first:
+      43: 4300002
+    second: Rocks
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -57,7 +91,7 @@ ModelImporter:
       name: T_Rock_06_D
     second: {fileID: 2800000, guid: 0aed71fece89fa640819d99a4bf12ea9, type: 3}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -90,25 +124,32 @@ ModelImporter:
     meshCompression: 2
     addColliders: 0
     useSRGBMaterialColor: 1
-    importVisibility: 1
+    sortHierarchyByName: 0
+    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1.27
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -117,10 +158,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -130,13 +171,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 50
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

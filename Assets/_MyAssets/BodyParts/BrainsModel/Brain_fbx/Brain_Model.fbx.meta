@@ -1,41 +1,107 @@
 fileFormatVersion: 2
 guid: bd80a41b66c0f0a4a8950736287f59ff
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: Brain_Part_01
-    100004: Brain_Part_02
-    100006: Brain_Part_03
-    100008: Brain_Part_04
-    100010: Brain_Part_05
-    100012: Brain_Part_06
-    400000: //RootNode
-    400002: Brain_Part_01
-    400004: Brain_Part_02
-    400006: Brain_Part_03
-    400008: Brain_Part_04
-    400010: Brain_Part_05
-    400012: Brain_Part_06
-    2100000: BRAIN_TEXTURE_blinn2
-    2300000: Brain_Part_01
-    2300002: Brain_Part_02
-    2300004: Brain_Part_03
-    2300006: Brain_Part_04
-    2300008: Brain_Part_05
-    2300010: Brain_Part_06
-    3300000: Brain_Part_01
-    3300002: Brain_Part_02
-    3300004: Brain_Part_03
-    3300006: Brain_Part_04
-    3300008: Brain_Part_05
-    3300010: Brain_Part_06
-    4300000: Brain_Part_01
-    4300002: Brain_Part_02
-    4300004: Brain_Part_03
-    4300006: Brain_Part_04
-    4300008: Brain_Part_05
-    4300010: Brain_Part_06
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Brain_Part_01
+  - first:
+      1: 100004
+    second: Brain_Part_02
+  - first:
+      1: 100006
+    second: Brain_Part_03
+  - first:
+      1: 100008
+    second: Brain_Part_04
+  - first:
+      1: 100010
+    second: Brain_Part_05
+  - first:
+      1: 100012
+    second: Brain_Part_06
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Brain_Part_01
+  - first:
+      4: 400004
+    second: Brain_Part_02
+  - first:
+      4: 400006
+    second: Brain_Part_03
+  - first:
+      4: 400008
+    second: Brain_Part_04
+  - first:
+      4: 400010
+    second: Brain_Part_05
+  - first:
+      4: 400012
+    second: Brain_Part_06
+  - first:
+      21: 2100000
+    second: BRAIN_TEXTURE_blinn2
+  - first:
+      23: 2300000
+    second: Brain_Part_01
+  - first:
+      23: 2300002
+    second: Brain_Part_02
+  - first:
+      23: 2300004
+    second: Brain_Part_03
+  - first:
+      23: 2300006
+    second: Brain_Part_04
+  - first:
+      23: 2300008
+    second: Brain_Part_05
+  - first:
+      23: 2300010
+    second: Brain_Part_06
+  - first:
+      33: 3300000
+    second: Brain_Part_01
+  - first:
+      33: 3300002
+    second: Brain_Part_02
+  - first:
+      33: 3300004
+    second: Brain_Part_03
+  - first:
+      33: 3300006
+    second: Brain_Part_04
+  - first:
+      33: 3300008
+    second: Brain_Part_05
+  - first:
+      33: 3300010
+    second: Brain_Part_06
+  - first:
+      43: 4300000
+    second: Brain_Part_01
+  - first:
+      43: 4300002
+    second: Brain_Part_02
+  - first:
+      43: 4300004
+    second: Brain_Part_03
+  - first:
+      43: 4300006
+    second: Brain_Part_04
+  - first:
+      43: 4300008
+    second: Brain_Part_05
+  - first:
+      43: 4300010
+    second: Brain_Part_06
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -43,7 +109,7 @@ ModelImporter:
       name: BRAIN_TEXTURE_blinn2
     second: {fileID: 2100000, guid: 3c8bdc2fdabeb2d4d919835ec6ee0b16, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -73,28 +139,35 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 2
+    meshCompression: 3
     addColliders: 0
     useSRGBMaterialColor: 1
-    importVisibility: 1
-    importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    sortHierarchyByName: 0
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -103,10 +176,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -116,13 +189,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

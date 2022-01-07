@@ -1,104 +1,296 @@
 fileFormatVersion: 2
 guid: fd79c3670727a5645aa19c395bef92f2
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: bottom
-    100002: //RootNode
-    100004: head1_head
-    100006: head1_neck
-    100008: Jaw
-    100010: krokodyl_msh
-    100012: left
-    100014: leftLeg1_LoResFoot
-    100016: leftLeg1_LoResLowerLeg
-    100018: leftLeg1_LoResToe
-    100020: leftLeg1_LoResUpperLeg
-    100022: leftLeg2_LoResFoot
-    100024: leftLeg2_LoResLowerLeg
-    100026: leftLeg2_LoResToe
-    100028: leftLeg2_LoResUpperLeg
-    100030: rightLeg1_LoResFoot
-    100032: rightLeg1_LoResLowerLeg
-    100034: rightLeg1_LoResToe
-    100036: rightLeg1_LoResUpperLeg
-    100038: rightLeg2_LoResFoot
-    100040: rightLeg2_LoResLowerLeg
-    100042: rightLeg2_LoResToe
-    100044: rightLeg2_LoResUpperLeg
-    100046: side1
-    100048: spine1_loResPelvis
-    100050: spine1_loResSpine1
-    100052: spine1_loResSpine2
-    100054: spine1_loResSpine3
-    100056: tail1_Joint1
-    100058: tail1_Joint2
-    100060: tail1_Joint3
-    100062: tail1_Joint4
-    100064: tail1_Joint5
-    100066: tail1_Joint6
-    100068: TRS
-    400000: bottom
-    400002: //RootNode
-    400004: head1_head
-    400006: head1_neck
-    400008: Jaw
-    400010: krokodyl_msh
-    400012: left
-    400014: leftLeg1_LoResFoot
-    400016: leftLeg1_LoResLowerLeg
-    400018: leftLeg1_LoResToe
-    400020: leftLeg1_LoResUpperLeg
-    400022: leftLeg2_LoResFoot
-    400024: leftLeg2_LoResLowerLeg
-    400026: leftLeg2_LoResToe
-    400028: leftLeg2_LoResUpperLeg
-    400030: rightLeg1_LoResFoot
-    400032: rightLeg1_LoResLowerLeg
-    400034: rightLeg1_LoResToe
-    400036: rightLeg1_LoResUpperLeg
-    400038: rightLeg2_LoResFoot
-    400040: rightLeg2_LoResLowerLeg
-    400042: rightLeg2_LoResToe
-    400044: rightLeg2_LoResUpperLeg
-    400046: side1
-    400048: spine1_loResPelvis
-    400050: spine1_loResSpine1
-    400052: spine1_loResSpine2
-    400054: spine1_loResSpine3
-    400056: tail1_Joint1
-    400058: tail1_Joint2
-    400060: tail1_Joint3
-    400062: tail1_Joint4
-    400064: tail1_Joint5
-    400066: tail1_Joint6
-    400068: TRS
-    4300000: krokodyl_msh
-    7400000: Bind Pose
-    7400002: Idle
-    7400004: idle 01
-    7400006: '|Walk'
-    7400008: Eating
-    7400010: Run
-    7400012: Attack
-    7400014: Eating After Attack
-    7400016: Creeping
-    7400018: Sweeming Tail
-    7400020: Walk BAck
-    7400022: Sweeming Leg
-    7400024: Sweeming Attack
-    7400026: lolop Fight Idle
-    7400028: Hit Left
-    7400030: Hit Right
-    7400032: Hit Front
-    7400034: Hit Up
-    7400036: DEath
-    7400038: Walk
-    7400040: Fight Idle
-    7400042: Death
-    9500000: //RootNode
-    11100000: //RootNode
-    13700000: krokodyl_msh
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: bottom
+  - first:
+      1: 100002
+    second: //RootNode
+  - first:
+      1: 100004
+    second: head1_head
+  - first:
+      1: 100006
+    second: head1_neck
+  - first:
+      1: 100008
+    second: Jaw
+  - first:
+      1: 100010
+    second: krokodyl_msh
+  - first:
+      1: 100012
+    second: left
+  - first:
+      1: 100014
+    second: leftLeg1_LoResFoot
+  - first:
+      1: 100016
+    second: leftLeg1_LoResLowerLeg
+  - first:
+      1: 100018
+    second: leftLeg1_LoResToe
+  - first:
+      1: 100020
+    second: leftLeg1_LoResUpperLeg
+  - first:
+      1: 100022
+    second: leftLeg2_LoResFoot
+  - first:
+      1: 100024
+    second: leftLeg2_LoResLowerLeg
+  - first:
+      1: 100026
+    second: leftLeg2_LoResToe
+  - first:
+      1: 100028
+    second: leftLeg2_LoResUpperLeg
+  - first:
+      1: 100030
+    second: rightLeg1_LoResFoot
+  - first:
+      1: 100032
+    second: rightLeg1_LoResLowerLeg
+  - first:
+      1: 100034
+    second: rightLeg1_LoResToe
+  - first:
+      1: 100036
+    second: rightLeg1_LoResUpperLeg
+  - first:
+      1: 100038
+    second: rightLeg2_LoResFoot
+  - first:
+      1: 100040
+    second: rightLeg2_LoResLowerLeg
+  - first:
+      1: 100042
+    second: rightLeg2_LoResToe
+  - first:
+      1: 100044
+    second: rightLeg2_LoResUpperLeg
+  - first:
+      1: 100046
+    second: side1
+  - first:
+      1: 100048
+    second: spine1_loResPelvis
+  - first:
+      1: 100050
+    second: spine1_loResSpine1
+  - first:
+      1: 100052
+    second: spine1_loResSpine2
+  - first:
+      1: 100054
+    second: spine1_loResSpine3
+  - first:
+      1: 100056
+    second: tail1_Joint1
+  - first:
+      1: 100058
+    second: tail1_Joint2
+  - first:
+      1: 100060
+    second: tail1_Joint3
+  - first:
+      1: 100062
+    second: tail1_Joint4
+  - first:
+      1: 100064
+    second: tail1_Joint5
+  - first:
+      1: 100066
+    second: tail1_Joint6
+  - first:
+      1: 100068
+    second: TRS
+  - first:
+      4: 400000
+    second: bottom
+  - first:
+      4: 400002
+    second: //RootNode
+  - first:
+      4: 400004
+    second: head1_head
+  - first:
+      4: 400006
+    second: head1_neck
+  - first:
+      4: 400008
+    second: Jaw
+  - first:
+      4: 400010
+    second: krokodyl_msh
+  - first:
+      4: 400012
+    second: left
+  - first:
+      4: 400014
+    second: leftLeg1_LoResFoot
+  - first:
+      4: 400016
+    second: leftLeg1_LoResLowerLeg
+  - first:
+      4: 400018
+    second: leftLeg1_LoResToe
+  - first:
+      4: 400020
+    second: leftLeg1_LoResUpperLeg
+  - first:
+      4: 400022
+    second: leftLeg2_LoResFoot
+  - first:
+      4: 400024
+    second: leftLeg2_LoResLowerLeg
+  - first:
+      4: 400026
+    second: leftLeg2_LoResToe
+  - first:
+      4: 400028
+    second: leftLeg2_LoResUpperLeg
+  - first:
+      4: 400030
+    second: rightLeg1_LoResFoot
+  - first:
+      4: 400032
+    second: rightLeg1_LoResLowerLeg
+  - first:
+      4: 400034
+    second: rightLeg1_LoResToe
+  - first:
+      4: 400036
+    second: rightLeg1_LoResUpperLeg
+  - first:
+      4: 400038
+    second: rightLeg2_LoResFoot
+  - first:
+      4: 400040
+    second: rightLeg2_LoResLowerLeg
+  - first:
+      4: 400042
+    second: rightLeg2_LoResToe
+  - first:
+      4: 400044
+    second: rightLeg2_LoResUpperLeg
+  - first:
+      4: 400046
+    second: side1
+  - first:
+      4: 400048
+    second: spine1_loResPelvis
+  - first:
+      4: 400050
+    second: spine1_loResSpine1
+  - first:
+      4: 400052
+    second: spine1_loResSpine2
+  - first:
+      4: 400054
+    second: spine1_loResSpine3
+  - first:
+      4: 400056
+    second: tail1_Joint1
+  - first:
+      4: 400058
+    second: tail1_Joint2
+  - first:
+      4: 400060
+    second: tail1_Joint3
+  - first:
+      4: 400062
+    second: tail1_Joint4
+  - first:
+      4: 400064
+    second: tail1_Joint5
+  - first:
+      4: 400066
+    second: tail1_Joint6
+  - first:
+      4: 400068
+    second: TRS
+  - first:
+      43: 4300000
+    second: krokodyl_msh
+  - first:
+      74: 7400000
+    second: Bind Pose
+  - first:
+      74: 7400002
+    second: Idle
+  - first:
+      74: 7400004
+    second: idle 01
+  - first:
+      74: 7400006
+    second: '|Walk'
+  - first:
+      74: 7400008
+    second: Eating
+  - first:
+      74: 7400010
+    second: Run
+  - first:
+      74: 7400012
+    second: Attack
+  - first:
+      74: 7400014
+    second: Eating After Attack
+  - first:
+      74: 7400016
+    second: Creeping
+  - first:
+      74: 7400018
+    second: Sweeming Tail
+  - first:
+      74: 7400020
+    second: Walk BAck
+  - first:
+      74: 7400022
+    second: Sweeming Leg
+  - first:
+      74: 7400024
+    second: Sweeming Attack
+  - first:
+      74: 7400026
+    second: lolop Fight Idle
+  - first:
+      74: 7400028
+    second: Hit Left
+  - first:
+      74: 7400030
+    second: Hit Right
+  - first:
+      74: 7400032
+    second: Hit Front
+  - first:
+      74: 7400034
+    second: Hit Up
+  - first:
+      74: 7400036
+    second: DEath
+  - first:
+      74: 7400038
+    second: Walk
+  - first:
+      74: 7400040
+    second: Fight Idle
+  - first:
+      74: 7400042
+    second: Death
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: krokodyl_msh
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -106,7 +298,7 @@ ModelImporter:
       name: CrocodileMaterial
     second: {fileID: 2100000, guid: febd42b0e6f607a429f6e4c7f59e9bbc, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -135,6 +327,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Bind Pose
       takeName: 
+      internalID: 0
       firstFrame: 0
       lastFrame: 0
       wrapMode: 0
@@ -163,6 +356,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Idle
       takeName: 
+      internalID: 0
       firstFrame: 1
       lastFrame: 1
       wrapMode: 0
@@ -191,6 +385,7 @@ ModelImporter:
     - serializedVersion: 16
       name: idle 01
       takeName: 
+      internalID: 0
       firstFrame: 2
       lastFrame: 2
       wrapMode: 0
@@ -219,6 +414,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Walk
       takeName: 
+      internalID: 0
       firstFrame: 3
       lastFrame: 30
       wrapMode: 0
@@ -247,6 +443,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Eating
       takeName: 
+      internalID: 0
       firstFrame: 32
       lastFrame: 91
       wrapMode: 0
@@ -275,6 +472,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Run
       takeName: 
+      internalID: 0
       firstFrame: 93
       lastFrame: 106
       wrapMode: 0
@@ -303,6 +501,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Attack
       takeName: 
+      internalID: 0
       firstFrame: 108
       lastFrame: 118
       wrapMode: 0
@@ -331,6 +530,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Eating After Attack
       takeName: 
+      internalID: 0
       firstFrame: 119
       lastFrame: 174
       wrapMode: 0
@@ -359,6 +559,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Creeping
       takeName: 
+      internalID: 0
       firstFrame: 176
       lastFrame: 261
       wrapMode: 0
@@ -387,6 +588,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Sweeming Tail
       takeName: 
+      internalID: 0
       firstFrame: 263
       lastFrame: 292
       wrapMode: 0
@@ -415,6 +617,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Walk BAck
       takeName: 
+      internalID: 0
       firstFrame: 294
       lastFrame: 320
       wrapMode: 0
@@ -443,6 +646,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Sweeming Leg
       takeName: 
+      internalID: 0
       firstFrame: 322
       lastFrame: 351
       wrapMode: 0
@@ -471,6 +675,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Sweeming Attack
       takeName: 
+      internalID: 0
       firstFrame: 352
       lastFrame: 382
       wrapMode: 0
@@ -499,6 +704,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Fight Idle
       takeName: 
+      internalID: 0
       firstFrame: 384
       lastFrame: 419
       wrapMode: 0
@@ -527,6 +733,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hit Left
       takeName: 
+      internalID: 0
       firstFrame: 420
       lastFrame: 434
       wrapMode: 0
@@ -555,6 +762,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hit Right
       takeName: 
+      internalID: 0
       firstFrame: 435
       lastFrame: 449
       wrapMode: 0
@@ -583,6 +791,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hit Front
       takeName: 
+      internalID: 0
       firstFrame: 450
       lastFrame: 464
       wrapMode: 0
@@ -611,6 +820,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hit Up
       takeName: 
+      internalID: 0
       firstFrame: 465
       lastFrame: 479
       wrapMode: 0
@@ -639,6 +849,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Death
       takeName: 
+      internalID: 0
       firstFrame: 480
       lastFrame: 503
       wrapMode: 0
@@ -668,28 +879,35 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 0.01
-    meshCompression: 0
+    meshCompression: 3
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 0
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -698,10 +916,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -711,13 +929,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 3175024925857626053}
   - component: {fileID: 6814887567861688838}
   - component: {fileID: 8272425846085566711}
-  - component: {fileID: 5541447481002297290}
   - component: {fileID: 6914274929089096983}
   m_Layer: 0
   m_Name: AdsManager
@@ -76,18 +75,6 @@ MonoBehaviour:
     producttype: 1
   - iapItem_Name: unlock_everything
     producttype: 1
---- !u!114 &5541447481002297290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7063001310001682839}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1cd29dc887280aa40a7a05b9cd77e5c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6914274929089096983
 MonoBehaviour:
   m_ObjectHideFlags: 0

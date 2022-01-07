@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/_MyAssets/Scenes/wasii_LevelSelections.unity
     guid: 5ce605f3f82956647bf284acf0d8eb23
   - enabled: 1
-    path: Assets/_MyAssets/Scenes/wasii_GamePlay.unity
-    guid: 1b6c75c0aade53a40a2498fa38087e03
+    path: Assets/_MyAssets/Scenes/GamePlay.unity
+    guid: 62023a77767bdd54c89ab2b565bec9b1
   m_configObjects: {}
